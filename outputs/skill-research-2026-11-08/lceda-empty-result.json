@@ -1,0 +1,45 @@
+﻿{
+  "score": 100,
+  "rating": "READY",
+  "counts": {
+    "components": 0,
+    "nets": 0,
+    "errors": 0,
+    "warnings": 0,
+    "infos": 1
+  },
+  "coverage": [
+    {
+      "key": "integrity",
+      "status": "通过"
+    },
+    {
+      "key": "nets",
+      "status": "通过"
+    },
+    {
+      "key": "decoupling",
+      "status": "通过"
+    },
+    {
+      "key": "power",
+      "status": "通过"
+    },
+    {
+      "key": "protection",
+      "status": "通过"
+    },
+    {
+      "key": "led",
+      "status": "通过"
+    },
+    {
+      "key": "crystal",
+      "status": "通过"
+    },
+    {
+      "key": "rules",
+      "status": "通过"
+    }
+  ]
+}

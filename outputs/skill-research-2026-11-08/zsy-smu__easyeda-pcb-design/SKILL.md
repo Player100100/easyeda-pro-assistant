@@ -1,0 +1,105 @@
+---
+name: easyeda-pcb-design
+description: 在嘉立创 EDA（EasyEDA）中，通过用户AI Bridge/MCP或现有后台接口完成电路、原理图、PCB布局布线与可编辑工程交付；核验电气基础、关键回路、装配、网表、制造及重导入结果。用于实际设计、改板、审查和复刻，不用于PCB示意图片或图像检测训练。
+---
+
+# 嘉立创原理图与 PCB 设计
+
+把设计要求转成可编辑的工程和可核对的结果。优先复用当前后台接口；先确定本次阶段，再调用相关经验与工具。完整新板沿主线推进，局部修改只做受影响的部分。
+
+## 开始工作
+
+1. 确定是新板、复刻、审查、局部修改、原理图整理、PCB设计还是交付。续接时先读当前项目记录和最新有效文件，恢复最后一个已验证动作；保留已有工程和授权。
+2. 编辑原生工程时，从文件与只读接口确认工程、板、文档 UUID、文档类型、软件/插件版本和能力；使用用户AI Bridge时先读[实际操作手册](references/ai-bridge.md)，其它已知入口见[后台经验](references/bridge.md)。只核对已有导出文件时直接选择下方工具，不要求连接编辑器。
+3. 汇总最新已确认要求，标记旧方案已被替代、假设与待验证项。已有信息足以做的工作直接完成；只问会改变方案的缺失条件，并继续独立部分。不把历史板的电流、尺寸、层数、料号或采购价设为默认。
+4. 新设计或实质电路改动，先核对供电、引脚、型号、时钟、启动条件与数据手册；见 [功能审查](references/electrical.md)。
+
+基础顺序是“需求/电气闭合→机械可装→关键回路布局→普通布线→原生与制造检查→实际交付工程重开”。DRC不替代前面的电路、布局和装配判断；API中当前板通过，也不等于交付包重新导入后通过。
+
+## 设计主线与按需参考
+
+接到新板或完整设计任务，按[执行手册](references/execution-playbook.md)从需求、电气和库映射推进到布局、实铜与实际交付；这不是万能路由器的声明。阶段/授权与续接边界见[项目工作流](references/project-workflow.md)，需要时使用[设计记录模板](assets/templates/design-record.md)。只查文件或局部修复不建立整套空记录。
+
+| 当前任务 | 参考 |
+|---|---|
+| AI Bridge连接、端口/协议、读写调用、参数、实际文件导出和失败恢复 | [AI Bridge操作手册](references/ai-bridge.md)；`scripts/ai_bridge_client.cjs`优先复用现有命令服务 |
+| 收到完整PCB任务后自主分阶段执行 | [执行手册](references/execution-playbook.md)，每步有实际结果与复验范围 |
+| 收敛需求、功率预算、引脚分配、机械约束、选择层数和交付范围 | [项目工作流](references/project-workflow.md)；器件依据见 [功能审查](references/electrical.md) |
+| 原理图绘制、整理、改名或移动已连线模块 | [原理图与连接保持](references/schematic.md) |
+| 拓扑分区、器件摆放、端子方向、试布线与局部改善、覆铜和泪滴 | [PCB 布局与验证](references/pcb.md) |
+| 新板布局、功率/反馈回路、外壳挤压、反复移动仍然拥挤 | [布局方法](references/layout-method.md)，先查本体与使用空间，再走关键回路 |
+| 从零开始做供电/启动/脚网、去耦与回流，避免只靠DRC判断 | [基础核对](references/design-foundations.md)，配合准确器件手册 |
+| 需要从实际故障直接找到排查数据、修复步骤和接受条件 | [已验证故障案例](references/worked-failures.md)，包含布局挤压、断铜/PTH、层探针、换件与往返 |
+| 两层局部避障布线、地铜候选、实际导出铜连接检查 | [局部路由](references/local-routing.md)、[地铜生成](references/ground-tool.md)、[实体铜审计](references/copper-tool.md)；生成候选后仍须写回/原生与导出验收 |
+| 板框识别、Gerber 导出、制造文件交付 | [PCB 布局与验证](references/pcb.md)；接口识别差异见 [后台经验](references/bridge.md) |
+| MCP 异常、导入未完成、图形存在但连接异常 | [后台接口与本机经验](references/bridge.md) |
+| 过孔尺寸/连接读回异常、封装定位孔、实际铺铜渲染 | [原生几何与检查差异](references/native-geometry.md)，仅在相关接口/几何问题出现时读取 |
+| 替换已连线器件、网表关联错误、属性重开回退、最终工程包核对 | [器件替换与交付核对](references/replacement-and-delivery.md)，含 PCB6 的已验证案例与适用边界 |
+| 打开成初始排列、总ZIP导不进、同名封装仍报变更、多单元分组、跨客户端交付 | [往返验收与导入差异](references/handoff-roundtrip.md) |
+| 判断点评、核对器件接法和参数 | [功能审查](references/electrical.md) |
+| 技巧出处与跨版本迁移 | [来源与适用边界](references/sources.md) |
+| 回查555、F103、3S载板、F407和检查工具的教训 | [项目经验索引](references/experience-index.md)，区分历史证据、未执行方案和当前能力 |
+
+完整设计按“需求和电气关系 → 原理图与引脚核对 → 机械锚点和关键布局 → 布线/实际覆铜 → 分项验证 → 保存与交付”推进。每阶段形成可继续使用的实际结果；不要把计划、预览或接口成功回执当作下一阶段已完成的证据。
+
+## 可执行的文件检查
+
+实际桥接调用可先用`node scripts/ai_bridge_client.cjs describe --bridge-root ROOT --out BUILD.json`读取本地协议，再用`probe --out SESSION.json`轻量核连接。`call`从JSON参数文件读入、显式绑定当前工程/页；写操作加`--write`，无需对已有授权重复提问。它不自动开服务、装依赖或重试写入，详细参数见[AI Bridge手册](references/ai-bridge.md)。不要把端口8765、8766与另一HTTP网关混用。
+
+已有适配输入时优先调用随附脚本，不临时重写相同检查。按本次修改选择工具，不要求每次全部运行。命令从 skill 目录执行，或改用脚本绝对路径；Python 3.10+，Windows 可用 `py -3.10`。
+
+| 要核对的事实 | 工具与输入 | 格式、命令和边界 |
+|---|---|---|
+| 稳态线宽初估与本板已确认参数的整理 | `scripts/calc_parameters.py TARGETS.json --out SPEC.json` | 内置值仅演示；实际板显式输入。旧IPC-2221经验式不验证脉冲、阻抗、爬电或模块额定值；未给依据的项目保持未定，不能把4mm/2mm等历史值当标准 |
+| 预期与实际的逐引脚网络、显式 NC；可选核对每块物理焊盘的网络分配 | `scripts/compare_netlists.py EXPECTED.json ACTUAL.json --out REPORT.json` | [网表工具](references/netlist-tool.md)，含可直接运行的样例 |
+| 实际制造 ZIP 的板框、层数及逐孔几何符合独立给定的要求 | `scripts/check_manufacturing.py EXPORT.zip --expected EXPECTED.json --out REPORT.json` | [制造工具](references/manufacturing-tool.md)，含要求模板与支持范围 |
+| 已确认的矩形板框、器件位置/面、接口朝向、器件禁布和指定点间距 | `scripts/check_layout.py REQUIREMENTS.json ACTUAL.json --out REPORT.json` | [布局合同工具](references/layout-tool.md)，须先适配坐标和完整器件清单；不检查实体铜或回流 |
+| 2D包络粗筛与分离建议 | `scripts/check_placement_collision.py ACTUAL.json --out REPORT.json` | 显式本体框参与检查；焊盘框不能代替最大外壳。建议移动后重新检查全板；不检查铜短路或3D装配 |
+| 一对实际焊盘间的固定线宽双层避障候选 | `scripts/plan_local_route.py INPUT.json --out CANDIDATE.json` | [路由合同](references/local-routing.md)，有宽度避障、真实via、预算与未布通原因；不降宽、不删线、不写EDA，不代替关键回路规划 |
+| 依据完整几何重建带孔洞的实心铜候选 | `scripts/build_ground_plane.py INPUT.json --out CANDIDATE.json` | [地铜合同](references/ground-tool.md)，明确锚定焊盘、异网/孔/机械避让，分割内孔并核面积等价；候选不能代替实际全网连接 |
+| 实际两面Gerber/PTH/NPTH的逐焊盘铜连接 | `scripts/check_copper_connectivity.py EXPORT.zip --expected EXPECTED.json --out REPORT.json` | [铜检查](references/copper-tool.md)，含覆盖率、短路、同网断组、NC误连和浮岛；拒绝不支持铜对象，独立预期不可从待检铜自生 |
+| 已声明的边缘接口位置/方向粗筛 | `scripts/check_connector_orientation.py TARGETS.json --out REPORT.json` | 按真实插接形式选择适用对象；板内/垂直接口不套边缘规则，USB是否跨边依据外壳图；preset不是当前板要求 |
+| 两脚元件遍历 0/90/180/270 选飞线最短且不交叉的角度（旋转不反接极性） | `scripts/optimize_orientation.py TARGETS.json --out SPEC.json`（省略用 preset） | 输入 `orientation-targets/v1`，输出 `orientation-spec/v1`；曼哈顿距离+线段交叉，只建议 rotation，不 swap pin |
+| 已有检查报告是否仍对应当前输入，且覆盖本次声明的范围 | `scripts/check_evidence.py PLAN.json --out REPORT.json` | [证据时效工具](references/evidence-tool.md)，读取报告原有输入哈希，不给旧报告补盖章 |
+| 交付文件是否相对已保存清单发生变化 | `scripts/check_delivery.py snapshot DIRECTORY --out MANIFEST.json`；随后 `verify MANIFEST.json --out REPORT.json` | [交付工具](references/delivery-tool.md)，支持搬移目录后的验证 |
+| EPRO实例/多单元/封装引用，以及完整原生导入差异分类 | `scripts/check_project_handoff.py PROJECT.epro --changes BOARD=REPORT.csv --out REPORT.json` | [往返验收](references/handoff-roundtrip.md)。只读检查受支持旧版JSON行式归档；不证明原生DRC、实体铜或新客户端已验收 |
+
+- 网表与交付工具只用 Python 标准库。制造工具另需 Shapely；缺失时在可用的隔离环境按 [依赖文件](scripts/requirements-manufacturing.txt) 配置，不静默安装全局依赖。
+- 检查工具以 `0` 表示所检查范围通过，`1` 表示检测到不符，`2` 表示输入、依赖或格式不支持。生成器的 `0/CANDIDATE`仅表示得到离线候选；局部路由`1/BLOCKED`表示未得路线。读取 JSON 报告中的范围和限制；未完成解析不算通过。
+- 脚本读取指定文件，写入独立报告，不连接或修改 EDA。预期网表来自设计逻辑，制造要求来自当前已核对的源数据；不能用待检文件自生要求后声称完成独立验证。多板导出必须明确目标文档。
+- 报告仅覆盖该脚本列出的事实：网名相同不证明实体铜接通，Gerber 板框/钻孔通过不证明全部铜形状正确，哈希相同不证明原设计可靠。原生保存、功能、DRC 与实体连接仍按对应阶段核验。
+
+修改这些工具后按 [回归入口](references/regression-tool.md) 运行 `scripts/run_regression.py`，保存测试结果和所测脚本/测试哈希。测试不依赖历史 F407 工程；缺少可选依赖或系统能力时查看跳过项，不把跳过写成通过。需要自动化仓库检查时使用随附 CI 模板；模板存在不表示 GitHub 已运行。
+
+大幅修改设计流程后，从 [工作流行为场景](tests/workflow-scenarios.md) 选择相关真实任务交给独立评估者；只提供请求和原始状态，审阅实际决策，不把提示词检查或单元测试通过等同设计质量已验证。
+
+## 实际编辑时的约束
+
+- **后台优先。**尊重用户“不控制鼠标”的要求。后台或最小化不等于 API 不可用；用连接与文档读回判断。某一步确实只支持原生对话框时，先完成准备，说明具体待点击项，再验证结果。
+- **单个编辑器只有一个写入者。**代理可并行查手册、审查和计算离线候选；文档切换与写入由一个执行者串行处理。依赖当前页的操作即使名为读取，也不跨页并发。
+- **保存基线。**修改前保存受影响对象、引脚网络、BOM/封装属性及必要几何。局部修改用局部快照；批量重排/重布线用完整基线。未知图元不能悄悄丢弃。
+- **按证据接受结果。**API 成功、截图、离线预览、原生保存分别说明不同事实。超时后先查实际状态，不直接重放创建或删除。
+- **先验证数据适配，再批量布线。**用实际封装抽查位置、角度、层、孔型及单位；焊盘列表未必包含封装内定位孔。读回与保存源不一致时先查差异，不能用带默认值的 getter 覆盖真实尺寸。
+- **让要求参与检查。**接口朝向、禁布区、关键回路和去耦关系来自需求/手册，不能从当前摆放反推“要求”再宣告合格。
+- **让试布线反馈布局。**先保护接口、禁布、关键回路和参考层，再处理一般网络。记录未连网络及阻塞原因，局部迭代；不得用路由完成率或综合分数掩盖硬约束退化。
+- **验证匹配修改范围。**只调文字不需要整板仿真；移动有线器件要核对连接；动铜线/覆铜要重算相关铜连接并运行原生 DRC；改电路功能需要对应功能审查。具体对应表见项目工作流。
+- **关闭已定位的问题再交付。**用户要求完成 PCB 时，继续修复范围内可解决的缺陷；必要检查通过后保存、导出并更新交付清单。没有新修改、失败或未决疑点时，不重复整套检查，也不把局部脚本故障扩成重画整板。
+- **完整工程做往返验收。**首次完整交付、换件关联/手工打包或跨客户端时，重新导入实际交付的EPRO，检查原生变更、保存重开和DRC。总交付ZIP与可导入工程分开；没有该步证据时明确“导出已核对，重导入待验”，不把旧实例的DRC结果套给新包。
+
+## 对“没问题”的判据
+
+按本次任务阶段区分以下证据，不用一项替代其他项；未进入的阶段标明未验证，不自行扩大任务：
+
+1. **功能**：供电、极性、启动、时钟、驱动和参数满足用途；必要的模拟部分用可信模型仿真，缺少模型时明确未验证项。
+2. **逻辑连接**：预期引脚集合与原理图/PCB 网表一致；无标签、移动、导入引起的误连或断网。
+3. **实体铜与规则**：焊盘、走线、过孔、实际覆铜形成正确连接，原生 DRC 与未连接检查覆盖本次结果。规则值有依据，不靠放宽规则清错。
+4. **机械与使用**：接口插入方向、壳体空间、孔、板边、焊接空间和丝印可用；DRC 通常不知道插口应朝哪边。
+5. **制造导出**：涉及制板交付时，确认当前导出器识别闭合板框及尺寸；实际取得制造文件后核对轮廓、钻孔和所需层。只有生成成功回执时，只能报告生成接口通过，不能报告文件内容检查通过。
+
+离线检查器未覆盖的弧线、特殊焊盘或铜对象，要报告覆盖缺口并用原生证据补足，不能当作空集合通过。完成编辑并核验保存后再报告完成。
+
+## 交付与积累
+
+说明改了什么、依据什么验证、仍缺什么证据；引用实际工程/报告位置。结果绑定工程、版本及最新快照，旧错误记录保留时间与“已解决/已被替代”状态。示意图、离线渲染与原生截图明确标识。DRC 通过不等于上电、温升、EMC 或量产验证通过。
+
+把新问题记录为“环境/版本 → 现象 → 证据 → 修复 → 复查方式”；经验证后更新对应参考或脚本测试，优先修正失效内容并合并重复规则。不要把偶发故障、路由器参数、未合并提案或单板性能数字变成普遍规则。示例和历史工程不是当前任务的检查证据。

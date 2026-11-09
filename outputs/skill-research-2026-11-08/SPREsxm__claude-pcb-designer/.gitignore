@@ -1,0 +1,62 @@
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Backups and temporary files
+*.bak
+*.orig
+*.tmp
+*.log
+
+# EDA project files
+*.epro
+*.esch
+*.epcb
+*.kicad_pro
+*.kicad_sch
+*.kicad_pcb
+*.kicad_prl
+*.pro
+*.sch
+*.pcb
+
+# Fabrication outputs
+*.gbr
+*.gbrjob
+*.drl
+*.gko
+*.gbl
+*.gtl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gml
+
+# Common release folders
+/release/
+/release-package/
+/fabrication/
+/gerbers/
+/dist/
+
+# Secrets
+.env
+.env.*

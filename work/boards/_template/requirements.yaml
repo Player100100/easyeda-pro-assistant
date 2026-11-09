@@ -1,0 +1,16 @@
+# 要求基线模板
+# agent 取完网表后，根据 intent.md、器件手册、项目要求逐条生成。
+# status:
+#   explicit  = 用户/手册/标准/板厂明确给出
+#   inferred  = agent 从设计推断，只能作为检查假设
+#   missing   = 找不到依据，相关检查只能 REVIEW / NOT_CHECKED
+requirements:
+  - id: REQ-EXAMPLE-001
+    check: B-03
+    object: U1.8
+    requirement: "电源脚接到预期电源网，电压档正确"
+    source: "待填：datasheet 页码/表号，或项目要求"
+    conditions: "待填：工况、负载、温度"
+    status: missing
+    evidence: "待填：网表字段/手册摘录"
+    note: "inferred 不得单独作为 PASS/FAIL 依据"

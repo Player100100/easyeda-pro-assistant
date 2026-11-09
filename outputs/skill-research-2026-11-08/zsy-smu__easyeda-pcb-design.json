@@ -1,0 +1,14 @@
+{
+  "repo": "zsy-smu/easyeda-pcb-design",
+  "sha": "bc3c73699624e7aa360ff135eb900d0284d3a8df",
+  "archive_sha256": "1e84ed8e0cf8ac2367946c96aa9f26eed6ad02da2626242ec66c195d21be9887",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "updated_at": "2026-11-01T12:30:45Z",
+  "download_only": true
+}

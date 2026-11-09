@@ -1,0 +1,5489 @@
+{
+ "file": "C:\\Users\\18640\\Desktop\\硬件开源测试\\合工大硬件开源\\CAPOWER_COT_V2\\CAPOWER_COT_V2\\HARDWARE\\ProPrj_CAPOWER_COT_V2_2026-06-13.epro2",
+ "title": "CAPOWER_COT_V2",
+ "editor_version": "",
+ "cbb_project": false,
+ "documents": [
+  {
+   "uuid": "a06cf8953134ecec",
+   "doc_type": "FOOTPRINT",
+   "title": "TSDSON-8-FL_L3.3-W3.3-P0.65-BL_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 52
+  },
+  {
+   "uuid": "d496c4a9c177f602",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-323_L1.9-W1.3-LS2.5-RD-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "f9464c6e9b52bd43",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-123_L2.8-W1.8-LS3.7-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "65892dfcc1e938cd",
+   "doc_type": "FOOTPRINT",
+   "title": "SON-8_L3.0-W3.0-P0.65-BL-EP",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 61
+  },
+  {
+   "uuid": "b3827de2de7f2bda",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 42
+  },
+  {
+   "uuid": "6fc32356ac36a1b5",
+   "doc_type": "FOOTPRINT",
+   "title": "SC70-5_L2.0-W1.25-P0.65-LS2.1_TLV3231DCKR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 42
+  },
+  {
+   "uuid": "4d79883adb00b74b",
+   "doc_type": "FOOTPRINT",
+   "title": "TDSON-8_L5.9-W5.2-P1.27-BL-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 65
+  },
+  {
+   "uuid": "a442290544110772",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "319a0e618e4fd5e8",
+   "doc_type": "FOOTPRINT",
+   "title": "PDFN-8_L5.6-W5.2-P1.27-LS6.1-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 73
+  },
+  {
+   "uuid": "04e2a09a4f09fb10",
+   "doc_type": "FOOTPRINT",
+   "title": "DFN-8_L3.3-W3.3-P0.65-BL-2",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 60
+  },
+  {
+   "uuid": "ac2d37bb328e38e2",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L2.5-W2.0_MHCHL2520",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 40
+  },
+  {
+   "uuid": "d00a2dbe5e9a04ae",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-123FL_L2.7-W1.8-LS3.8-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "f64776bc93908f91",
+   "doc_type": "FOOTPRINT",
+   "title": "LED0402-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "4bea262db9cbb398",
+   "doc_type": "FOOTPRINT",
+   "title": "CRYSTAL-SMD_4P-L1.6-W1.2-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "ada92c094b61acf1",
+   "doc_type": "FOOTPRINT",
+   "title": "OSC-SMD_4P-L1.6-W1.2-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "ebf726b548e46d40",
+   "doc_type": "FOOTPRINT",
+   "title": "OSC-SMD_4P-L1.6-W1.2-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "f58c055c76209da3",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_24P-P0.80_XKB_X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 94
+  },
+  {
+   "uuid": "598c29a0b5591bfd",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 56
+  },
+  {
+   "uuid": "084de9f3cbfaa730",
+   "doc_type": "FOOTPRINT",
+   "title": "VSSOP-8_L3.0-W3.0-P0.65-LS4.9-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "895c143bd8cb9d8b",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_24P-P0.80_XKB_X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 94
+  },
+  {
+   "uuid": "bb2a6480862056d4",
+   "doc_type": "FOOTPRINT",
+   "title": "MY_UFQFPN-48",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 291
+  },
+  {
+   "uuid": "239ab0221e5798b1",
+   "doc_type": "FOOTPRINT",
+   "title": "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP5.6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 190
+  },
+  {
+   "uuid": "eba543da3c2b2512",
+   "doc_type": "FOOTPRINT",
+   "title": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 183
+  },
+  {
+   "uuid": "7343dea017bdb658",
+   "doc_type": "FOOTPRINT",
+   "title": "SMD-2_L10.0-W2.0",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 35
+  },
+  {
+   "uuid": "c6c015847fe58314",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_20P-P0.80_XKB_X0812FVS-20CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 105
+  },
+  {
+   "uuid": "5b37d82b2735acd1",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_24P-P0.80_X0812FVS-24CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 94
+  },
+  {
+   "uuid": "59aa4001e089a133",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_2P-L11.3-W10.0-XAL1010-153MED",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 38
+  },
+  {
+   "uuid": "d04e2d677c52f7d1",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-TH_BD6.3-P2.50-D0.6-FD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "04242aa5eec45df8",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.0-FD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 50
+  },
+  {
+   "uuid": "fa7d13be5f43df48",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_30P-P0.80_SGDBF-08-030P-H50",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 104
+  },
+  {
+   "uuid": "49d4485d0c131e4f",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_DF17-4.0-30DP-0.5V-57",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 98
+  },
+  {
+   "uuid": "71b0b0f0c39f0283",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_DF17-4.0-30DP-0.5V-57",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 98
+  },
+  {
+   "uuid": "735d0c2371163d40",
+   "doc_type": "FOOTPRINT",
+   "title": "R1210",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "59e79178472f0e94",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD_JVB50V47M6X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 50
+  },
+  {
+   "uuid": "a22332fde4fccbdc",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-TH_BD6.3-P2.50-D0.6-FD-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "6db1c64d1d60c1b3",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-SMD_BD5.0-L5.3-W5.3-LS6.0-FD-H5.7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 52
+  },
+  {
+   "uuid": "d022cd7e9595a189",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD_3",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "4fa72c023212a4ae",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_BTB0.408-24PLBDR-G41",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 98
+  },
+  {
+   "uuid": "3e0e2d0b14615b8d",
+   "doc_type": "FOOTPRINT",
+   "title": "WDFN-8_L3.3-W3.3-P0.65-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 70
+  },
+  {
+   "uuid": "8326e0659c618bfb",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L11.3-W10.0_XAL1010-332ME",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "9254aa06de5ad3cf",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L3.0-W3.0_FTC303020D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 40
+  },
+  {
+   "uuid": "24d12768cc50bdc2",
+   "doc_type": "FOOTPRINT",
+   "title": "HVSON-8_L3.0-W3.0-P0.65-BL-EP",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 55
+  },
+  {
+   "uuid": "7c949ee5236cc602",
+   "doc_type": "FOOTPRINT",
+   "title": "QFN-10_L3.0-W3.0-P0.50-LS3.0-BL-EP",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 63
+  },
+  {
+   "uuid": "a0e90345d6450d97",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_3P-L27.9-W19.7-P10.43-LS27.9-BL-A",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 70
+  },
+  {
+   "uuid": "3b2cc6fc41031467",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-523F_L1.7-W0.9-LS1.7-BI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 43
+  },
+  {
+   "uuid": "1a019f22ac0d6ccb",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 45
+  },
+  {
+   "uuid": "4278cfcbacc461a9",
+   "doc_type": "FOOTPRINT",
+   "title": "Test-Point-0.5mm",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 162
+  },
+  {
+   "uuid": "801e69220a320a4c",
+   "doc_type": "FOOTPRINT",
+   "title": "L0805",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 53
+  },
+  {
+   "uuid": "2ab6b36250da0cd5",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L4.0-W4.0",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 41
+  },
+  {
+   "uuid": "b6185dc0086911c9",
+   "doc_type": "FOOTPRINT",
+   "title": "5.6UH卧式",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 170
+  },
+  {
+   "uuid": "be49c8faac508273",
+   "doc_type": "FOOTPRINT",
+   "title": "R2512",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "a72daf19f7a9ce66",
+   "doc_type": "FOOTPRINT",
+   "title": "C0402_SMT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 166
+  },
+  {
+   "uuid": "b26796e5c7a7bbad",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT60PW-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 55
+  },
+  {
+   "uuid": "5e0f06dfdc96eefa",
+   "doc_type": "FOOTPRINT",
+   "title": "SMB_L4.3-W3.6-LS5.4-BI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "9ced9690a9635b4e",
+   "doc_type": "FOOTPRINT",
+   "title": "L0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "7078f15ccf761776",
+   "doc_type": "FOOTPRINT",
+   "title": "SMA_L4.3-W2.5-LS5.0-RD-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "b12d9f628ac13d45",
+   "doc_type": "FOOTPRINT",
+   "title": "R1206",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 45
+  },
+  {
+   "uuid": "b8b84d506113afcd",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_6P-P1.25_GH1.25-6PWBPZ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "f83407f4633606d0",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT30PW-F-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 67
+  },
+  {
+   "uuid": "5cad5ee89bb723fd",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_3P-L13.0-W12.9_SER1360-802KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "f3c716191d5d6dc7",
+   "doc_type": "FOOTPRINT",
+   "title": "TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "c28907bbe217a9ba",
+   "doc_type": "FOOTPRINT",
+   "title": "LED0603-RD_RED",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 56
+  },
+  {
+   "uuid": "54a7bbf165c31cf3",
+   "doc_type": "FOOTPRINT",
+   "title": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 145
+  },
+  {
+   "uuid": "0501e5f07350dba4",
+   "doc_type": "FOOTPRINT",
+   "title": "SKRPADE010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "1f2f3fd7dd7b3a9a",
+   "doc_type": "FOOTPRINT",
+   "title": "0603_C",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "28b72c1a13101d71",
+   "doc_type": "FOOTPRINT",
+   "title": "L 0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "50ee775673f78358",
+   "doc_type": "FOOTPRINT",
+   "title": "TEST-TH_BD2.54-P1.4_BLACK",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 35
+  },
+  {
+   "uuid": "2e87a4f235276bc9",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT30PW-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 71
+  },
+  {
+   "uuid": "3310e8da03e7fbea",
+   "doc_type": "FOOTPRINT",
+   "title": "F2920",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 45
+  },
+  {
+   "uuid": "0156ee182262702d",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-323_L1.7-W1.3-LS2.5-FD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 52
+  },
+  {
+   "uuid": "854e5a8c39d6134e",
+   "doc_type": "FOOTPRINT",
+   "title": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 72
+  },
+  {
+   "uuid": "fa3770fd2aca3e51",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-SMD_BD10.0-L10.3-W10.3-LS10.9-FD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 53
+  },
+  {
+   "uuid": "c2018d2a79150258",
+   "doc_type": "FOOTPRINT",
+   "title": "PDFNWB-8L_L6.0-W5.0-P1.27-BL-EP",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "1562383d3adf702c",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_P5.00_KF301-5.0-2P",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "475e559a08c67c8c",
+   "doc_type": "FOOTPRINT",
+   "title": "TO-277-3_L6.3-W4.7-LS7.0-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 50
+  },
+  {
+   "uuid": "392d9d1b6de946d2",
+   "doc_type": "FOOTPRINT",
+   "title": "KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "6264d82374c39efa",
+   "doc_type": "FOOTPRINT",
+   "title": "LED0603-RD_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 53
+  },
+  {
+   "uuid": "8855cd35f3774fbf",
+   "doc_type": "FOOTPRINT",
+   "title": "R0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "a412442fbef30a4f",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-123FL_L2.7-W1.8-LS3.8-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "4f782c9deb726811",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "65f624bfb1501774",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "5a41cbe9c3a1c6d1",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "ea4fd298adcc2bd2",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "a658e807ef4ec0a8",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "901af673a812a1d8",
+   "doc_type": "FOOTPRINT",
+   "title": "R2010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 45
+  },
+  {
+   "uuid": "d47c10d4d74875bc",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L13.8-W12.8",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 43
+  },
+  {
+   "uuid": "8f2641bb507f699e",
+   "doc_type": "FOOTPRINT",
+   "title": "VSON-CLIP-8_L5.0-W6.0-P1.27-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 60
+  },
+  {
+   "uuid": "41023118b8247316",
+   "doc_type": "FOOTPRINT",
+   "title": "C0603_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "4b8bf55a3a3f3a6b",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_3P-L28.0-W19.5-P10.43_YSFP2918S-2R2M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 52
+  },
+  {
+   "uuid": "c97067e0f0fba2ed",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "4fed71c28d489ded",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L2.5-W2.0_MHCHL2520",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 40
+  },
+  {
+   "uuid": "51065eeb8749b80e",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 60
+  },
+  {
+   "uuid": "922e45191c754229",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L3.0-W3.0",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 41
+  },
+  {
+   "uuid": "a075371bd41b6a84",
+   "doc_type": "FOOTPRINT",
+   "title": "C0805",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "fa8945bdc2042077",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "c3b60d7a0461492d",
+   "doc_type": "FOOTPRINT",
+   "title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "04ea3c209908354f",
+   "doc_type": "FOOTPRINT",
+   "title": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "1d23c851ddd34f74",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 52
+  },
+  {
+   "uuid": "c80f7b3794e8b169",
+   "doc_type": "FOOTPRINT",
+   "title": "R 0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "ef34733eda50435f",
+   "doc_type": "FOOTPRINT",
+   "title": "SOP8_N",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 70
+  },
+  {
+   "uuid": "b3f6f7dcb0034d52",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 59
+  },
+  {
+   "uuid": "ce0e051070af4107",
+   "doc_type": "FOOTPRINT",
+   "title": "L0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "c967258924bc2688",
+   "doc_type": "FOOTPRINT",
+   "title": "R0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "442e1f4fdccb5215",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT30UPB-F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 57
+  },
+  {
+   "uuid": "1a36707a843ce131",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT30UPB-M_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "303777d6cd3a867b",
+   "doc_type": "FOOTPRINT",
+   "title": "CONN-TH_XT30UPB-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "65c592968d0d5669",
+   "doc_type": "FOOTPRINT",
+   "title": "C0402",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "3755ff3e2fbf4fc9",
+   "doc_type": "FOOTPRINT",
+   "title": "PDFN-8_L4.9-W5.8-P1.27-LS6.1-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 73
+  },
+  {
+   "uuid": "523d5c219714385f",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-323_L1.8-W1.3-LS2.5-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "9ad6ccce2a4c889d",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "e834ee61a3bf9f42",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-323_L1.6-W1.3-LS2.7-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 55
+  },
+  {
+   "uuid": "f03db658289aa896",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-TH_BD6.3-P2.60-D0.6-FD-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "236d61333c532edf",
+   "doc_type": "FOOTPRINT",
+   "title": "C1206",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "16e93380e18a35ad",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-323_L1.7-W1.3-LS2.6-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "c0eec096bbf73115",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "87930cd58782da97",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_3P-L21.5-W14.0-P9.0-LS22.5",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "3f7fd3e4bfe0e6d5",
+   "doc_type": "FOOTPRINT",
+   "title": "R0402",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "6fae5cfcb2f3f610",
+   "doc_type": "FOOTPRINT",
+   "title": "CRYSTAL-SMD_4P-L3.2-W2.5-TL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 58
+  },
+  {
+   "uuid": "b0cfa54e52324508",
+   "doc_type": "FOOTPRINT",
+   "title": "SMD_3225_WDR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 171
+  },
+  {
+   "uuid": "6514d36ee8616c7f",
+   "doc_type": "FOOTPRINT",
+   "title": "C0402",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "877a4c212ebbd822",
+   "doc_type": "FOOTPRINT",
+   "title": "FILTER-SMD_3P-L3.2-W1.6_NFM31PC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 43
+  },
+  {
+   "uuid": "5d7b4c855da4ed84",
+   "doc_type": "FOOTPRINT",
+   "title": "0402_C",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "607a19508336d3b0",
+   "doc_type": "FOOTPRINT",
+   "title": "C0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "83a6b5aa00066188",
+   "doc_type": "FOOTPRINT",
+   "title": "C0402_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 177
+  },
+  {
+   "uuid": "d30407787030a5c4",
+   "doc_type": "FOOTPRINT",
+   "title": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 183
+  },
+  {
+   "uuid": "94be7e0dbefc9cf3",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP_LAY",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 41
+  },
+  {
+   "uuid": "53df3fa7bf0539b0",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 150
+  },
+  {
+   "uuid": "4af39e77f3f2e566",
+   "doc_type": "FOOTPRINT",
+   "title": "RES-SMD_L6.4-W3.2-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 140
+  },
+  {
+   "uuid": "d9b73a35483decea",
+   "doc_type": "FOOTPRINT",
+   "title": "R0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "93a444767dcf1502",
+   "doc_type": "FOOTPRINT",
+   "title": "C0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 146
+  },
+  {
+   "uuid": "c731dcbda1381f98",
+   "doc_type": "FOOTPRINT",
+   "title": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 160
+  },
+  {
+   "uuid": "c249f750e1e21441",
+   "doc_type": "FOOTPRINT",
+   "title": "CAP-TH_BD18.0-P7.50-D0.8-FD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "81c71dfa9e2a19fe",
+   "doc_type": "SYMBOL",
+   "title": "IAUZN04S7N049ATMA1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 32
+  },
+  {
+   "uuid": "ae42c7495785db42",
+   "doc_type": "SYMBOL",
+   "title": "LM74700QDBVRQ1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "ab0d2a7b9a906303",
+   "doc_type": "SYMBOL",
+   "title": "BZT52C33S_C22375292",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "0ea1dbd0776bfe57",
+   "doc_type": "SYMBOL",
+   "title": "BZT52C33",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "24353685ec1aac01",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF470KTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "9a19212e08e04e11",
+   "doc_type": "SYMBOL",
+   "title": "TPS28225DRBR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "2703c33820a9d64a",
+   "doc_type": "SYMBOL",
+   "title": "AMS1117-3.3_C347256",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 24
+  },
+  {
+   "uuid": "1079e7b855d475e2",
+   "doc_type": "SYMBOL",
+   "title": "CL05C331JB5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "d39dd5a089a5062c",
+   "doc_type": "SYMBOL",
+   "title": "TLV3231DCKR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 34
+  },
+  {
+   "uuid": "0a4d98d79eb81dc8",
+   "doc_type": "SYMBOL",
+   "title": "B16WS_C7420327",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "deb9114b271df5f4",
+   "doc_type": "SYMBOL",
+   "title": "LV2862XLVDDCR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "eb166af1301db14c",
+   "doc_type": "SYMBOL",
+   "title": "电阻",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 15
+  },
+  {
+   "uuid": "4c0394f162eafaa8",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1001TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "e597e78696544a82",
+   "doc_type": "SYMBOL",
+   "title": "CL05A105KA5NQNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "ef178416a1bf9016",
+   "doc_type": "SYMBOL",
+   "title": "CL10A105KB8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "a833760c20951848",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1003T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "97820069bbe6a381",
+   "doc_type": "SYMBOL",
+   "title": "SI7461DP-T1-E3-VB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 42
+  },
+  {
+   "uuid": "6dc73b741561ab8d",
+   "doc_type": "SYMBOL",
+   "title": "BSS138LT1G",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 32
+  },
+  {
+   "uuid": "617ca116fd77607e",
+   "doc_type": "SYMBOL",
+   "title": "BTC-1021-BN01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "ca766dc4d0296fad",
+   "doc_type": "SYMBOL",
+   "title": "AON6403",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "705f73225e26d719",
+   "doc_type": "SYMBOL",
+   "title": "ISZ034N06LM5ATMA1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 42
+  },
+  {
+   "uuid": "b6098e06e0f482e4",
+   "doc_type": "SYMBOL",
+   "title": "1N4148W_C7420318",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "670c9b526405d927",
+   "doc_type": "SYMBOL",
+   "title": "CGA0805X5R226M350MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "d899f19c9423ae41",
+   "doc_type": "SYMBOL",
+   "title": "Power-5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 15
+  },
+  {
+   "uuid": "69f906fdff1d73db",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1502TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "a5d7a28292676bfd",
+   "doc_type": "SYMBOL",
+   "title": "DSK24_C22466352",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "7249e3d2f9baece8",
+   "doc_type": "SYMBOL",
+   "title": "ME3116",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "42899241569b02cd",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F3001TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "516359c47a383fe3",
+   "doc_type": "SYMBOL",
+   "title": "FC-F1005UGK-520M5",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 24
+  },
+  {
+   "uuid": "170a28e91907fdaa",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F1000TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "0f2f2552b2d4b21c",
+   "doc_type": "SYMBOL",
+   "title": "GRM155R60J226ME11D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "5625dbde35d98b85",
+   "doc_type": "SYMBOL",
+   "title": "X161224MMB4SI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "52f61a080cce75a6",
+   "doc_type": "SYMBOL",
+   "title": "OT4EL89CJI-111YLC-24M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "32fca8f09830c9f9",
+   "doc_type": "SYMBOL",
+   "title": "OT4EL89CJI-111YLC-24M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "e4fa83b743d18d5c",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "baa05124a2ddb6fc",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-4PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "77e2e97b5d3731e1",
+   "doc_type": "SYMBOL",
+   "title": "BLM18AG601SN1D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "81fde79c2d0ec47e",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402J121 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "b2ce8ee199bc9002",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402J121 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "b65ed9174ffc5425",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F10R0TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "e9326bffaa03e46b",
+   "doc_type": "SYMBOL",
+   "title": "CGA0402X5R106M100GT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "a890b7d7ed87db5b",
+   "doc_type": "SYMBOL",
+   "title": "RC0402FR-071KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "c1ebb98988353b5e",
+   "doc_type": "SYMBOL",
+   "title": "RC0402FR-071KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "4ac846f6c106071b",
+   "doc_type": "SYMBOL",
+   "title": "TLV9061M5/TR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "e1db6c27ff78358d",
+   "doc_type": "SYMBOL",
+   "title": "TLV9062IDGKR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 63
+  },
+  {
+   "uuid": "34c7eb48a3db83de",
+   "doc_type": "SYMBOL",
+   "title": "X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 129
+  },
+  {
+   "uuid": "32b382457c427f6d",
+   "doc_type": "SYMBOL",
+   "title": "X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 129
+  },
+  {
+   "uuid": "3ff76f0a6eae73f5",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1002TCE_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "f802953099b262a6",
+   "doc_type": "SYMBOL",
+   "title": "STM32G474CBU6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 254
+  },
+  {
+   "uuid": "7f6e4b168432da59",
+   "doc_type": "SYMBOL",
+   "title": "STM32H503CBU6_C25503101",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 254
+  },
+  {
+   "uuid": "625c4f58fd067aff",
+   "doc_type": "SYMBOL",
+   "title": "BTC-1022-BN01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "e759c18c1543eeae",
+   "doc_type": "SYMBOL",
+   "title": "HGC0402R5104K250NTEJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "e573797e12ddf8b8",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F1002TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "dd4836c39ccb5a1e",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F4R70TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "791b17db12b9afff",
+   "doc_type": "SYMBOL",
+   "title": "X0812FVS-24CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 129
+  },
+  {
+   "uuid": "e0256fa5abfe4950",
+   "doc_type": "SYMBOL",
+   "title": "CL10A106KP8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "b7b81ee8ef0fc1a8",
+   "doc_type": "SYMBOL",
+   "title": "STM32G474CBT6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 249
+  },
+  {
+   "uuid": "31f404383f77eaec",
+   "doc_type": "SYMBOL",
+   "title": "XGL1010 (XGL1010-*MED)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "ed4b21f5dffd7a41",
+   "doc_type": "SYMBOL",
+   "title": "118EC227",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "b9bd1859a8e44540",
+   "doc_type": "SYMBOL",
+   "title": "JBLM2470M050C077RTM",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "b35b8640dc4944c7",
+   "doc_type": "SYMBOL",
+   "title": "X0812FVS-30AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 159
+  },
+  {
+   "uuid": "e6a02fbf5ac25fb4",
+   "doc_type": "SYMBOL",
+   "title": "DF17(4.0)-30DP-0.5V(57)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 169
+  },
+  {
+   "uuid": "7b8c643aed6ad18f",
+   "doc_type": "SYMBOL",
+   "title": "DF17(4.0)-30DP-0.5V(57)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 169
+  },
+  {
+   "uuid": "6168f10e27d1d622",
+   "doc_type": "SYMBOL",
+   "title": "PMR25HZPFV1L00",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "6f6d380fbe7fb419",
+   "doc_type": "SYMBOL",
+   "title": "PMR25HZPFV2L00",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "d36af51c48f16cc2",
+   "doc_type": "SYMBOL",
+   "title": "JVB50V47M6X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "5da1b608bdabb059",
+   "doc_type": "SYMBOL",
+   "title": "PA50V22M6X7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "3dd04e4594a30099",
+   "doc_type": "SYMBOL",
+   "title": "JVE35V22M5X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "69191540648c6d9f",
+   "doc_type": "SYMBOL",
+   "title": "MA50V22M6X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "6cd8f75bec8e73bd",
+   "doc_type": "SYMBOL",
+   "title": "X0812FVS-20CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 109
+  },
+  {
+   "uuid": "fe4cf094891e8f57",
+   "doc_type": "SYMBOL",
+   "title": "BTB0.408-24PLBDR-G41",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 149
+  },
+  {
+   "uuid": "83dd8a777fffd3ea",
+   "doc_type": "SYMBOL",
+   "title": "NVTFS5C453NLTAG",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "a522ceedd56f9c37",
+   "doc_type": "SYMBOL",
+   "title": "XGL1060-103MEC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "9a9cb99f349a6180",
+   "doc_type": "SYMBOL",
+   "title": "FTC303015D100MBCA",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "00c73257a6a4ced4",
+   "doc_type": "SYMBOL",
+   "title": "SY8301ABC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "92d88289938f4f89",
+   "doc_type": "SYMBOL",
+   "title": "TJA1044GTK/3Z",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 54
+  },
+  {
+   "uuid": "c3d3bfd2036f5107",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402P000 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7dd19cfa94ec0420",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF220KT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "37be1c958af1ea2b",
+   "doc_type": "SYMBOL",
+   "title": "MP1907GQ-Z",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "ebd250f7999cd142",
+   "doc_type": "SYMBOL",
+   "title": "RSPQ2918-100M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 27
+  },
+  {
+   "uuid": "ffaf213c3540a921",
+   "doc_type": "SYMBOL",
+   "title": "H3V3LD5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "d2cc493ef269c325",
+   "doc_type": "SYMBOL",
+   "title": "PESD5V0S1BBN",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "a6fffcc66427a866",
+   "doc_type": "SYMBOL",
+   "title": "Test-Point",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 15
+  },
+  {
+   "uuid": "f8226daa9428d5f8",
+   "doc_type": "SYMBOL",
+   "title": "FRC0603F1002TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "686722d326b98580",
+   "doc_type": "SYMBOL",
+   "title": "1N4148WS_C7420319",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "57819e9120a468fc",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1000T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "102de5416393dc77",
+   "doc_type": "SYMBOL",
+   "title": "MCL2012H100MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "a3e173e9d19a8d8f",
+   "doc_type": "SYMBOL",
+   "title": "CGA0805X5R106K500MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "2b51de09af0cddc9",
+   "doc_type": "SYMBOL",
+   "title": "FHD4020S-100MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "5002b2735be65f30",
+   "doc_type": "SYMBOL",
+   "title": "RE2512F3R010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "bbd2e05ce877bb39",
+   "doc_type": "SYMBOL",
+   "title": "XT60PW-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "545ac61c33f73db8",
+   "doc_type": "SYMBOL",
+   "title": "CL21A475KAQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "df873c39d2796158",
+   "doc_type": "SYMBOL",
+   "title": "SMBJ28CA_C151259",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "4c6f967b359caf4f",
+   "doc_type": "SYMBOL",
+   "title": "SDFL1608S100KTF",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "62fda232a97ed2b7",
+   "doc_type": "SYMBOL",
+   "title": "Ground-AGND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "da89dd8adee59b19",
+   "doc_type": "SYMBOL",
+   "title": "CSD18540Q5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "69a958266124dbbb",
+   "doc_type": "SYMBOL",
+   "title": "CSD18540Q5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "93dc8ff221914716",
+   "doc_type": "SYMBOL",
+   "title": "1SMA4750A",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "873f574fcc1e9fab",
+   "doc_type": "SYMBOL",
+   "title": "FRC1206F1R00TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "4037b790d486a2b9",
+   "doc_type": "SYMBOL",
+   "title": "1.25-6PWTDK",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "59d0dcfb9b1beb37",
+   "doc_type": "SYMBOL",
+   "title": "XT30PW-F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "014c4e1866426bd0",
+   "doc_type": "SYMBOL",
+   "title": "SER1360-402KLD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 31
+  },
+  {
+   "uuid": "d0790413219e7256",
+   "doc_type": "SYMBOL",
+   "title": "LM358BIDR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "3c28d2da617ef339",
+   "doc_type": "SYMBOL",
+   "title": "CL05A105KP5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "7d62976231d4dca3",
+   "doc_type": "SYMBOL",
+   "title": "REF_1V65",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "3e56ef0dc58cb767",
+   "doc_type": "SYMBOL",
+   "title": "INA240A2PWR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 51
+  },
+  {
+   "uuid": "ed44ee60eef25d60",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1001T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "7778ad75976b38ef",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1001T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "f08bb6cc938c7220",
+   "doc_type": "SYMBOL",
+   "title": "XL-1608SURC-06",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 24
+  },
+  {
+   "uuid": "e82d45a2d90b39fc",
+   "doc_type": "SYMBOL",
+   "title": "FRC0603J103TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "f37fdff16f83054c",
+   "doc_type": "SYMBOL",
+   "title": "STM32G030K8T6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 169
+  },
+  {
+   "uuid": "d7497735af8d336c",
+   "doc_type": "SYMBOL",
+   "title": "FC-DA1608HRK-620D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "7fbd778010635e64",
+   "doc_type": "SYMBOL",
+   "title": "SKRPADE010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "615dcf3b82a47c8b",
+   "doc_type": "SYMBOL",
+   "title": "Cap_0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "903db599c3f57523",
+   "doc_type": "SYMBOL",
+   "title": "L",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 24
+  },
+  {
+   "uuid": "7c90e5ec83e10657",
+   "doc_type": "SYMBOL",
+   "title": "RH-5001",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "e5f8cfbb9a72738c",
+   "doc_type": "SYMBOL",
+   "title": "XT30PW-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 27
+  },
+  {
+   "uuid": "14a9853b45fcd3d0",
+   "doc_type": "SYMBOL",
+   "title": "电阻",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 15
+  },
+  {
+   "uuid": "215a8ae9c0a4c7af",
+   "doc_type": "SYMBOL",
+   "title": "2920L600/30GR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "53b97d06cd5d5353",
+   "doc_type": "SYMBOL",
+   "title": "CL05B104KO5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "68237ff4a07579fc",
+   "doc_type": "SYMBOL",
+   "title": "B5819WS_C7420331",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "37a9d1331318a6d5",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF270KT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7aa662b6fc6e7918",
+   "doc_type": "SYMBOL",
+   "title": "XRPQ2012J-150M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 30
+  },
+  {
+   "uuid": "4122ab90e42fd30d",
+   "doc_type": "SYMBOL",
+   "title": "DSK36",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "11dfe0c7ecf2f5ae",
+   "doc_type": "SYMBOL",
+   "title": "LM5106MM/NOPB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "67a540d3c802fb97",
+   "doc_type": "SYMBOL",
+   "title": "GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "3c6fafe040735c5c",
+   "doc_type": "SYMBOL",
+   "title": "+12",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "1731e97d5a9ae7f4",
+   "doc_type": "SYMBOL",
+   "title": "JBLM2221M050E136RTM 220UF 50V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "dd79f2a1b41cc140",
+   "doc_type": "SYMBOL",
+   "title": "CSD18540Q5BT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "56d8ea0fca44988d",
+   "doc_type": "SYMBOL",
+   "title": "VCAP+",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "36218bd5abbdcac3",
+   "doc_type": "SYMBOL",
+   "title": "KF301-5.0-2P",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "f42d75f7e7d254dc",
+   "doc_type": "SYMBOL",
+   "title": "SB2060L",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 27
+  },
+  {
+   "uuid": "f361d30c3edc647c",
+   "doc_type": "SYMBOL",
+   "title": "FC-D1608UGK-520D10",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "6f3842a88cfc8c41",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF3301T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7891644f3908a8a8",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF100JTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7072d03ecb1a47c5",
+   "doc_type": "SYMBOL",
+   "title": "SGM321YN5/TR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 40
+  },
+  {
+   "uuid": "09d1cef7dcf1d3d1",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1000TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "d63efb3d78f0b903",
+   "doc_type": "SYMBOL",
+   "title": "RT0603BRD0750KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7d00e9c37791ff88",
+   "doc_type": "SYMBOL",
+   "title": "AR03BTCX2501",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "36b22396f67b1d03",
+   "doc_type": "SYMBOL",
+   "title": "TLV365DBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "a140d44ba72d56af",
+   "doc_type": "SYMBOL",
+   "title": "REF_3V3",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "d9d5c2b2aed6989d",
+   "doc_type": "SYMBOL",
+   "title": "CC0402KRX7R9BB103",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "ed30a58dc9564ea0",
+   "doc_type": "SYMBOL",
+   "title": "INA181A2IDBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "acc44bfc595c2267",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "e7fa22299574488e",
+   "doc_type": "SYMBOL",
+   "title": "SM05.TCT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 36
+  },
+  {
+   "uuid": "722650853f036205",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-2PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "9abc902878adf709",
+   "doc_type": "SYMBOL",
+   "title": "SM03_C502558",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 36
+  },
+  {
+   "uuid": "c3eeb874c85acb7f",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-4PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "ac460efcad5d9dd5",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1002TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "c9814b73f36a5ddc",
+   "doc_type": "SYMBOL",
+   "title": "SKRPADE010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 33
+  },
+  {
+   "uuid": "67b40a88421e2665",
+   "doc_type": "SYMBOL",
+   "title": "SMMS1385-6R8MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "6a1b15252cc8ec47",
+   "doc_type": "SYMBOL",
+   "title": "XRPQ2918J-330M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "5fa28f9d2b31e2a7",
+   "doc_type": "SYMBOL",
+   "title": "ME6211C33M5G-N",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 36
+  },
+  {
+   "uuid": "da705d6199da73ef",
+   "doc_type": "SYMBOL",
+   "title": "CL21A106KAYNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "c281cf21e106a407",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1003TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "4080e0d5e3cff302",
+   "doc_type": "SYMBOL",
+   "title": "CL10A106MA8NRNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "6208c3aeda34c858",
+   "doc_type": "SYMBOL",
+   "title": "FTC252010S220MBCA",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "ed8d3a06ca9facf5",
+   "doc_type": "SYMBOL",
+   "title": "FRC0402F6192TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "6fd8da097fc9fe0c",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "94685b5578ed3ce7",
+   "doc_type": "SYMBOL",
+   "title": "TPS560200DBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 32
+  },
+  {
+   "uuid": "bb6706c1a1e7a85b",
+   "doc_type": "SYMBOL",
+   "title": "RC0603FR-070RL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "71f4c04a70f9b5c5",
+   "doc_type": "SYMBOL",
+   "title": "YHNR3015-100M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "e2cef15f1b599610",
+   "doc_type": "SYMBOL",
+   "title": "5-Voltage",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "1d61327194ad9dd1",
+   "doc_type": "SYMBOL",
+   "title": "DSK24_C22466352",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "c530235735bf0f33",
+   "doc_type": "SYMBOL",
+   "title": "GRM1555C1H200JA01D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "265120d8aa3db845",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF2003TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "9aa68ee1b6a07459",
+   "doc_type": "SYMBOL",
+   "title": "CL21A226MOQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "9ee137a255e6fd51",
+   "doc_type": "SYMBOL",
+   "title": "CL21A475KBQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "6f5be6ee5e389eeb",
+   "doc_type": "SYMBOL",
+   "title": "CL05B104KB54PNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "51e0f6ad9f518fb6",
+   "doc_type": "SYMBOL",
+   "title": "SY8292ABC_C83336",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "deaa3596c4729661",
+   "doc_type": "SYMBOL",
+   "title": "MPQ18021HS-A-LF-P",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "81cc52d273b72399",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "7a1a574ae754c8e7",
+   "doc_type": "SYMBOL",
+   "title": "CC0603KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 30
+  },
+  {
+   "uuid": "814ff9018212986e",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF2002TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "fb52c40d3090546b",
+   "doc_type": "SYMBOL",
+   "title": "FRC0603F2R20TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "1b28afe610689f63",
+   "doc_type": "SYMBOL",
+   "title": "UCC27524ADR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "23d8493a3cf8c6cb",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-2PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "dfa9e0186b7e9b13",
+   "doc_type": "SYMBOL",
+   "title": "R",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "86881673c0490061",
+   "doc_type": "SYMBOL",
+   "title": "+5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "7b7c162eec47d142",
+   "doc_type": "SYMBOL",
+   "title": "TJA1050T",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "441a4acd25dcd77c",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF220JTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "781f4539f72e3b27",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-4PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "0e9a17ec6a951f5d",
+   "doc_type": "SYMBOL",
+   "title": "WAFER-GH1.25-4PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "ceb2d92d5350c16a",
+   "doc_type": "SYMBOL",
+   "title": "GZ1608D601TF",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "d0c33986c72c8ae9",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF0000T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "11c9af72a8b23c18",
+   "doc_type": "SYMBOL",
+   "title": "cga0603x7r104k500jt",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "a57968b74d7ffb13",
+   "doc_type": "SYMBOL",
+   "title": "XT30UPB-F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "143eea56eb96e0ed",
+   "doc_type": "SYMBOL",
+   "title": "XT30UPB-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "ff0e745a74e5c6a5",
+   "doc_type": "SYMBOL",
+   "title": "VBAT+",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "6bc427736929c6f3",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1001TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "3f8472683b3d3418",
+   "doc_type": "SYMBOL",
+   "title": "CC0402KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "386366b31ac066b2",
+   "doc_type": "SYMBOL",
+   "title": "RC0402FR-07100KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "a2d3f039f9560f57",
+   "doc_type": "SYMBOL",
+   "title": "AON6403-VB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 70
+  },
+  {
+   "uuid": "0eb39b4ff68c9fa2",
+   "doc_type": "SYMBOL",
+   "title": "AON6403-VB_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 70
+  },
+  {
+   "uuid": "86a9348b516a38fe",
+   "doc_type": "SYMBOL",
+   "title": "BZT52C12S_C271264",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "5e630191eaeecc7f",
+   "doc_type": "SYMBOL",
+   "title": "PMBT3906,215",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "f810c4e6d0cc621c",
+   "doc_type": "SYMBOL",
+   "title": "BZT52C27S_C727043",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 27
+  },
+  {
+   "uuid": "958595e0043dad4b",
+   "doc_type": "SYMBOL",
+   "title": "Short-Symbol",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "1783cf261ab0d2de",
+   "doc_type": "SYMBOL",
+   "title": "HOLR2010-1W-1MR-1%-15PPM",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "1a5e55e16c199d52",
+   "doc_type": "SYMBOL",
+   "title": "PA50V47M6X8",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 25
+  },
+  {
+   "uuid": "a5b8b543352407e6",
+   "doc_type": "SYMBOL",
+   "title": "HGC1206R5106K500NSPJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "67f38224cb604f4d",
+   "doc_type": "SYMBOL",
+   "title": "BZT52C6V8S_C19077443",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "ef0262eb60a27bb9",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF4701TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "9d9baab07954db86",
+   "doc_type": "SYMBOL",
+   "title": "BAV99_C7420336",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "ccd35b106c71493e",
+   "doc_type": "SYMBOL",
+   "title": "CGA0402X5R475M250GT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "efd4874e618347c7",
+   "doc_type": "SYMBOL",
+   "title": "HOLLR2010-1.5W-5MR-1%",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "671e09a65a692c9c",
+   "doc_type": "SYMBOL",
+   "title": "Ground-AGND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "f68af90759ab5abf",
+   "doc_type": "SYMBOL",
+   "title": "RC0402FR-0710KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7125c34bb7582e63",
+   "doc_type": "SYMBOL",
+   "title": "CSD18540Q5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "de6d8a6dbbb65c3c",
+   "doc_type": "SYMBOL",
+   "title": "XRPQ2012J-4R7M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 30
+  },
+  {
+   "uuid": "d9bc0cbcd49638ef",
+   "doc_type": "SYMBOL",
+   "title": "XRPQ2012J-4R7M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 30
+  },
+  {
+   "uuid": "b87b0cf647056d5e",
+   "doc_type": "SYMBOL",
+   "title": "0402WGF1004TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "dbe6f32428d67186",
+   "doc_type": "SYMBOL",
+   "title": "XXBBPLNANF-24.000000MHZ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 37
+  },
+  {
+   "uuid": "81d9c7c24dbd47be",
+   "doc_type": "SYMBOL",
+   "title": "CGA0603X7R472K500JT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "c476ee8be00eb4d2",
+   "doc_type": "SYMBOL",
+   "title": "GRM1555C1H472JE01D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "a02747f3c40385aa",
+   "doc_type": "SYMBOL",
+   "title": "NFM31KC103R1H3L",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 23
+  },
+  {
+   "uuid": "9fcb94b762b8733e",
+   "doc_type": "SYMBOL",
+   "title": "Cap_0402",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "0a74a2a0945c6212",
+   "doc_type": "SYMBOL",
+   "title": "Power-VCC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "2c6ef7cc9be5b43b",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "92c888e0a14c03fa",
+   "doc_type": "SYMBOL",
+   "title": "CapAcitance",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "ea26c17249509568",
+   "doc_type": "SYMBOL",
+   "title": "Capacitance_1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "e5c641d64377cb1c",
+   "doc_type": "SYMBOL",
+   "title": "VCC_3V3",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 13
+  },
+  {
+   "uuid": "59191bfe789fe40f",
+   "doc_type": "SYMBOL",
+   "title": "GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "77b391e14744df8c",
+   "doc_type": "SYMBOL",
+   "title": "Power-VCC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "e35823d8c9217936",
+   "doc_type": "SYMBOL",
+   "title": "Netport-IN",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 15
+  },
+  {
+   "uuid": "4de36e8300b251aa",
+   "doc_type": "SYMBOL",
+   "title": "STM32G0B1CBT6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 249
+  },
+  {
+   "uuid": "4e0822e524d9ff34",
+   "doc_type": "SYMBOL",
+   "title": "Drawing-Symbol_A4",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "0d6fffd56048513d",
+   "doc_type": "SYMBOL",
+   "title": "CHV-2R7606R-TW 2.7V60F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 23
+  },
+  {
+   "uuid": "449cfae1e60b63f0",
+   "doc_type": "SYMBOL",
+   "title": "BW6101",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 34
+  },
+  {
+   "uuid": "97d3725397d69f54",
+   "doc_type": "SYMBOL",
+   "title": "MA251220FR010FZ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "cd76ae0aae5d99e6",
+   "doc_type": "SYMBOL",
+   "title": "电阻",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "bf838ce293aa00b8",
+   "doc_type": "SYMBOL",
+   "title": "0603F104M500",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "4c6c4f57c4dbe034",
+   "doc_type": "SYMBOL",
+   "title": "AO4402-MS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 49
+  },
+  {
+   "uuid": "e3ae921b505e45dc",
+   "doc_type": "SYMBOL",
+   "title": "CXHP2R7506R-TW 2.7V50F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 23
+  },
+  {
+   "uuid": "904fdca359fad1ee",
+   "doc_type": "DEVICE",
+   "title": "IAUZN04S7N049ATMA1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fae90b574c3aec64",
+   "doc_type": "DEVICE",
+   "title": "LM74700QDBVRQ1_C2941042",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b9522bc9dc2542bc",
+   "doc_type": "DEVICE",
+   "title": "BZT52C33S_C22375292",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "32aaa92e38f6285e",
+   "doc_type": "DEVICE",
+   "title": "BZT52C33_C2110",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7dd0e7f354a15605",
+   "doc_type": "DEVICE",
+   "title": "0402WGF470KTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "003c84fabe2caace",
+   "doc_type": "DEVICE",
+   "title": "TPS28225DRBR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "458fda97f5ec55b8",
+   "doc_type": "DEVICE",
+   "title": "AMS1117-3.3S_C347256",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e0ddbe1d5238353e",
+   "doc_type": "DEVICE",
+   "title": "CL05C331JB5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ada6bdcef88cb7d9",
+   "doc_type": "DEVICE",
+   "title": "TLV3231DCKR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9d34e6770e8a018a",
+   "doc_type": "DEVICE",
+   "title": "B16WS_C7420327",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "43e7db36f22543b0",
+   "doc_type": "DEVICE",
+   "title": "LV2862XLVDDCR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3b802de444a22fa9",
+   "doc_type": "DEVICE",
+   "title": "CL05A105KA5NQNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "8357a82d10d1a8b1",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1003T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "04d564c6228e2fb5",
+   "doc_type": "DEVICE",
+   "title": "SI7461DP-T1-E3-VB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e2ec37299fe2dde0",
+   "doc_type": "DEVICE",
+   "title": "BSS138LT1G",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c0a6c6645734b20c",
+   "doc_type": "DEVICE",
+   "title": "BTC-1021-BN01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "40f81526ba051fe2",
+   "doc_type": "DEVICE",
+   "title": "AON6403",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d066abefaa34dc5e",
+   "doc_type": "DEVICE",
+   "title": "ISZ034N06LM5ATMA1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "499e690ce59a87e3",
+   "doc_type": "DEVICE",
+   "title": "CGA0805X5R226M350MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cb0fff44e2d31ae3",
+   "doc_type": "DEVICE",
+   "title": "Power-5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d46ca8d83b0de383",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1502TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "40a3eb59fa7a3050",
+   "doc_type": "DEVICE",
+   "title": "ME3116AM6G_C97643",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "871fc5002d7fc02f",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F3001TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "59a6ecac8ae05abc",
+   "doc_type": "DEVICE",
+   "title": "NCD0402G1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a09a7cc2e12d151e",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F1000TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "07e2476d850792bb",
+   "doc_type": "DEVICE",
+   "title": "GRM155R60J226ME11D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c6e406c540d61906",
+   "doc_type": "DEVICE",
+   "title": "OT4EL89CJI-111YLC-24M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6bb4a42ecc162e57",
+   "doc_type": "DEVICE",
+   "title": "OT4EL89CJI-111YLC-24M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "53c05c39a3b32ab9",
+   "doc_type": "DEVICE",
+   "title": "X161224MMB4SI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cb6f5821e9bc8f19",
+   "doc_type": "DEVICE",
+   "title": "BLM18AG601SN1D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fa4483cfb43a5ac8",
+   "doc_type": "DEVICE",
+   "title": "FRC0402J121 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f3225c0d092ebed4",
+   "doc_type": "DEVICE",
+   "title": "FRC0402J121 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3f2902f5cefcdb8a",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F10R0TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b2109cae35212115",
+   "doc_type": "DEVICE",
+   "title": "CGA0402X5R106M100GT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e3834e12efbd4005",
+   "doc_type": "DEVICE",
+   "title": "RC0402FR-071KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "236a2eee02aaca72",
+   "doc_type": "DEVICE",
+   "title": "RC0402FR-071KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3adf39d177ef9e79",
+   "doc_type": "DEVICE",
+   "title": "TLV9061M5/TR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5a592e629f2f25dc",
+   "doc_type": "DEVICE",
+   "title": "TLV9062IDGKR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9f89033f48879469",
+   "doc_type": "DEVICE",
+   "title": "X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6ee8f27ae19bde84",
+   "doc_type": "DEVICE",
+   "title": "X0812WVS-24AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ec886ff8fbab82b6",
+   "doc_type": "DEVICE",
+   "title": "STM32G474CBU6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3e1e64d46af05975",
+   "doc_type": "DEVICE",
+   "title": "STM32H503CBU6_C25503101",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "57cdf765623f970e",
+   "doc_type": "DEVICE",
+   "title": "BTC-1022-BN01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "52fd3ff8359adfb6",
+   "doc_type": "DEVICE",
+   "title": "HGC0402R5104K250NTEJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e412fdfd758a6705",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F1002TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fa0ce6b83fc2426d",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F4R70TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cfa615c3a13c3986",
+   "doc_type": "DEVICE",
+   "title": "X0812FVS-24CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "780baccb2dad35f1",
+   "doc_type": "DEVICE",
+   "title": "CL10A106KP8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "74a43126e615f915",
+   "doc_type": "DEVICE",
+   "title": "STM32G474CBT6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1ac95743c105c5ae",
+   "doc_type": "DEVICE",
+   "title": "XGL1010 (XGL1010-*MED)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3d850aaf58175081",
+   "doc_type": "DEVICE",
+   "title": "118EC227",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "799a6b49a6baea3e",
+   "doc_type": "DEVICE",
+   "title": "JBLM2470M050C077RTM",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6da7958af8ee49d2",
+   "doc_type": "DEVICE",
+   "title": "X0812FVS-30AS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "0d8fe899ee3ffb83",
+   "doc_type": "DEVICE",
+   "title": "DF17(4.0)-30DP-0.5V(57)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "beb4e3707d4de64c",
+   "doc_type": "DEVICE",
+   "title": "DF17(4.0)-30DP-0.5V(57)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "54654aaa1c45ecd6",
+   "doc_type": "DEVICE",
+   "title": "PMR25HZPFV1L00",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "31e3a3fc469092c1",
+   "doc_type": "DEVICE",
+   "title": "PMR25HZPFV2L00",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9719a7265c4c6de8",
+   "doc_type": "DEVICE",
+   "title": "JVB50V47M6X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cbc20498b50862e5",
+   "doc_type": "DEVICE",
+   "title": "PA50V22M6x7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "49f0d7579dddf590",
+   "doc_type": "DEVICE",
+   "title": "JVE35V22M5X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "63cf5c7ea48fd50f",
+   "doc_type": "DEVICE",
+   "title": "MA50V22M6X6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6f78aadd9cfa3a71",
+   "doc_type": "DEVICE",
+   "title": "X0812FVS-20CS-9TV01",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "0b9183f5bc585d80",
+   "doc_type": "DEVICE",
+   "title": "BTB0.408-24PLBDR-G41",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "87316e2510496cc2",
+   "doc_type": "DEVICE",
+   "title": "NVTFS5C453NLTAG",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3ff8d555f58d0bcc",
+   "doc_type": "DEVICE",
+   "title": "XGL1060-103MEC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c7c8086210fbc07f",
+   "doc_type": "DEVICE",
+   "title": "FTC303015D100MBCA",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4692f63b611c8017",
+   "doc_type": "DEVICE",
+   "title": "SY8301ABC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b6c2858cea7f01ac",
+   "doc_type": "DEVICE",
+   "title": "TJA1044GTK/3Z",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "0100114a95085af7",
+   "doc_type": "DEVICE",
+   "title": "FRC0402P000 TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2fe1e2436161f5ff",
+   "doc_type": "DEVICE",
+   "title": "0603WAF220KT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6efa9b6bf380e8d8",
+   "doc_type": "DEVICE",
+   "title": "MP1907GQ-Z",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ae847d9f2ecb49fd",
+   "doc_type": "DEVICE",
+   "title": "RSPQ2918-100M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fade2dc914b39956",
+   "doc_type": "DEVICE",
+   "title": "H3V3LD5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "25b9cba4631cb8a1",
+   "doc_type": "DEVICE",
+   "title": "PESD5V0S1BBN",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "62020c27ba465620",
+   "doc_type": "DEVICE",
+   "title": "Test-Point",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4640dd81682f1e85",
+   "doc_type": "DEVICE",
+   "title": "FRC0603F1002TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "77afb7b38c401494",
+   "doc_type": "DEVICE",
+   "title": "1N4148WS_C7420319",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "edcebdceebb2a98d",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1000T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ae35d10bc44b642f",
+   "doc_type": "DEVICE",
+   "title": "MCL2012H100MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c13ae8f086f854d3",
+   "doc_type": "DEVICE",
+   "title": "CGA0805X5R106K500MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f76fe97897a485b3",
+   "doc_type": "DEVICE",
+   "title": "FHD4020S-100MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "769065e838063805",
+   "doc_type": "DEVICE",
+   "title": "RE2512F3R010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2e4dd08e33cb393a",
+   "doc_type": "DEVICE",
+   "title": "XT60PW-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "48f45bd754f6dca3",
+   "doc_type": "DEVICE",
+   "title": "CL21A475KAQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f6a68a507bba3590",
+   "doc_type": "DEVICE",
+   "title": "SMBJ28CA_C151259",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cdd2696c409b71a1",
+   "doc_type": "DEVICE",
+   "title": "L_0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c042bc12037a6168",
+   "doc_type": "DEVICE",
+   "title": "Ground-AGND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "0dec8dd9b9d464cd",
+   "doc_type": "DEVICE",
+   "title": "1SMA4750A",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ec559e802edbb00b",
+   "doc_type": "DEVICE",
+   "title": "FRC1206F1R00TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5e5aa4a547c29c95",
+   "doc_type": "DEVICE",
+   "title": "1.25-6PWTDK",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4627bf5748d0231b",
+   "doc_type": "DEVICE",
+   "title": "XT30PW-F20.G.Y",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c873520b0c395bd3",
+   "doc_type": "DEVICE",
+   "title": "SER1360-402KLD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ec37db6881a9b13c",
+   "doc_type": "DEVICE",
+   "title": "LM358BIDR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9c2740e22b4eabe3",
+   "doc_type": "DEVICE",
+   "title": "CL05A105KP5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6dcc48a58d743d67",
+   "doc_type": "DEVICE",
+   "title": "REF_1V65",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "22d2cd5a5f76f0ad",
+   "doc_type": "DEVICE",
+   "title": "INA240A2PWR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cced429a090461a6",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1001T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "97349f1a01bc83c5",
+   "doc_type": "DEVICE",
+   "title": "XL-1608SURC-06",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a5505082e5091335",
+   "doc_type": "DEVICE",
+   "title": "FRC0603J103TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ce883bb841baf5e3",
+   "doc_type": "DEVICE",
+   "title": "STM32G030K8T6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e94aaeb78acfee76",
+   "doc_type": "DEVICE",
+   "title": "NCD0603R1_C84263",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "60926ece786da9df",
+   "doc_type": "DEVICE",
+   "title": "SKRPADE010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4e75b0b95c3944d5",
+   "doc_type": "DEVICE",
+   "title": "22uF 6.3V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9283af8c63244ef2",
+   "doc_type": "DEVICE",
+   "title": "120R磁珠",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a2fa0a4ec0e76f27",
+   "doc_type": "DEVICE",
+   "title": "RH-5001",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6ae7689d4d4cb30d",
+   "doc_type": "DEVICE",
+   "title": "XT30PW-M30.G.Y",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7ba4258f89b34567",
+   "doc_type": "DEVICE",
+   "title": "Res_0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "02917aa0fc568956",
+   "doc_type": "DEVICE",
+   "title": "2920L600/30GR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1ade0e4689f83397",
+   "doc_type": "DEVICE",
+   "title": "CL05B104KO5NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "71a3652be93fdfb0",
+   "doc_type": "DEVICE",
+   "title": "B5819WS_C7420331",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "326fd23375bd9dd7",
+   "doc_type": "DEVICE",
+   "title": "0603WAF270KT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4d4b67ebb7b6429a",
+   "doc_type": "DEVICE",
+   "title": "XRPQ2012J-150M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1e741625bb47fc99",
+   "doc_type": "DEVICE",
+   "title": "DSK36_C106913",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "471bec7cbc6dd867",
+   "doc_type": "DEVICE",
+   "title": "LM5106MM/NOPB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "45edd38fa5a417ba",
+   "doc_type": "DEVICE",
+   "title": "GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1894a2dbdf21305b",
+   "doc_type": "DEVICE",
+   "title": "+12",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b1d8d443794140db",
+   "doc_type": "DEVICE",
+   "title": "JBLM2221M050E136RTM 220UF 50V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5977ebe342558ed9",
+   "doc_type": "DEVICE",
+   "title": "CSD18540Q5BT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "8d937d3bea49d99c",
+   "doc_type": "DEVICE",
+   "title": "VCAP+",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "8e25d1cb6c150393",
+   "doc_type": "DEVICE",
+   "title": "KF301-5.0-2P",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e5c2adfc77b95f07",
+   "doc_type": "DEVICE",
+   "title": "SB2060L",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e2b150821b2fc8a1",
+   "doc_type": "DEVICE",
+   "title": "NCD0603G1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "91af7c540b18cca9",
+   "doc_type": "DEVICE",
+   "title": "0603WAF3301T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4d779c6ca05a4b55",
+   "doc_type": "DEVICE",
+   "title": "0402WGF100JTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "250dd1ef7e7e9b3c",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1000TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9b288c971814a148",
+   "doc_type": "DEVICE",
+   "title": "RT0603BRD0750KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c3f8e375604f69ab",
+   "doc_type": "DEVICE",
+   "title": "AR03BTCX2501",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "729bdfc60f320bc1",
+   "doc_type": "DEVICE",
+   "title": "TLV365DBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5ee84e67a96a45c5",
+   "doc_type": "DEVICE",
+   "title": "REF_3V3",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "39d58f5bd4778175",
+   "doc_type": "DEVICE",
+   "title": "CC0402KRX7R9BB103",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2544a07b864c31ec",
+   "doc_type": "DEVICE",
+   "title": "SGM321YN5/TR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "097966a2aab2a262",
+   "doc_type": "DEVICE",
+   "title": "INA181A2IDBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9350fdc921b2582c",
+   "doc_type": "DEVICE",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7972ef9c0131e17c",
+   "doc_type": "DEVICE",
+   "title": "SM03_C502558",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "75943c82d92fd4b1",
+   "doc_type": "DEVICE",
+   "title": "SM05.TCT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a13f0ad15f8046f2",
+   "doc_type": "DEVICE",
+   "title": "WAFER-GH1.25-2PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7013927618895b4e",
+   "doc_type": "DEVICE",
+   "title": "WAFER-GH1.25-4PLB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "4d227f3fdcbdbc51",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1002TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "62efac4e36998afb",
+   "doc_type": "DEVICE",
+   "title": "SKRPADE010",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b6cee21cbe82e658",
+   "doc_type": "DEVICE",
+   "title": "SMMS1385-6R8MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3d53de917ff88ef0",
+   "doc_type": "DEVICE",
+   "title": "XRPQ2918J-330M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2ca29747086bfc00",
+   "doc_type": "DEVICE",
+   "title": "CL21A106KAYNNNE_C15850",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6d2e7e5e19d1c57b",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1003TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6c7b0ac98985a8f1",
+   "doc_type": "DEVICE",
+   "title": "CL10A106MA8NRNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ccf7892b5acd5ee1",
+   "doc_type": "DEVICE",
+   "title": "FTC252010S220MBCA",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "08c80304f766af76",
+   "doc_type": "DEVICE",
+   "title": "FRC0402F6192TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c18f526eef095650",
+   "doc_type": "DEVICE",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "692c9506595b94aa",
+   "doc_type": "DEVICE",
+   "title": "ME6211C33M5G-N",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "be40cd7b6c7a1df7",
+   "doc_type": "DEVICE",
+   "title": "TPS560200DBVR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2a4ed7cb43ade0bb",
+   "doc_type": "DEVICE",
+   "title": "RC0603FR-070RL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fa2d20a2312efb19",
+   "doc_type": "DEVICE",
+   "title": "YHNR3015-100M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "729e9c3470aec9cb",
+   "doc_type": "DEVICE",
+   "title": "Power-5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f5f70cf72af271bb",
+   "doc_type": "DEVICE",
+   "title": "DSK24_C22466352",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f8e1749a54c7fdcd",
+   "doc_type": "DEVICE",
+   "title": "GRM1555C1H200JA01D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d0c11582e6c3f951",
+   "doc_type": "DEVICE",
+   "title": "0402WGF2003TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "8a3e695185f572cd",
+   "doc_type": "DEVICE",
+   "title": "CL21A226MOQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "cfe507255afb3139",
+   "doc_type": "DEVICE",
+   "title": "CL21A475KBQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1ce5c2d86f5720fa",
+   "doc_type": "DEVICE",
+   "title": "CL05B104KB54PNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b71fd939272221e2",
+   "doc_type": "DEVICE",
+   "title": "SY8292ABC_C83336",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3963258892f2e002",
+   "doc_type": "DEVICE",
+   "title": "MPQ18021HS-A-LF-P",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "788df581bfaccef3",
+   "doc_type": "DEVICE",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "98a71803eba8e6dd",
+   "doc_type": "DEVICE",
+   "title": "CC0603KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b50b90c65bec3793",
+   "doc_type": "DEVICE",
+   "title": "0402WGF2002TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "215139545a0a2cd8",
+   "doc_type": "DEVICE",
+   "title": "FRC0603F2R20TS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b520edc60a677ad9",
+   "doc_type": "DEVICE",
+   "title": "UCC27524ADR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "1c2bd09b147a4f65",
+   "doc_type": "DEVICE",
+   "title": "WAFER-GH1.25-2PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d8d7b010f8f2c3ed",
+   "doc_type": "DEVICE",
+   "title": "120R",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b3768b19b952103b",
+   "doc_type": "DEVICE",
+   "title": "+5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "58395feec68d5e32",
+   "doc_type": "DEVICE",
+   "title": "TJA1050T",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "efe908cca4d10cfa",
+   "doc_type": "DEVICE",
+   "title": "0402WGF220JTCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e455c208590443ed",
+   "doc_type": "DEVICE",
+   "title": "WAFER-GH1.25-4PWB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f1cc1e31e6f89834",
+   "doc_type": "DEVICE",
+   "title": "GZ1608D601TF",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e393c133d554248b",
+   "doc_type": "DEVICE",
+   "title": "0603WAF0000T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "8260cb4034462e74",
+   "doc_type": "DEVICE",
+   "title": "CGA0603X7R104K500JT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "83e768e750ebbf3e",
+   "doc_type": "DEVICE",
+   "title": "XT30UPB-F30.G.Y",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "df6167daf3a37a7b",
+   "doc_type": "DEVICE",
+   "title": "XT30UPB-M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5364d07f1880b5d1",
+   "doc_type": "DEVICE",
+   "title": "VBAT+",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "98b9bb8ea437744f",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1001TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "08f6dd6297f35aa9",
+   "doc_type": "DEVICE",
+   "title": "CC0402KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9d0e3235d3ac8126",
+   "doc_type": "DEVICE",
+   "title": "RC0402FR-07100KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "aad6d9705a642173",
+   "doc_type": "DEVICE",
+   "title": "AON6403-VB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d81c4be462270379",
+   "doc_type": "DEVICE",
+   "title": "BZT52C12S_C271264",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "097b98125cb88d90",
+   "doc_type": "DEVICE",
+   "title": "PMBT3906,215",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "53e6e98ca398181c",
+   "doc_type": "DEVICE",
+   "title": "BZT52C27S_C727043",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "87e33a5746c6db2b",
+   "doc_type": "DEVICE",
+   "title": "Short-Symbol",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9c82d0eecb0e9119",
+   "doc_type": "DEVICE",
+   "title": "HoLR2010-1W-1mR-1%-15ppm",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3c06cdce450fd8aa",
+   "doc_type": "DEVICE",
+   "title": "PA50V47M6x8",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a0b4155279bff48b",
+   "doc_type": "DEVICE",
+   "title": "HGC1206R5106K500NSPJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "6559b2e5a2d795ff",
+   "doc_type": "DEVICE",
+   "title": "BZT52C6V8S_C19077443",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f672ce784b29bba5",
+   "doc_type": "DEVICE",
+   "title": "0402WGF4701TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9e3b1a98979aa22d",
+   "doc_type": "DEVICE",
+   "title": "BAV99_C7420336",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "548e9536f6f10d82",
+   "doc_type": "DEVICE",
+   "title": "CGA0402X5R475M250GT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ae6fea7777254e10",
+   "doc_type": "DEVICE",
+   "title": "HoLLR2010-1.5W-5mR-1%",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f592f1207351a1b1",
+   "doc_type": "DEVICE",
+   "title": "RC0402FR-0710KL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c82b996868b015c7",
+   "doc_type": "DEVICE",
+   "title": "Ground-AGND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "30c94bc096e1eca8",
+   "doc_type": "DEVICE",
+   "title": "CSD18540Q5B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "fc1134bc6d42e50a",
+   "doc_type": "DEVICE",
+   "title": "XRPQ2012J-4R7M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9e4c0874918f09b6",
+   "doc_type": "DEVICE",
+   "title": "XRPQ2012J-4R7M",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "554f8b7d46653fcc",
+   "doc_type": "DEVICE",
+   "title": "0402WGF1004TCE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3b1c0c178848c6b7",
+   "doc_type": "DEVICE",
+   "title": "XXBBPLNANF-24.000000MHZ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "988a70082315ca56",
+   "doc_type": "DEVICE",
+   "title": "20pF",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "be52984ee877c026",
+   "doc_type": "DEVICE",
+   "title": "CGA0603X7R472K500JT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "b7dd422ceb109b61",
+   "doc_type": "DEVICE",
+   "title": "GRM1555C1H472JE01D",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f1d2d07ef05533df",
+   "doc_type": "DEVICE",
+   "title": "NFM31KC103R1H3L",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "57c0be597a08e0f3",
+   "doc_type": "DEVICE",
+   "title": "104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "622bf6df8ad9d578",
+   "doc_type": "DEVICE",
+   "title": "Power-VCC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "99d1f16ad9c8fc6e",
+   "doc_type": "DEVICE",
+   "title": "CAP_0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "300c99fc59b884c4",
+   "doc_type": "DEVICE",
+   "title": "VCC_3V3",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "22cc47d282ce83d0",
+   "doc_type": "DEVICE",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9540eb935fcf5415",
+   "doc_type": "DEVICE",
+   "title": "GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a7b27290e59214cb",
+   "doc_type": "DEVICE",
+   "title": "Power-VCC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2378ca247b84b155",
+   "doc_type": "DEVICE",
+   "title": "Netport-IN",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9260a8c5e901948c",
+   "doc_type": "DEVICE",
+   "title": "STM32G0B1CBT6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a626f83ec15aa96a",
+   "doc_type": "DEVICE",
+   "title": "Drawing-Symbol_A4",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "15fc51cb6a72e6af",
+   "doc_type": "DEVICE",
+   "title": "CHV-2R7606R-TW 2.7V60F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "45f9fd766332e596",
+   "doc_type": "DEVICE",
+   "title": "BW6101",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "f8a4b49c1c046fb7",
+   "doc_type": "DEVICE",
+   "title": "MA251220FR010FZ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c8c310b51571d3c2",
+   "doc_type": "DEVICE",
+   "title": "0603F104M500CT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "983a578daa7c7f3c",
+   "doc_type": "DEVICE",
+   "title": "AO4402-MS",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "971065e6873574f3",
+   "doc_type": "DEVICE",
+   "title": "CXHP2R7506R-TW 2.7V50F",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9d9810d8a3eab10e",
+   "doc_type": "BOARD",
+   "title": "无线充电接收",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "ef7f70ddbd1f9a20",
+   "doc_type": "BOARD",
+   "title": "超级电容本体",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "3d3ae6f53c05a255",
+   "doc_type": "BOARD",
+   "title": "电容组",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "04e6c02ff6c5b257",
+   "doc_type": "SCH",
+   "title": "Schematic2",
+   "board": "9d9810d8a3eab10e",
+   "schematic": null,
+   "parent": null,
+   "records": 3
+  },
+  {
+   "uuid": "d62abe49d3d89636",
+   "doc_type": "SCH",
+   "title": "Schematic1",
+   "board": "ef7f70ddbd1f9a20",
+   "schematic": null,
+   "parent": null,
+   "records": 3
+  },
+  {
+   "uuid": "7a534c3089750d2e",
+   "doc_type": "SCH",
+   "title": "Schematic3",
+   "board": "3d3ae6f53c05a255",
+   "schematic": null,
+   "parent": null,
+   "records": 3
+  },
+  {
+   "uuid": "681621a45ec1ef29",
+   "doc_type": "SCH_PAGE",
+   "title": "P3",
+   "board": null,
+   "schematic": "d62abe49d3d89636",
+   "parent": null,
+   "records": 1267
+  },
+  {
+   "uuid": "b5701443be6a3d41",
+   "doc_type": "SCH_PAGE",
+   "title": "P1",
+   "board": null,
+   "schematic": "d62abe49d3d89636",
+   "parent": null,
+   "records": 2411
+  },
+  {
+   "uuid": "1b57f685e8607ff2",
+   "doc_type": "SCH_PAGE",
+   "title": "P2",
+   "board": null,
+   "schematic": "d62abe49d3d89636",
+   "parent": null,
+   "records": 2511
+  },
+  {
+   "uuid": "bb4729a626999756",
+   "doc_type": "SCH_PAGE",
+   "title": "P3",
+   "board": null,
+   "schematic": "04e6c02ff6c5b257",
+   "parent": null,
+   "records": 1045
+  },
+  {
+   "uuid": "39989332e5118373",
+   "doc_type": "SCH_PAGE",
+   "title": "P1",
+   "board": null,
+   "schematic": "04e6c02ff6c5b257",
+   "parent": null,
+   "records": 1500
+  },
+  {
+   "uuid": "92a7c54ec4a475b0",
+   "doc_type": "SCH_PAGE",
+   "title": "P2",
+   "board": null,
+   "schematic": "04e6c02ff6c5b257",
+   "parent": null,
+   "records": 765
+  },
+  {
+   "uuid": "5164a544d58d5ed4",
+   "doc_type": "SCH_PAGE",
+   "title": "P1",
+   "board": null,
+   "schematic": "7a534c3089750d2e",
+   "parent": null,
+   "records": 2565
+  },
+  {
+   "uuid": "24daea7eadd46998",
+   "doc_type": "PCB",
+   "title": "PCB1",
+   "board": "ef7f70ddbd1f9a20",
+   "schematic": null,
+   "parent": "",
+   "records": 3297
+  },
+  {
+   "uuid": "ba1f43ac73a9d253",
+   "doc_type": "PCB",
+   "title": "PCB2",
+   "board": "9d9810d8a3eab10e",
+   "schematic": null,
+   "parent": "",
+   "records": 1494
+  },
+  {
+   "uuid": "8741d7c29730425a",
+   "doc_type": "PCB",
+   "title": "PCB3",
+   "board": "3d3ae6f53c05a255",
+   "schematic": null,
+   "parent": "",
+   "records": 1993
+  },
+  {
+   "uuid": "CONFIG",
+   "doc_type": "CONFIG",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "BLOB",
+   "doc_type": "BLOB",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "FONT",
+   "doc_type": "FONT",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 35
+  }
+ ],
+ "hierarchy": {
+  "boards": [
+   {
+    "uuid": "9d9810d8a3eab10e",
+    "title": "无线充电接收",
+    "schematics": [
+     "04e6c02ff6c5b257"
+    ],
+    "pcbs": [
+     "ba1f43ac73a9d253"
+    ]
+   },
+   {
+    "uuid": "ef7f70ddbd1f9a20",
+    "title": "超级电容本体",
+    "schematics": [
+     "d62abe49d3d89636"
+    ],
+    "pcbs": [
+     "24daea7eadd46998"
+    ]
+   },
+   {
+    "uuid": "3d3ae6f53c05a255",
+    "title": "电容组",
+    "schematics": [
+     "7a534c3089750d2e"
+    ],
+    "pcbs": [
+     "8741d7c29730425a"
+    ]
+   }
+  ],
+  "orphan_schematics": [],
+  "orphan_pcbs": []
+ }
+}

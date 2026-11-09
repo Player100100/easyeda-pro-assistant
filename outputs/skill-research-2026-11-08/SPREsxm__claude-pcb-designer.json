@@ -1,0 +1,13 @@
+{
+  "repo": "SPREsxm/claude-pcb-designer",
+  "sha": "d808009800f78fa37bc13c009cf6070301d34c23",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "updated_at": "2026-11-04T07:28:56Z",
+  "download_only": true
+}

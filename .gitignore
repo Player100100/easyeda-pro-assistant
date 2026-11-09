@@ -1,0 +1,9 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and transient test output
+.venv/
+venv/
+outputs/tmp*/

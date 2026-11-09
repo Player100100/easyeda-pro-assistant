@@ -1,0 +1,13 @@
+{
+  "repo": "Jean-Valjean-dev/lceda-review",
+  "sha": "9ee8f778af246a5ad8a18f445ca2fb7f47dbc2d2",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "updated_at": "2026-11-07T10:33:59Z",
+  "download_only": true
+}

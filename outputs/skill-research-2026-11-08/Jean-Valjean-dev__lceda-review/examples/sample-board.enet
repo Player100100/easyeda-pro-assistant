@@ -1,0 +1,648 @@
+{
+  "version": "2.0.0",
+  "projectId": "sample-board",
+  "components": {
+    "gge1": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "USB1",
+        "Unique ID": "gge2",
+        "Value": "",
+        "DeviceName": "TYPE-C-16P",
+        "FootprintName": "TYPE-C-SMD_16P",
+        "Supplier Part": "C165948",
+        "Manufacturer Part": "TYPE-C-16P",
+        "LCSC Part Name": "TYPE-C-16P",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "VBUS",
+          "number": "1",
+          "net": "+5V",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "VBUS",
+          "number": "2",
+          "net": "+5V",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        },
+        "3": {
+          "name": "GND",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "3"
+          }
+        },
+        "4": {
+          "name": "D+",
+          "number": "4",
+          "net": "USB_D+",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "4"
+          }
+        },
+        "5": {
+          "name": "D-",
+          "number": "5",
+          "net": "USB_D-",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "5"
+          }
+        }
+      }
+    },
+    "gge3": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "C1",
+        "Unique ID": "gge4",
+        "Value": "10uF",
+        "DeviceName": "C_0805",
+        "FootprintName": "C0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "C_0805",
+        "LCSC Part Name": "C_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "+5V",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge5": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "U1",
+        "Unique ID": "gge6",
+        "Value": "",
+        "DeviceName": "AMS1117-3.3",
+        "FootprintName": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-TR",
+        "Supplier Part": "C6186",
+        "Manufacturer Part": "AMS1117-3.3",
+        "LCSC Part Name": "AMS1117-3.3",
+        "3D Model": "model|lib",
+        "Output Voltage": "3.3V",
+        "Voltage Dropout": "1.1V"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "GND/ADJ",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "VOUT",
+          "number": "2",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        },
+        "3": {
+          "name": "VIN",
+          "number": "3",
+          "net": "+5V",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "3"
+          }
+        }
+      }
+    },
+    "gge7": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "C2",
+        "Unique ID": "gge8",
+        "Value": "100nF",
+        "DeviceName": "C_0805",
+        "FootprintName": "C0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "C_0805",
+        "LCSC Part Name": "C_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge9": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "U2",
+        "Unique ID": "gge10",
+        "Value": "",
+        "DeviceName": "STM32F103C8T6",
+        "FootprintName": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-TL",
+        "Supplier Part": "C8734",
+        "Manufacturer Part": "STM32F103C8T6",
+        "LCSC Part Name": "STM32F103C8T6",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "VBAT",
+          "number": "1",
+          "net": "VBAT_PIN",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "VDD",
+          "number": "2",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        },
+        "3": {
+          "name": "VSS",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "3"
+          }
+        },
+        "4": {
+          "name": "NRST",
+          "number": "4",
+          "net": "RST",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "4"
+          }
+        },
+        "5": {
+          "name": "OSC_IN",
+          "number": "5",
+          "net": "XI",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "5"
+          }
+        },
+        "6": {
+          "name": "OSC_OUT",
+          "number": "6",
+          "net": "XO",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "6"
+          }
+        },
+        "7": {
+          "name": "PA0",
+          "number": "7",
+          "net": "LED_K",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "7"
+          }
+        },
+        "8": {
+          "name": "PA11",
+          "number": "8",
+          "net": "USB_D+",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "8"
+          }
+        },
+        "9": {
+          "name": "PA12",
+          "number": "9",
+          "net": "USB_D-",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "9"
+          }
+        }
+      }
+    },
+    "gge11": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "Y1",
+        "Unique ID": "gge12",
+        "Value": "8MHz",
+        "DeviceName": "ABLS-8.000MHZ-B4H-T",
+        "FootprintName": "CRYSTAL-SMD_L11.4-W4.7",
+        "Supplier Part": "C1973952",
+        "Manufacturer Part": "ABLS-8.000MHZ-B4H-T",
+        "LCSC Part Name": "ABLS-8.000MHZ-B4H-T",
+        "3D Model": "model|lib",
+        "Load Capacitance": "18pF"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "XI",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "XO",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge13": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "C3",
+        "Unique ID": "gge14",
+        "Value": "47pF",
+        "DeviceName": "C_0805",
+        "FootprintName": "C0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "C_0805",
+        "LCSC Part Name": "C_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "XI",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge15": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "C4",
+        "Unique ID": "gge16",
+        "Value": "47pF",
+        "DeviceName": "C_0805",
+        "FootprintName": "C0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "C_0805",
+        "LCSC Part Name": "C_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "XO",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge17": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "LED1",
+        "Unique ID": "gge18",
+        "Value": "",
+        "DeviceName": "LED_0805",
+        "FootprintName": "LED_0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "LED_0805",
+        "LCSC Part Name": "LED_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "A",
+          "number": "1",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "K",
+          "number": "2",
+          "net": "LED_K",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge19": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "J1",
+        "Unique ID": "gge20",
+        "Value": "",
+        "DeviceName": "HDR-M_2.54_1x04P",
+        "FootprintName": "HDR-TH_4P-P2.54-V-M",
+        "Supplier Part": "C2691448",
+        "Manufacturer Part": "HDR-M_2.54_1x04P",
+        "LCSC Part Name": "HDR-M_2.54_1x04P",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "SIG_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "SIG_B",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        },
+        "3": {
+          "name": "3",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "3"
+          }
+        },
+        "4": {
+          "name": "4",
+          "number": "4",
+          "net": "VCC +5V",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "4"
+          }
+        }
+      }
+    },
+    "gge21": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "R1",
+        "Unique ID": "gge22",
+        "Value": "10K",
+        "DeviceName": "R_0805",
+        "FootprintName": "R0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "R_0805",
+        "LCSC Part Name": "R_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "RST",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    },
+    "gge23": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "R1",
+        "Unique ID": "gge24",
+        "Value": "10k",
+        "DeviceName": "R_0805",
+        "FootprintName": "R0805",
+        "Supplier Part": "",
+        "Manufacturer Part": "R_0805",
+        "LCSC Part Name": "R_0805",
+        "3D Model": "model|lib"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "1",
+          "number": "1",
+          "net": "3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "2",
+          "number": "2",
+          "net": "SIG_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        }
+      }
+    }
+  },
+  "designRule": {
+    "trackPhysics": [
+      {
+        "width": 0.2,
+        "minWidth": 0.2
+      },
+      {
+        "width": 0.3,
+        "minWidth": 0.2
+      }
+    ],
+    "netRule": []
+  },
+  "differentialPair": [],
+  "netClass": [],
+  "equalLengthNetGroup": [],
+  "differentialPairGroups": []
+}

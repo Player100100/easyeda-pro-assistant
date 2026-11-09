@@ -1,0 +1,39 @@
+{
+  "board": "<工程名>",
+  "version": "<版本>",
+  "date": "<YYYY-MM-DD>",
+  "scope": {
+    "in": ["schematic", "pcb", "bom"],
+    "out": [],
+    "assumptions": []
+  },
+  "coverage": {
+    "applicable": 0,
+    "executed": 0,
+    "judgeable": 0,
+    "missing_data": 0,
+    "not_applicable": 0
+  },
+  "findings": [
+    {
+      "id": "F-001",
+      "check": "<check-id>",
+      "status": "候选",
+      "severity": "S2",
+      "locator": "<SCH/... | NET/... | PCB/... | BOM/...>",
+      "fact": "<读数/事实>",
+      "requirement": "<应该满足什么>",
+      "source": "<手册页码/项目要求/标准/板厂能力>",
+      "evidence": ["<文件:字段>"],
+      "close_condition": "<补什么证据/谁确认后可关闭>",
+      "history": [
+        {
+          "date": "<YYYY-MM-DD>",
+          "from": "new",
+          "to": "候选",
+          "reason": "<初次发现>"
+        }
+      ]
+    }
+  ]
+}

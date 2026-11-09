@@ -1,0 +1,744 @@
+{
+ "file": "C:\\Users\\18640\\Desktop\\硬件开源测试\\立创开源\\ProPrj_【AI设计】ESP32无线U盘_2026-11-08.epro2",
+ "title": "【AI设计】ESP32无线U盘",
+ "editor_version": "3.2.149.88089769",
+ "cbb_project": false,
+ "documents": [
+  {
+   "uuid": "7e04048519f5f9dd",
+   "doc_type": "FOOTPRINT",
+   "title": "CASE-A_3216",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "991b537ea5a96f40",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 48
+  },
+  {
+   "uuid": "7adce795c58d0598",
+   "doc_type": "FOOTPRINT",
+   "title": "TF-SMD_TF-015",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 76
+  },
+  {
+   "uuid": "0f896202797d2033",
+   "doc_type": "FOOTPRINT",
+   "title": "OLED-SMD_ST7735S",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 81
+  },
+  {
+   "uuid": "eb48e18b7c825c3a",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "8260484ed28a255f",
+   "doc_type": "FOOTPRINT",
+   "title": "F1206",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 44
+  },
+  {
+   "uuid": "115720361646db90",
+   "doc_type": "FOOTPRINT",
+   "title": "SOD-123FL_L2.8-W1.7-LS3.6-RD",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 128
+  },
+  {
+   "uuid": "020d7ae63d4a2994",
+   "doc_type": "FOOTPRINT",
+   "title": "C0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "a21d7854eb3f1f8d",
+   "doc_type": "FOOTPRINT",
+   "title": "IND-SMD_L4.0-W4.0",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 41
+  },
+  {
+   "uuid": "081f86ecb78348e8",
+   "doc_type": "FOOTPRINT",
+   "title": "C0805",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 47
+  },
+  {
+   "uuid": "434f23f8537b8473",
+   "doc_type": "FOOTPRINT",
+   "title": "R0603",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 46
+  },
+  {
+   "uuid": "f8c54385ff1fec20",
+   "doc_type": "FOOTPRINT",
+   "title": "HDR-TH_4P-P2.54-H-M-W9.7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 65
+  },
+  {
+   "uuid": "6e4fe82df615cd8c",
+   "doc_type": "FOOTPRINT",
+   "title": "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 63
+  },
+  {
+   "uuid": "9b632dfe1f40a8e6",
+   "doc_type": "FOOTPRINT",
+   "title": "WIRELM-SMD_ESP32-S3-WROOM-1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 158
+  },
+  {
+   "uuid": "08f12161b3785cc6",
+   "doc_type": "FOOTPRINT",
+   "title": "TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 66
+  },
+  {
+   "uuid": "3f21f5c0d8fd6612",
+   "doc_type": "FOOTPRINT",
+   "title": "USB-TH_HMT-USB-AM90",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 64
+  },
+  {
+   "uuid": "8927855428b4e424",
+   "doc_type": "FOOTPRINT",
+   "title": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 53
+  },
+  {
+   "uuid": "fd06ca6ad9aee46c",
+   "doc_type": "SYMBOL",
+   "title": "TAJA105K035RNJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 23
+  },
+  {
+   "uuid": "6ebd7f06c6abca06",
+   "doc_type": "SYMBOL",
+   "title": "BL8072CLTR33",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "da729d1cb46390b0",
+   "doc_type": "SYMBOL",
+   "title": "Power-5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 16
+  },
+  {
+   "uuid": "e807bc9096bbc504",
+   "doc_type": "SYMBOL",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "b115722666fa30c6",
+   "doc_type": "SYMBOL",
+   "title": "Netport-BI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 14
+  },
+  {
+   "uuid": "a7999c1fa6192fac",
+   "doc_type": "SYMBOL",
+   "title": "TF-015",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 72
+  },
+  {
+   "uuid": "448f809bf8a16dc4",
+   "doc_type": "SYMBOL",
+   "title": "N096-1608TBBIG11-H13",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 74
+  },
+  {
+   "uuid": "ebf90a8b553076e4",
+   "doc_type": "SYMBOL",
+   "title": "2N7002_C727149",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 32
+  },
+  {
+   "uuid": "aa74fd8dd53e14da",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1500T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "21e58f9900598c39",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1001T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "580d9900923c1ea6",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1003T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "4c95f548043de5c5",
+   "doc_type": "SYMBOL",
+   "title": "K1206L050YR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 19
+  },
+  {
+   "uuid": "958b9486fcb4561b",
+   "doc_type": "SYMBOL",
+   "title": "SMF5.0A_C2980403",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 18
+  },
+  {
+   "uuid": "c8833288b9137e59",
+   "doc_type": "SYMBOL",
+   "title": "CL10A106KP8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "4fdd3c452aec2fca",
+   "doc_type": "SYMBOL",
+   "title": "SWPA4030S3R9MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 20
+  },
+  {
+   "uuid": "3801143ae6e0d477",
+   "doc_type": "SYMBOL",
+   "title": "CC0603KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 21
+  },
+  {
+   "uuid": "2503049b8eab25fe",
+   "doc_type": "SYMBOL",
+   "title": "CL21A226MAQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "ebe6369c0d2823ff",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF220JT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "f5c69f5d3696c90b",
+   "doc_type": "SYMBOL",
+   "title": "2011-1X04G00LB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 29
+  },
+  {
+   "uuid": "fc7f037446050cf5",
+   "doc_type": "SYMBOL",
+   "title": "ESP32-S3-WROOM-1(N8R8)",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 214
+  },
+  {
+   "uuid": "9b9c17c0f2817e34",
+   "doc_type": "SYMBOL",
+   "title": "0603WAF1002T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 17
+  },
+  {
+   "uuid": "7530c7d48f6b115b",
+   "doc_type": "SYMBOL",
+   "title": "CL10A105KB8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "e717657eb888c11f",
+   "doc_type": "SYMBOL",
+   "title": "TS-1187A-B-A-B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 35
+  },
+  {
+   "uuid": "a0ce6f995248d47f",
+   "doc_type": "SYMBOL",
+   "title": "AP63203WU-7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 39
+  },
+  {
+   "uuid": "5f6b2e82e205c7e7",
+   "doc_type": "SYMBOL",
+   "title": "XY-USBAM-90",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 32
+  },
+  {
+   "uuid": "29f38b86e7542a82",
+   "doc_type": "SYMBOL",
+   "title": "USBLC6-2SC6",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 61
+  },
+  {
+   "uuid": "b88c6b5118df4adc",
+   "doc_type": "SYMBOL",
+   "title": "Drawing-Symbol_A4",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 22
+  },
+  {
+   "uuid": "4d7bb8bd9bb828be",
+   "doc_type": "DEVICE",
+   "title": "TAJA105K035RNJ",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7b26c6ec4452e0e9",
+   "doc_type": "DEVICE",
+   "title": "BL8072CLTR33",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e58f2185f0e4cc57",
+   "doc_type": "DEVICE",
+   "title": "Power-5V",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d57de1ce240e00fd",
+   "doc_type": "DEVICE",
+   "title": "Ground-GND",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2cf04eccaadf12c7",
+   "doc_type": "DEVICE",
+   "title": "TF-015",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "bd5bf8bcfdfdb2d5",
+   "doc_type": "DEVICE",
+   "title": "Netport-BI",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "9c424e5693249bc7",
+   "doc_type": "DEVICE",
+   "title": "N096-1608TBBIG11-H13",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "e2962296296a44c9",
+   "doc_type": "DEVICE",
+   "title": "2N7002",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "abbcf6a49d2be79b",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1001T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "a8d4f19328e46fca",
+   "doc_type": "DEVICE",
+   "title": "SMF5.0A",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "61e36570a51a120d",
+   "doc_type": "DEVICE",
+   "title": "SWPA4030S3R9MT",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "3be782b72101b7b9",
+   "doc_type": "DEVICE",
+   "title": "CC0603KRX7R9BB104",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7c31062302cf8450",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1500T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "5320d222129857b9",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1002T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "016c8932a2cbaa6c",
+   "doc_type": "DEVICE",
+   "title": "CL10A105KB8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "d9ac72092841d764",
+   "doc_type": "DEVICE",
+   "title": "XY-USBAM-90",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "61a502e6b1ed0881",
+   "doc_type": "DEVICE",
+   "title": "0603WAF1003T5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "def287aa7c2e9a4a",
+   "doc_type": "DEVICE",
+   "title": "K1206L050YR",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "bf8e143df78fa897",
+   "doc_type": "DEVICE",
+   "title": "CL10A106KP8NNNC",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "95e9c1860bda2310",
+   "doc_type": "DEVICE",
+   "title": "CL21A226MAQNNNE",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "bbbec0f754c2011f",
+   "doc_type": "DEVICE",
+   "title": "0603WAF220JT5E",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "0606da8122a939fd",
+   "doc_type": "DEVICE",
+   "title": "TS-1187A-B-A-B",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "bce0b150044d618e",
+   "doc_type": "DEVICE",
+   "title": "2011-1X04G00LB",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "7c8602780a8fef78",
+   "doc_type": "DEVICE",
+   "title": "ESP32-S3-WROOM-1-N8R8",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "ee9fb4999506d87b",
+   "doc_type": "DEVICE",
+   "title": "Drawing-Symbol_A4",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "10bf885aab91390e",
+   "doc_type": "DEVICE",
+   "title": "AP63203WU-7",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "2781eac317e6d30a",
+   "doc_type": "DEVICE",
+   "title": "USBLC6-2SC6_C7519",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "c2f85d504a47abf1",
+   "doc_type": "BOARD",
+   "title": "Board1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "331fbbab7f8b9ccd",
+   "doc_type": "SCH",
+   "title": "Schematic1",
+   "board": "c2f85d504a47abf1",
+   "schematic": null,
+   "parent": null,
+   "records": 3
+  },
+  {
+   "uuid": "21d6bbde0b06c855",
+   "doc_type": "SCH_PAGE",
+   "title": "02_TF_LCD_Control",
+   "board": null,
+   "schematic": "331fbbab7f8b9ccd",
+   "parent": null,
+   "records": 1283
+  },
+  {
+   "uuid": "cfad4c293d2a49d2",
+   "doc_type": "SCH_PAGE",
+   "title": "01_Power_USB_ESP32",
+   "board": null,
+   "schematic": "331fbbab7f8b9ccd",
+   "parent": null,
+   "records": 1493
+  },
+  {
+   "uuid": "14bfa3958859fbb9",
+   "doc_type": "PCB",
+   "title": "PCB1",
+   "board": "c2f85d504a47abf1",
+   "schematic": null,
+   "parent": "",
+   "records": 1299
+  },
+  {
+   "uuid": "CONFIG",
+   "doc_type": "CONFIG",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "d4ac8a88ed32d773",
+   "doc_type": "PANEL",
+   "title": "Panel1",
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  },
+  {
+   "uuid": "BLOB",
+   "doc_type": "BLOB",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 2
+  },
+  {
+   "uuid": "FONT",
+   "doc_type": "FONT",
+   "title": null,
+   "board": null,
+   "schematic": null,
+   "parent": null,
+   "records": 1
+  }
+ ],
+ "hierarchy": {
+  "boards": [
+   {
+    "uuid": "c2f85d504a47abf1",
+    "title": "Board1",
+    "schematics": [
+     "331fbbab7f8b9ccd"
+    ],
+    "pcbs": [
+     "14bfa3958859fbb9"
+    ]
+   }
+  ],
+  "orphan_schematics": [],
+  "orphan_pcbs": []
+ }
+}

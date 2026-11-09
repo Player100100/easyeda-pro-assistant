@@ -1,0 +1,4413 @@
+{
+  "check_id": "C-10",
+  "checker": "check_footprints.py",
+  "read_only": true,
+  "status": "PARTIAL",
+  "findings": [],
+  "limitations": [
+    "This checks declared values only; source citations are recorded, not authenticated.",
+    "Extracted pads are instantiated from library definitions; not independent physical pad evidence.",
+    "No full C-10 PASS is issued; automatic_status is restricted to listed comparisons."
+  ],
+  "instance_count": 127,
+  "coverage": {
+    "C-10.1": {
+      "denominator": 127,
+      "counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      },
+      "automatic_comparison_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "C-10.2": {
+      "denominator": 127,
+      "counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      },
+      "automatic_comparison_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "C-10.3": {
+      "denominator": 127,
+      "counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      },
+      "automatic_comparison_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "C-10.4": {
+      "denominator": 127,
+      "counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      },
+      "automatic_comparison_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "REVIEW": 0,
+        "NOT_CHECKED": 127,
+        "NOT_APPLICABLE": 0
+      }
+    }
+  },
+  "instances": [
+    {
+      "designator": "H1",
+      "component_id": "e0",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "da8cbe0489604ff5af7299e89f87b51b",
+      "footprint_title": "HDR-SMD_40P-P2.54-V-F-R2-C20-S7.1-EH",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "H2",
+      "component_id": "e1",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "550a06e8b57b47e7b4a2bba7f93bbfa5",
+      "footprint_title": "HDR-SMD_40P-P2.54-V-F-R2-C20-S7.1-EH_1",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U1",
+      "component_id": "e2",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "cdca066fb53f4ac28bc96bc2f94c2f0d",
+      "footprint_title": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R4",
+      "component_id": "e3",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C1",
+      "component_id": "e4",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U5",
+      "component_id": "e5",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "e4fe7aa9096d496d8ab5d80b1b62355b",
+      "footprint_title": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C9",
+      "component_id": "e6",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "5d06d4997d72481391af446ab2e142f4",
+      "footprint_title": "CASE-A_3216",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C10",
+      "component_id": "e7",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "5d06d4997d72481391af446ab2e142f4",
+      "footprint_title": "CASE-A_3216",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U3",
+      "component_id": "e8",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "cdca066fb53f4ac28bc96bc2f94c2f0d",
+      "footprint_title": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C7",
+      "component_id": "e9",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U2",
+      "component_id": "e10",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "81705c2f998148f1b7bff688e5616f90",
+      "footprint_title": "SC70-6_L2.1-W1.3-P0.65-LS2.3-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C3",
+      "component_id": "e11",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R9",
+      "component_id": "e12",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R2",
+      "component_id": "e13",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R1",
+      "component_id": "e14",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U4",
+      "component_id": "e15",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "81705c2f998148f1b7bff688e5616f90",
+      "footprint_title": "SC70-6_L2.1-W1.3-P0.65-LS2.3-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C8",
+      "component_id": "e16",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R6",
+      "component_id": "e17",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R7",
+      "component_id": "e18",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R3",
+      "component_id": "e19",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "66a0ab4618ea473d9bfb3ba38fffaf9f",
+      "footprint_title": "R0805",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R8",
+      "component_id": "e20",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "66a0ab4618ea473d9bfb3ba38fffaf9f",
+      "footprint_title": "R0805",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "L1",
+      "component_id": "e21",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "9918a7f181a5449982c96268d7b7815e",
+      "footprint_title": "L0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C6",
+      "component_id": "e22",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C4",
+      "component_id": "e23",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C2",
+      "component_id": "e24",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C5",
+      "component_id": "e25",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U7",
+      "component_id": "e26",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7f0f16f067314488a560e00dfff8b208",
+      "footprint_title": "ESOP-10_L4.9-W3.9-P1.00-LS6.2-BL-EP",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R14",
+      "component_id": "e27",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R15",
+      "component_id": "e28",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R16",
+      "component_id": "e29",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C11",
+      "component_id": "e30",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R12",
+      "component_id": "e31",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "0091d80bbfd3488e8c06a4993bb36291",
+      "footprint_title": "R1210",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R13",
+      "component_id": "e32",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "CN1",
+      "component_id": "e33",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "e703f06cf4804f41b47580196cbfc3a2",
+      "footprint_title": "CONN-TH_2P-P5.08_WJ2EDGRC-5.08-2P",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U8",
+      "component_id": "e34",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "81705c2f998148f1b7bff688e5616f90",
+      "footprint_title": "SC70-6_L2.1-W1.3-P0.65-LS2.3-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C12",
+      "component_id": "e35",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R23",
+      "component_id": "e36",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "5078d0217a8a4d51bbef94308588e73e",
+      "footprint_title": "R1206",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R19",
+      "component_id": "e37",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R20",
+      "component_id": "e38",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R11",
+      "component_id": "e39",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U6",
+      "component_id": "e40",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7d094248441f4649b0dd6d93457f0895",
+      "footprint_title": "USB-SMD_TYPEC-304A-ACP16O",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R50",
+      "component_id": "e41",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q6",
+      "component_id": "e42",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "c5e699fe2256446e84a10462ac731ca8",
+      "footprint_title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R26",
+      "component_id": "e43",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R24",
+      "component_id": "e44",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R25",
+      "component_id": "e45",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q7",
+      "component_id": "e46",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "10de95fe3efe49b6976c8006b6ba4fa2",
+      "footprint_title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D1",
+      "component_id": "e47",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "fb928f4f7a6f48e7930c817ce032cffa",
+      "footprint_title": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C15",
+      "component_id": "e48",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R43",
+      "component_id": "e49",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R29",
+      "component_id": "e50",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R30",
+      "component_id": "e51",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C13",
+      "component_id": "e53",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q8",
+      "component_id": "e54",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "c5e699fe2256446e84a10462ac731ca8",
+      "footprint_title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R31",
+      "component_id": "e55",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R33",
+      "component_id": "e56",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R32",
+      "component_id": "e57",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U12",
+      "component_id": "e60",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "5431a75cd07a4d5c80438ddea214fc98",
+      "footprint_title": "SOP-8_L5.0-W4.0-P1.27-LS6.0-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U11",
+      "component_id": "e61",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "2441e275f9454d218728be1ae6a773c0",
+      "footprint_title": "SOP-16_L9.9-W3.9-P1.27-LS6.0-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U13",
+      "component_id": "e62",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7cff0fa1cef1454db513eb3b7d5537d3",
+      "footprint_title": "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U14",
+      "component_id": "e63",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7cff0fa1cef1454db513eb3b7d5537d3",
+      "footprint_title": "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R51",
+      "component_id": "e64",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R38",
+      "component_id": "e65",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R40",
+      "component_id": "e66",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R52",
+      "component_id": "e68",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R36",
+      "component_id": "e70",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C18",
+      "component_id": "e71",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R39",
+      "component_id": "e72",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R42",
+      "component_id": "e73",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D2",
+      "component_id": "e74",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "c5e699fe2256446e84a10462ac731ca8",
+      "footprint_title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R41",
+      "component_id": "e75",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C23",
+      "component_id": "e76",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C24",
+      "component_id": "e77",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "H3",
+      "component_id": "e78",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "8cb1aeb3666749f8bc4688968ffff5cc",
+      "footprint_title": "HDR-TH_10P-P2.54-H-M-R2-C5-S2.54-W12.9",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "CN2",
+      "component_id": "e79",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f0edc89370a445a8b4be54510a6c4ffa_e79",
+      "footprint_title": "CONN-SMD_6P-P1.00_XUNPU_WAFER-100W-6P",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R44",
+      "component_id": "e82",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R46",
+      "component_id": "e83",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R47",
+      "component_id": "e84",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R48",
+      "component_id": "e85",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R49",
+      "component_id": "e86",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R45",
+      "component_id": "e87",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D3",
+      "component_id": "e88",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D4",
+      "component_id": "e89",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D5",
+      "component_id": "e90",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D6",
+      "component_id": "e91",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D7",
+      "component_id": "e92",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D8",
+      "component_id": "e93",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D9",
+      "component_id": "e94",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "hole1",
+      "component_id": "e95",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6b85de391a6f4d20995c90efe26c6e6f",
+      "footprint_title": "m3 125x300",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "hole2",
+      "component_id": "e96",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6b85de391a6f4d20995c90efe26c6e6f",
+      "footprint_title": "m3 125x300",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "hole3",
+      "component_id": "e97",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6b85de391a6f4d20995c90efe26c6e6f",
+      "footprint_title": "m3 125x300",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "hole4",
+      "component_id": "e98",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6b85de391a6f4d20995c90efe26c6e6f",
+      "footprint_title": "m3 125x300",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R10",
+      "component_id": "e99",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R5",
+      "component_id": "e100",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "H4",
+      "component_id": "e101",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "8cb1aeb3666749f8bc4688968ffff5cc",
+      "footprint_title": "HDR-TH_10P-P2.54-H-M-R2-C5-S2.54-W12.9",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D10",
+      "component_id": "e102",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "D11",
+      "component_id": "e103",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "6a47afdc4d4d43b487816f2ba37250e6",
+      "footprint_title": "SOD-523_L1.2-W0.8-LS1.6-BI",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "CN4",
+      "component_id": "e104",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "a4d36a9891e24c1a9b07526883f271a6",
+      "footprint_title": "CONN-SMD_GH1.25-2PWBPZ",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "CN3",
+      "component_id": "e105",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7f4656721fa54e31800c40b7cdb2ce55",
+      "footprint_title": "CONN-SMD_GH1.25-4PWBPZ",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q1",
+      "component_id": "e107",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "c5e699fe2256446e84a10462ac731ca8",
+      "footprint_title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R17",
+      "component_id": "e108",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R35",
+      "component_id": "e110",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "LED1",
+      "component_id": "e111",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7c21267b79e94e95bd32eac9130424c0",
+      "footprint_title": "LED0603-RD",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R21",
+      "component_id": "e112",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q4",
+      "component_id": "e113",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f1793a260a814e59ba82011654166a37",
+      "footprint_title": "DFN-8_L3.3-W3.0-P0.65-LS3.3-BL-EP",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R27",
+      "component_id": "e114",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "66a0ab4618ea473d9bfb3ba38fffaf9f",
+      "footprint_title": "R0805",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R37",
+      "component_id": "e116",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R54",
+      "component_id": "e118",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C25",
+      "component_id": "e119",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C19",
+      "component_id": "e121",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C20",
+      "component_id": "e122",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C21",
+      "component_id": "e123",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C22",
+      "component_id": "e124",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "C17",
+      "component_id": "e125",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "b8592d92bfcc480e911e9d8469b2e1f3",
+      "footprint_title": "C0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "Q3",
+      "component_id": "e126",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f1793a260a814e59ba82011654166a37",
+      "footprint_title": "DFN-8_L3.3-W3.0-P0.65-LS3.3-BL-EP",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U9",
+      "component_id": "e131",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "81705c2f998148f1b7bff688e5616f90",
+      "footprint_title": "SC70-6_L2.1-W1.3-P0.65-LS2.3-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "SW3",
+      "component_id": "e132",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f67606f9a13d4cca92c800a72972ce1b",
+      "footprint_title": "SW-SMD_4P-L4.2-W3.3-P2.15-LS4.6",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "SW4",
+      "component_id": "e133",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f67606f9a13d4cca92c800a72972ce1b",
+      "footprint_title": "SW-SMD_4P-L4.2-W3.3-P2.15-LS4.6",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "SW5",
+      "component_id": "e134",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f67606f9a13d4cca92c800a72972ce1b",
+      "footprint_title": "SW-SMD_4P-L4.2-W3.3-P2.15-LS4.6",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "SW6",
+      "component_id": "e135",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f67606f9a13d4cca92c800a72972ce1b",
+      "footprint_title": "SW-SMD_4P-L4.2-W3.3-P2.15-LS4.6",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "SW2",
+      "component_id": "e136",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "f67606f9a13d4cca92c800a72972ce1b",
+      "footprint_title": "SW-SMD_4P-L4.2-W3.3-P2.15-LS4.6",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "R53",
+      "component_id": "e138",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "dae4def19e6942b7b60b237d7ac9ce39",
+      "footprint_title": "R0603",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "U15",
+      "component_id": "e156",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7bfef6cb98ff474f850d05e5278b28da",
+      "footprint_title": "BUZ-SMD_3P-L5.0-W5.0-BL",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "LED2",
+      "component_id": "e174",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7c21267b79e94e95bd32eac9130424c0",
+      "footprint_title": "LED0603-RD",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "LED3",
+      "component_id": "e179",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "7c21267b79e94e95bd32eac9130424c0",
+      "footprint_title": "LED0603-RD",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "LED4",
+      "component_id": "e187",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "cd86f79a6348488d9b57c0fb07682d82",
+      "footprint_title": "LED0603-RD-YELLOW",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    },
+    {
+      "designator": "P1",
+      "component_id": "e188",
+      "pcb_uuid": "f0edc89370a445a8b4be54510a6c4ffa",
+      "footprint_uuid": "11fca3c0a0944c1aa1d16af1efd41f51",
+      "footprint_title": "FPC-SMD_12P-P0.50_AFC07-S12ECA-00",
+      "checks": {
+        "C-10.1": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "manufacturer package suffix, binding provenance and current instance verification"
+        },
+        "C-10.2": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "actual functional mapping, pin-1, polarity, orientation and mating view"
+        },
+        "C-10.3": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "hole/plating and net assignments; extraction derives pads from the library, not an independent API inventory"
+        },
+        "C-10.4": {
+          "status": "NOT_CHECKED",
+          "reason": "no reviewed expectation supplied",
+          "measurements": [],
+          "automatic_status": "NOT_CHECKED",
+          "remaining": "unlisted dimensions, pitch, holes with nonnumeric shapes, placement, assembly fit and process conditions"
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "C:\\Users\\18640\\Desktop\\Agent_Claude_code_in__VScode\\projects\\epro2-辅助绘制及审核\\outputs\\test-daplink\\pcb.json",
+      "sha256": "96374083cc466ef7d51abe4c92ceacc4da33adee4f373848c0ed2ffa605025cd"
+    },
+    {
+      "path": "C:\\Users\\18640\\Desktop\\Agent_Claude_code_in__VScode\\projects\\epro2-辅助绘制及审核\\outputs\\test-daplink\\schematic.json",
+      "sha256": "8519ed446bdaee2f00056d78fbc3d7f4069d311b87b6a347e48b67c6458ad4c5"
+    }
+  ]
+}

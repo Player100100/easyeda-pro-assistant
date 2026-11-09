@@ -1,0 +1,139 @@
+# Copy into the containing repository's .github/workflows/ when CI deployment is intended.
+# Set PCB_SKILL_PATH to the skill's repository-relative directory, or '.' if it is the repo root.
+name: PCB skill software checks
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  PCB_SKILL_PATH: skills/easyeda-pcb-design
+  PYTHONUTF8: '1'
+  PYTHONDONTWRITEBYTECODE: '1'
+
+jobs:
+  with-geometry:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Install declared geometry dependency
+        shell: python
+        run: |
+          import os, subprocess, sys
+          from pathlib import Path
+          skill = Path(os.environ['GITHUB_WORKSPACE']) / os.environ['PCB_SKILL_PATH']
+          subprocess.run([sys.executable, '-m', 'pip', 'install', '-r',
+                          str(skill / 'scripts' / 'requirements-manufacturing.txt')], check=True)
+      - name: Run software regression with geometry
+        shell: python
+        run: |
+          import json, os, subprocess, sys
+          from pathlib import Path
+          skill = Path(os.environ['GITHUB_WORKSPACE']) / os.environ['PCB_SKILL_PATH']
+          report = Path(os.environ['RUNNER_TEMP']) / 'pcb-regression.json'
+          command = [sys.executable, str(skill / 'scripts' / 'run_regression.py'), '--out', str(report)]
+          # Hosted Windows TEMP may use an 8.3 alias. Give fixtures a canonical
+          # scratch path before Python's tempfile module initializes in the child.
+          scratch = (Path(os.environ['RUNNER_TEMP']) / 'pcb-skill-fixtures').resolve()
+          scratch.mkdir(parents=True, exist_ok=True)
+          child_env = dict(os.environ, TMP=str(scratch), TEMP=str(scratch), TMPDIR=str(scratch))
+          result = subprocess.run(command, env=child_env)
+          if not report.exists():
+              sys.exit(result.returncode or 1)
+          data = json.loads(report.read_text(encoding='utf-8'))
+          print('Reported coverage:', data['status'], 'skips:', data['skips'])
+          if result.returncode:
+              sys.exit(result.returncode)
+          unexpected = []
+          windows_privilege_tests = (
+              '.DeliveryTests.test_symlink_escape_is_rejected',
+              '.RegressionRunnerTests.test_output_symlink_or_parent_alias_protected',
+          )
+          for row in data['skipDetails']:
+              test, reason = row['test'], row['reason']
+              allowed = (
+                  os.name != 'nt'
+                  and test.endswith('.DeliveryTests.test_existing_self_output_with_different_case_is_excluded')
+                  and reason == 'Windows case-insensitive output path'
+              ) or (
+                  os.name == 'nt'
+                  and test.endswith(windows_privilege_tests)
+                  and 'WinError 1314' in reason
+              )
+              if not allowed:
+                  unexpected.append(row)
+          if unexpected:
+              print('Unexpected skips:', unexpected)
+              sys.exit(1)
+          if data['status'] == 'PARTIAL':
+              print('::warning::Only explicitly expected platform/privilege skips accepted; report remains PARTIAL.')
+      - name: Preserve actual regression evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: pcb-skill-${{ matrix.os }}-py${{ matrix.python }}-with-geometry
+          path: ${{ runner.temp }}/pcb-regression.json
+          if-no-files-found: error
+          retention-days: 14
+
+  without-geometry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.10'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Verify optional-dependency absence is reported honestly
+        shell: python
+        run: |
+          import json, os, subprocess, sys, venv
+          from pathlib import Path
+          skill = Path(os.environ['GITHUB_WORKSPACE']) / os.environ['PCB_SKILL_PATH']
+          temporary = Path(os.environ['RUNNER_TEMP'])
+          isolated = temporary / 'pcb-stdlib-venv'
+          venv.EnvBuilder(with_pip=False, system_site_packages=False).create(isolated)
+          python = isolated / 'bin' / 'python'
+          subprocess.run([str(python), '-c',
+                          'import importlib.util; assert importlib.util.find_spec("shapely") is None'], check=True)
+          report = temporary / 'pcb-regression-no-geometry.json'
+          subprocess.run([str(python), str(skill / 'scripts' / 'run_regression.py'),
+                          '--out', str(report)], check=True)
+          data = json.loads(report.read_text(encoding='utf-8'))
+          assert data['status'] == 'PARTIAL', data['status']
+          assert data['testsRun'] > 0 and data['passed'] > 0, data
+          assert any('Shapely' in row['reason'] for row in data['skipDetails']), data['skipDetails']
+          print('Expected partial coverage without Shapely; supported checks ran, geometry skips recorded.')
+      - name: Preserve dependency-absence evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: pcb-skill-ubuntu-py3.10-without-geometry
+          path: ${{ runner.temp }}/pcb-regression-no-geometry.json
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,35 @@
+{
+  "name": "lceda-review",
+  "version": "0.1.0",
+  "description": "Schematic design review for EasyEDA Pro / 嘉立创EDA专业版 — turns a .enet netlist into a scored review report",
+  "type": "commonjs",
+  "main": "scripts/analyze.js",
+  "bin": {
+    "lceda-review": "scripts/analyze.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "sample": "node tools/make-sample.js",
+    "report": "node tools/make-sample.js && node scripts/analyze.js examples/sample-board.enet --out examples/report.md"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "examples/"
+  ],
+  "keywords": [
+    "easyeda",
+    "lceda",
+    "嘉立创EDA",
+    "eda",
+    "schematic",
+    "design-review",
+    "netlist",
+    "agent-skill"
+  ],
+  "author": "Jean-Valjean-dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

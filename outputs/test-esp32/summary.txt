@@ -1,0 +1,39 @@
+工程：【AI设计】ESP32无线U盘  editor=3.2.149.88089769
+文件：C:\Users\18640\Desktop\硬件开源测试\立创开源\ProPrj_【AI设计】ESP32无线U盘_2026-11-08.epro2
+记录 6251 条，文档 80 个
+文档：BLOB 1，BOARD 1，CONFIG 1，DEVICE 27，FONT 1，FOOTPRINT 17，PANEL 1，PCB 1，SCH 1，SCH_PAGE 2，SYMBOL 27
+
+原理图页 2 个；元件 39 个；引脚 208 个（另有网络标志引脚 38 个未计入）；网络 77 个（命名 5 个）
+PCB「PCB1」：元件 39，焊盘 164，网络 30，走线 310 段，过孔 61，铺铜 2，独立焊盘 0
+  板框 2100.0 × 920.0 mil (53.3 × 23.4 mm)
+
+原理图 ↔ PCB 对比（PCB1）：
+  位号：原理图 39 个，PCB 39 个；只在原理图 无；只在 PCB 无
+  可比引脚 134 个；命名一致 69，命名冲突 0，经短接符号等价 0，两侧都是自动编号 0，仅原理图有命名 0，仅 PCB 有命名 65
+  只在原理图：J3.9, LCD1.1, LCD1.2, LCD1.9, U1.10, U1.11, U1.16, U1.28, U1.29, U1.30, U1.32, U1.33, U1.34, U1.35, U1.38, U1.39, U1.4, U1.6, U1.7, U1.8, U1.9
+
+几何告警（21 条，前 40 条）：
+  引脚未落在导线上：02_TF_LCD_Control J3 pin 9 @ (335.0, -550.0)
+  引脚未落在导线上：02_TF_LCD_Control LCD1 pin 1 @ (745.0, -685.0)
+  引脚未落在导线上：02_TF_LCD_Control LCD1 pin 2 @ (745.0, -675.0)
+  引脚未落在导线上：02_TF_LCD_Control LCD1 pin 9 @ (745.0, -605.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 4 @ (730.0, -570.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 6 @ (730.0, -550.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 7 @ (730.0, -540.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 8 @ (730.0, -530.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 9 @ (730.0, -520.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 10 @ (730.0, -510.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 11 @ (730.0, -500.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 16 @ (765.0, -420.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 28 @ (890.0, -480.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 29 @ (890.0, -490.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 30 @ (890.0, -500.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 32 @ (890.0, -520.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 33 @ (890.0, -530.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 34 @ (890.0, -540.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 35 @ (890.0, -550.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 38 @ (890.0, -580.0)
+  引脚未落在导线上：01_Power_USB_ESP32 U1 pin 39 @ (890.0, -590.0)
+
+产物：index.json / schematic.json / pcb.json / netlist.json / summary.txt
+注意：原理图网表是几何重建结果；PCB 网名以 PAD_NET 为准。

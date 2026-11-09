@@ -1,0 +1,575 @@
+{
+  "board": "STM32控制板",
+  "version": "无版本号（Board1）",
+  "date": "2026-11-08",
+  "editor": "嘉立创EDA专业版 3.2.149.88089769",
+  "project_uuid": "8d59e324dddb456db780242cae8ce7c6",
+  "board_class": "B",
+  "scope": {
+    "in": [
+      "schematic",
+      "pcb",
+      "bom"
+    ],
+    "out": [
+      "写接口操作",
+      "Gerber 导出与核对",
+      "离线 .epro2 解析",
+      "结构/EMC 合规判定"
+    ],
+    "assumptions": [
+      "用户未提供设计意图卡，用途/负载/环境均为 inferred",
+      "CN2/CN3 依据文本标签判为输出",
+      "USB-C 依据 R3/R4 5.1K 下拉判为 sink",
+      "全部手册事实来自检索结果引述，未直接打开 PDF 原文"
+    ]
+  },
+  "coverage": {
+    "unit": "检查项（A-01 … G-03，共 55 项）",
+    "applicable": 55,
+    "executed": 40,
+    "judgeable": 13,
+    "review": 27,
+    "not_checked": 10,
+    "missing_data": 10,
+    "not_applicable": 5,
+    "by_check": {
+      "A-01": "review",
+      "A-02": "review",
+      "A-03": "not_checked",
+      "A-04": "not_checked",
+      "A-05": "pass",
+      "A-06": "pass",
+      "A-07": "review",
+      "A-08": "not_applicable",
+      "B-01": "pass",
+      "B-02": "pass",
+      "B-03": "fail",
+      "B-04": "review",
+      "B-05": "review",
+      "B-06": "pass",
+      "B-07": "pass",
+      "B-08": "review",
+      "B-09": "not_checked",
+      "B-10": "review",
+      "C-01": "review",
+      "C-02": "review",
+      "C-03": "fail",
+      "C-04": "review",
+      "C-05": "review",
+      "C-06": "review",
+      "C-07": "review",
+      "C-08": "review",
+      "C-09": "review",
+      "C-10": "review",
+      "D-01": "fail",
+      "D-02": "pass",
+      "D-03": "pass",
+      "D-04": "not_checked",
+      "D-05": "pass",
+      "D-06": "review",
+      "D-07": "review",
+      "D-08": "not_checked",
+      "D-09": "review",
+      "D-10": "not_checked",
+      "E-01": "review",
+      "E-02": "review",
+      "E-03": "review",
+      "E-04": "not_checked",
+      "E-05": "not_applicable",
+      "E-06": "review",
+      "E-07": "pass",
+      "E-08": "review",
+      "E-09": "not_checked",
+      "F-01": "review",
+      "F-02": "review",
+      "F-03": "review",
+      "F-04": "not_checked",
+      "F-05": "not_applicable",
+      "G-01": "not_applicable",
+      "G-02": "not_applicable",
+      "G-03": "not_checked"
+    },
+    "partial_checks": [
+      "A-01",
+      "A-02",
+      "A-07",
+      "C-10",
+      "D-06",
+      "D-09",
+      "E-02",
+      "F-01",
+      "F-03"
+    ],
+    "pass": 10,
+    "fail": 3,
+    "note": "REVIEW 中含 9 项仅部分执行（见 partial_checks）；未执行项一律 NOT_CHECKED，不计入通过。"
+  },
+  "findings": [
+    {
+      "id": "F-001",
+      "check": "B-03",
+      "status": "已确认",
+      "severity": "S0",
+      "locator": "SCH/主控/U1.35, U1.36, U1.47, U1.48; PCB/Top/U1.35 (900.6,-2699.6) mil, U1.36 (920.3,-2699.6), U1.47 (979.3,-2443.7), U1.48 (979.3,-2424)",
+      "fact": "U1.35 VSS_2 接 VCC+3.3V；U1.36 VDD_2 接 GND；U1.47 VSS_3 接 VCC+3.3V；U1.48 VDD_3 接 GND",
+      "requirement": "VSS 接 GND，VDD 接 VCC+3.3V",
+      "source": "STM32F103x8/xB LQFP48 引脚表 DS5319 Table 5（手册引述（检索））",
+      "evidence": [
+        "sch.net:U1.pinInfoMap",
+        "pcb_raw.json:pcb.components[U1].pads",
+        "drc_pcb_out.json",
+        "pcb.net:U1 35/36/47/48"
+      ],
+      "close_condition": "改接后重出网表确认 35/47=GND、36/48=VCC+3.3V；设计负责人确认已排除上电损坏。依赖符号引脚名正确（C-10.2 未核）",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "已确认",
+          "reason": "两侧网表与 PCB 焊盘网名一致，属实际连接错误"
+        }
+      ]
+    },
+    {
+      "id": "F-002",
+      "check": "C-03",
+      "status": "已确认",
+      "severity": "S1",
+      "locator": "SCH/主控/SW1.3, SW1.4; PCB/Top/SW1.3 (1944.1,-2156.4) mil, SW1.4 (1585.9,-2156.4)",
+      "fact": "SW1 触点 1/2=RST，3/4=VCC+3.3V；按下将 NRST 短到 3.3V 而非 GND",
+      "requirement": "复位按键把 NRST 拉到 GND（NRST 低有效）",
+      "source": "STM32F103 手册（手册引述（检索））",
+      "evidence": [
+        "sch.net:SW1.pinInfoMap",
+        "pcb_raw.json:SW1 pads"
+      ],
+      "close_condition": "SW1.3/4 改接 GND 后复核",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "已确认",
+          "reason": "与 SW2/3/4 对照，仅 SW1 高侧接 3.3V"
+        }
+      ]
+    },
+    {
+      "id": "F-003",
+      "check": "B-10",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "SCH/电源/U9.1, U9.2, U10.1, U10.2; PCB/Top/U9.1 (1195.5,-1860), U9.2 (1384.5,-1860), U10.1 (1195.5,-1715), U10.2 (1384.5,-1715), CN2.1 (2473.4,-1350), CN3.1 (2478.4,-1050)",
+      "fact": "U9：1=C 接 +24V，2=A 接 $1N87 → CN2.1；U10：1=C 接 VCC+12V，2=A 接 $1N98 → CN3.1。二极管阴极在电源侧、阳极在连接器侧。对照 U5（输入防反接）：1=C→+24V，2=A→CN1，方向相反。本结论以「CN2/CN3 是输出」为前提，依据仅为电源页文本标签；若两口实为输入，现方向正确。",
+      "requirement": "若 CN2/CN3 为输出：二极管阳极接电源、阴极接负载；若为输入：现方向正确",
+      "source": "二极管方向通则；SS54 手册引述（检索）",
+      "evidence": [
+        "sch.net:U9/U10/CN2/CN3",
+        "texts_out.json:电源页「24V输出」「12V输出」",
+        "pcb_raw.json:焊盘坐标"
+      ],
+      "close_condition": "用户确认 CN2/CN3 角色；若为输出，调换 A/C 后复核（依赖符号 A/C 名正确）",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "独立复核指出：输出角色来自推断，不能标已确认"
+        }
+      ]
+    },
+    {
+      "id": "F-004",
+      "check": "B-04",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "SCH/电源/U2.4, L2.1, USB1.A4/A9/B4/B9, R3, R4; PCB/Top/L2.1 (820,-1402.8) mil, C5.1 (945.1,-1600), USB1.A4 (1938,-269.2), A9 (1737.2,-269.2), B4 (1749,-269.2), B9 (1926.2,-269.2)",
+      "fact": "LM2596 输出经 L2 直连 USB-C VBUS；R3/R4 5.1K 下拉表明 USB-C 为 sink；C5 220µF 在 VBUS；无 ORing/负载开关",
+      "requirement": "受电设备不得反灌 VBUS；两路 5V 并联需 ORing 或互斥",
+      "source": "USB-C 规范（sink）；LM2596 输出无反向阻断（手册引述（检索））",
+      "evidence": [
+        "sch.net:U2/L2/USB1/R3/R4",
+        "texts_out.json:「TYPEC输入电路」「5V电源合路」"
+      ],
+      "close_condition": "用户确认 USB-C 角色与是否对外供电；若会，补 ORing 后复核",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "连接事实明确，是否构成缺陷取决于使用场景"
+        }
+      ]
+    },
+    {
+      "id": "F-005",
+      "check": "C-02",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "SCH/电源/U3.2, U3.4; C8, C9, C15-C18, C23; PCB/Top/U3.2 (1840,-1303.1) mil",
+      "fact": "3.3V 轨仅 7×100nF，无 ≥10µF 输出电容",
+      "requirement": "AMS1117 输出电容参与频率补偿，建议 22µF 固体钽（全工况）",
+      "source": "AMS1117 手册（手册引述（检索））",
+      "evidence": [
+        "sch.net:C8/C9/C15-C18/C23",
+        "BOM 容值"
+      ],
+      "close_condition": "补 10–22µF 或提供稳定性实测依据",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "手册建议值明确，但未给出最小容值，需实测/仿真佐证"
+        }
+      ]
+    },
+    {
+      "id": "F-006",
+      "check": "C-01",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "SCH/电源/U7.1, U7.2; BOM/U7 C2830235",
+      "fact": "U7 JK-nSMD005/60V：Hold Current=50mA，Trip Current=150mA（BOM 字段）；估算板内 5V 负载 ≈57mA",
+      "requirement": "PTC 保持电流 > 最大持续负载",
+      "source": "BOM:U7 Hold/Trip Current 字段；负载为估算值",
+      "evidence": [
+        "sch.net:U7.props",
+        "pcb_raw.json:U7"
+      ],
+      "close_condition": "实测 VCC+5V 最大持续电流",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "估算已超 Ihold，但无实测"
+        }
+      ]
+    },
+    {
+      "id": "F-007",
+      "check": "C-04",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "SCH/主控/X2.1, X2.2, C12, C13; PCB/Top/X2 (1127,-2177.3) mil",
+      "fact": "X2 CL=12.5pF，C12/C13=10pF，有效 CL≈7–10pF",
+      "requirement": "不要使用 CL=12.5pF 的谐振器；CL1/CL2 5–15pF 且 CL ≤7pF",
+      "source": "STM32F103 手册 / ST AN2867（手册引述（检索））",
+      "evidence": [
+        "sch.net:X2.props Load Capacitance=12.5pF",
+        "sch.net:C12/C13"
+      ],
+      "close_condition": "换 CL ≤7pF 晶体或实测频偏可接受",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "器件 CL 与手册禁忌一致，但需确认型号后缀含义"
+        }
+      ]
+    },
+    {
+      "id": "F-008",
+      "check": "C-04",
+      "status": "待复核",
+      "severity": "S3",
+      "locator": "SCH/主控/X1.1, X1.3, C10, C11; PCB/Top/X1 (672,-2137.3) mil",
+      "fact": "X1 CL=9pF，C10/C11=20pF，有效 CL≈12–15pF",
+      "requirement": "负载电容匹配晶体 CL",
+      "source": "ST AN2867（手册引述（检索））",
+      "evidence": [
+        "sch.net:X1.props Load Capacitance=9pF",
+        "sch.net:C10/C11"
+      ],
+      "close_condition": "按 CL=9pF 重算 C10/C11 或实测频偏",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "CL 值来源为经销商数据，非厂商 PDF"
+        }
+      ]
+    },
+    {
+      "id": "F-009",
+      "check": "C-03",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "SCH/主控/R11, R12, H1.3, H1.4; NET/BOOT0, NET/BOOT1",
+      "fact": "BOOT0/BOOT1 仅经 10K 串到排针，无常态下拉",
+      "requirement": "BOOT0 需确定低电平才能从 Flash 启动",
+      "source": "STM32F103 手册（手册引述（检索））",
+      "evidence": [
+        "sch.net:R11/R12/H1"
+      ],
+      "close_condition": "加下拉或确认排线常态短接",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "STM32 BOOT0 有内部弱下拉，但不足以作为设计依据"
+        }
+      ]
+    },
+    {
+      "id": "F-010",
+      "check": "C-06",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "SCH/接口/Q1.1, Q1.2, Q1.3, DBUS1.2; PCB/Top/Q1.1 (1692.6,-3660.3) mil",
+      "fact": "Q1 基极直连 DBUS，无基极电阻；DBUS 无上拉；DBUS1.1=VCC+5V",
+      "requirement": "开集/单总线需基极限流与总线上拉",
+      "source": "S8050 手册（手册引述（检索））",
+      "evidence": [
+        "sch.net:Q1/DBUS1/R7"
+      ],
+      "close_condition": "确认 DBUS 协议后加限流/上拉",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "连接事实明确，严重度取决于对端设备"
+        }
+      ]
+    },
+    {
+      "id": "F-011",
+      "check": "C-06",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "SCH/接口/Q2.1, Q2.2, Q2.3, U8.13, U8.14",
+      "fact": "CH340 DTR/RTS 直接跨在 Q2 B-E 结两端，无基极电阻",
+      "requirement": "推挽输出驱动 B-E 结需限流；自动下载时序需保证",
+      "source": "CH340 手册（手册引述（检索））",
+      "evidence": [
+        "sch.net:Q2/Q3/U8"
+      ],
+      "close_condition": "确认 CH340 输出限流或加基极电阻",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "常见自动下载拓扑，但缺少限流"
+        }
+      ]
+    },
+    {
+      "id": "F-012",
+      "check": "C-05",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "SCH/接口/USB1, DBUS1, USART1, SWD1; SCH/电源/CN1",
+      "fact": "USB-C 的 VBUS/D+/D−/CC、DBUS、USART、SWD、H2/H3、24V 输入均无 ESD/TVS；仅输出侧有 D3/D6。另：CH340 UD+/UD− 直连 USB1，D+/D− 无 22Ω 串阻。",
+      "requirement": "按暴露场景配置 ESD 保护",
+      "source": "用户未给 EMC/环境要求",
+      "evidence": [
+        "sch.net 全表",
+        "BOM"
+      ],
+      "close_condition": "用户提供 ESD 等级或接受风险",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "缺环境要求，无法定级"
+        }
+      ]
+    },
+    {
+      "id": "F-013",
+      "check": "C-09",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "BOM/C2,C6-C21,C23,H1-H3,LED1-6,Q1-Q3,R1-R15,SW1-SW4; BOM/U5,U9,U10; BOM/USB1; BOM/USART1",
+      "fact": "79 元件中 49 项无 Manufacturer Part、46 项无 Supplier Part；SS54 供应商封装写 DO-214 而封装名为 SMA；USB1 封装名 KH 前缀与 MPN 厂商 HCTL 不一致",
+      "requirement": "需采购器件有明确 MPN/封装且与 PCB 一致",
+      "source": "review-method F-02 / C-09",
+      "evidence": [
+        "sch.net:BOM 字段",
+        "pcb_raw.json:footprint"
+      ],
+      "close_condition": "补全 MPN 并核对实际封装",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "BOM 字段缺失，影响采购与贴片"
+        }
+      ]
+    },
+    {
+      "id": "F-014",
+      "check": "D-01",
+      "status": "待复核",
+      "severity": "S1",
+      "locator": "DRC/Netlist Error",
+      "fact": "DRC 报 1 条 Netlist Error，drcPass=false；但 sch.net 与 pcb.net 在网拓扑（79/306/69，0 差异）与元件属性（Footprint UUID、Manufacturer Part、Supplier Part、Value、Device）上完全一致",
+      "requirement": "原理图与 PCB 网表同步",
+      "source": "review-method D-01",
+      "evidence": [
+        "drc_pcb_out.json",
+        "sch.net",
+        "pcb.net"
+      ],
+      "close_condition": "客户端查看 Import Changes 预览；若为空，按 EDA 同步状态问题处理并重跑 DRC",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "API 结论与导出网表冲突"
+        }
+      ]
+    },
+    {
+      "id": "F-015",
+      "check": "D-01",
+      "status": "候选",
+      "severity": "S2",
+      "locator": "SCH/接口, SCH/电源, SCH/主控 ERC",
+      "fact": "三页各 1 warn，API 无明细",
+      "requirement": "ERC 报项逐条分析",
+      "source": "review-method D-01",
+      "evidence": [
+        "sch_*_raw.json:ercVerbose"
+      ],
+      "close_condition": "客户端 ERC 面板读取明细",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "候选",
+          "reason": "只有汇总计数"
+        }
+      ]
+    },
+    {
+      "id": "F-016",
+      "check": "D-02",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "PCB/Top/NET/USB+5V, NET/VCC+5V, NET/VCC+3.3V, NET/+24V, NET/$1N87, NET/$1N98",
+      "fact": "USB+5V 多为 10mil；3.3V 多为 10mil；24V/输出 50mil；器件额定 LM2596 3A、XL1509 2A、SS54 5A、XT30 15A",
+      "requirement": "线宽按实际电流/温升核算",
+      "source": "IPC-2221（粗略）；负载未知",
+      "evidence": [
+        "pcb_raw.json:tracks",
+        "BOM"
+      ],
+      "close_condition": "用户给出各路最大电流后重算",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "无负载数据，只能给候选"
+        }
+      ]
+    },
+    {
+      "id": "F-017",
+      "check": "C-08",
+      "status": "待复核",
+      "severity": "S3",
+      "locator": "SCH/电源/U6.1-6; PCB/Top/U6",
+      "fact": "U6 YSSP2AG00 6 脚 DPDT，COM 脚定义未取得；LCSC 额定 300mA/4V",
+      "requirement": "开关脚位与额定值满足 5V 轨",
+      "source": "YSSP2AG00 / LCSC C5188558（未取得引脚图）",
+      "evidence": [
+        "sch.net:U6",
+        "pcb_raw.json:U6 pads"
+      ],
+      "close_condition": "取得厂商引脚图",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "引脚定义缺失"
+        }
+      ]
+    },
+    {
+      "id": "F-018",
+      "check": "D-09",
+      "status": "待复核",
+      "severity": "S3",
+      "locator": "PCB/Top/(118.11,-118.11) mil, (2637.795,-118.11), (118.11,-3818.898), (2637.795,-3818.898)",
+      "fact": "4 个 φ3.0mm 安装孔，焊盘 4.0mm，无网络",
+      "requirement": "安装孔接地/接机壳策略需符合结构与 EMC 要求",
+      "source": "用户未给结构要求",
+      "evidence": [
+        "pcb_raw.json:vias"
+      ],
+      "close_condition": "用户确认结构/接地策略",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "缺结构要求"
+        }
+      ]
+    },
+    {
+      "id": "F-019",
+      "check": "C-01",
+      "status": "待复核",
+      "severity": "S2",
+      "locator": "SCH/电源/L2, L1; BOM/L2 PNR5040-330-M, BOM/L1 PNR6045-680-M",
+      "fact": "L2 额定 1.35A（Isat 1.45A，DCR 188mΩ）串在 LM2596 3A 输出；L1 额定 1.1A（Isat 1.3A，DCR 289mΩ）串在 XL1509 2A 输出；输出能力被电感封顶在约 1.1–1.35A",
+      "requirement": "电感额定电流 ≥ 该路最大输出电流并留降额裕量",
+      "source": "BOM Current Rating / Isat / DCR；LM2596 3A、XL1509 2A（BOM）",
+      "evidence": [
+        "sch.net:L1/L2.props"
+      ],
+      "close_condition": "用户给出各路最大输出电流；若 >1A 需换更大额定电感",
+      "history": [
+        {
+          "date": "2026-11-08",
+          "from": "new",
+          "to": "待复核",
+          "reason": "独立复核提示：比线宽更硬的载流限制"
+        }
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "object": "U4.4 EN=GND",
+      "reason": "XL1509 EN 低有效，正确"
+    },
+    {
+      "object": "U2.5 ON/OFF=GND",
+      "reason": "LM2596 ON/OFF 低=开，正确"
+    },
+    {
+      "object": "U8.15 R232 悬空",
+      "reason": "TTL 模式，正确"
+    },
+    {
+      "object": "USB-C CC",
+      "reason": "R3/R4 5.1K 下拉，正确"
+    },
+    {
+      "object": "U2.4 / U4.3 反馈",
+      "reason": "接在输出电容处，Kelvin 取样，正确"
+    },
+    {
+      "object": "U10 供电/D3 TVS",
+      "reason": "更正：U10 由 12V 供电，D3 15V 正确"
+    },
+    {
+      "object": "CN2/CN3 输入",
+      "reason": "文本标签确认为输出"
+    }
+  ]
+}

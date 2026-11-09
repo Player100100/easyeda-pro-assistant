@@ -1,0 +1,7217 @@
+{
+ "schematic": {
+  "nets": {
+   "$LOCAL6": {
+    "aliases": [
+     "$LOCAL6"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "1",
+      "pin_name": "DAT2(RSV)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL7": {
+    "aliases": [
+     "$LOCAL7"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "2",
+      "pin_name": "CDDAT3(CS)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL8": {
+    "aliases": [
+     "$LOCAL8"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "3",
+      "pin_name": "CMD(DI)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "3V3": {
+    "aliases": [
+     "3V3"
+    ],
+    "named": true,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "4",
+      "pin_name": "VDD"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "10",
+      "pin_name": "VDD"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C8",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C9",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R6",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R7",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R8",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R9",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R10",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R11",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C10",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C11",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R12",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R13",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R16",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "2",
+      "pin_name": "3V3"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C5",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C6",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R4",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U4",
+      "pin": "2",
+      "pin_name": "VOUT"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U4",
+      "pin": "4",
+      "pin_name": "TAB"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C3",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R3",
+      "pin": "2",
+      "pin_name": "2"
+     }
+    ],
+    "flags": [
+     "3V3"
+    ]
+   },
+   "$LOCAL3": {
+    "aliases": [
+     "$LOCAL3"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "5",
+      "pin_name": "CLK(SCLK)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R5",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "GND": {
+    "aliases": [
+     "GND"
+    ],
+    "named": true,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "6",
+      "pin_name": "VSS"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "13",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "10",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "11",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "12",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "8",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "13",
+      "pin_name": "GND"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "Q1",
+      "pin": "2",
+      "pin_name": "S"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "SW3",
+      "pin": "4",
+      "pin_name": "D"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "SW3",
+      "pin": "3",
+      "pin_name": "C"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C8",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C9",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C10",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C11",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R15",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C12",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "1",
+      "pin_name": "GND"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "40",
+      "pin_name": "GND"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "41",
+      "pin_name": "GND"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "J1",
+      "pin": "4",
+      "pin_name": "GND"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "J1",
+      "pin": "5",
+      "pin_name": "GND"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "D1",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C1",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C5",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C6",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C7",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW1",
+      "pin": "4",
+      "pin_name": "D"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW1",
+      "pin": "3",
+      "pin_name": "C"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW2",
+      "pin": "4",
+      "pin_name": "D"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW2",
+      "pin": "3",
+      "pin_name": "C"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U4",
+      "pin": "1",
+      "pin_name": "VSS"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C2",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C3",
+      "pin": "2",
+      "pin_name": "2"
+     }
+    ],
+    "flags": [
+     "GND"
+    ]
+   },
+   "$LOCAL4": {
+    "aliases": [
+     "$LOCAL4"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "7",
+      "pin_name": "DAT0(D0)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL5": {
+    "aliases": [
+     "$LOCAL5"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "8",
+      "pin_name": "DAT1(RSV)"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL12": {
+    "aliases": [
+     "$LOCAL12"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "J3",
+      "pin": "9",
+      "pin_name": "CD"
+     }
+    ]
+   },
+   "$LOCAL22": {
+    "aliases": [
+     "$LOCAL22"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "1",
+      "pin_name": "NC"
+     }
+    ]
+   },
+   "$LOCAL23": {
+    "aliases": [
+     "$LOCAL23"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "2",
+      "pin_name": "NC"
+     }
+    ]
+   },
+   "$LOCAL17": {
+    "aliases": [
+     "$LOCAL17"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "3",
+      "pin_name": "SDA"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL18": {
+    "aliases": [
+     "$LOCAL18"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "4",
+      "pin_name": "SCL"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL19": {
+    "aliases": [
+     "$LOCAL19"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "5",
+      "pin_name": "RS"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL20": {
+    "aliases": [
+     "$LOCAL20"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "6",
+      "pin_name": "RESET"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL21": {
+    "aliases": [
+     "$LOCAL21"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "7",
+      "pin_name": "CS"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL24": {
+    "aliases": [
+     "$LOCAL24"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "9",
+      "pin_name": "NC"
+     }
+    ]
+   },
+   "$LOCAL25": {
+    "aliases": [
+     "$LOCAL25"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "11",
+      "pin_name": "LEDK"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "Q1",
+      "pin": "3",
+      "pin_name": "D"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL26": {
+    "aliases": [
+     "$LOCAL26"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "LCD1",
+      "pin": "12",
+      "pin_name": "LEDA"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R11",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL28": {
+    "aliases": [
+     "$LOCAL28"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "Q1",
+      "pin": "1",
+      "pin_name": "G"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R14",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R15",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL9": {
+    "aliases": [
+     "$LOCAL9"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "SW3",
+      "pin": "2",
+      "pin_name": "B"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "SW3",
+      "pin": "1",
+      "pin_name": "A"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R16",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "C12",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL1": {
+    "aliases": [
+     "$LOCAL1"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R5",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL2": {
+    "aliases": [
+     "$LOCAL2"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R6",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL10": {
+    "aliases": [
+     "$LOCAL10"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R7",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL11": {
+    "aliases": [
+     "$LOCAL11"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R8",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL13": {
+    "aliases": [
+     "$LOCAL13"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R9",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL14": {
+    "aliases": [
+     "$LOCAL14"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R10",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL15": {
+    "aliases": [
+     "$LOCAL15"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R12",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL16": {
+    "aliases": [
+     "$LOCAL16"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R13",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL27": {
+    "aliases": [
+     "$LOCAL27"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": "R14",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "02_TF_LCD_Control",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL36": {
+    "aliases": [
+     "$LOCAL36"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "3",
+      "pin_name": "EN"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL40": {
+    "aliases": [
+     "$LOCAL40"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "4",
+      "pin_name": "IO4"
+     }
+    ]
+   },
+   "SW1": {
+    "aliases": [
+     "SW1"
+    ],
+    "named": true,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "5",
+      "pin_name": "IO5"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C7",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW1",
+      "pin": "2",
+      "pin_name": "B"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW1",
+      "pin": "1",
+      "pin_name": "A"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL41": {
+    "aliases": [
+     "$LOCAL41"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "6",
+      "pin_name": "IO6"
+     }
+    ]
+   },
+   "$LOCAL42": {
+    "aliases": [
+     "$LOCAL42"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "7",
+      "pin_name": "IO7"
+     }
+    ]
+   },
+   "$LOCAL43": {
+    "aliases": [
+     "$LOCAL43"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "8",
+      "pin_name": "IO15"
+     }
+    ]
+   },
+   "$LOCAL44": {
+    "aliases": [
+     "$LOCAL44"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "9",
+      "pin_name": "IO16"
+     }
+    ]
+   },
+   "$LOCAL45": {
+    "aliases": [
+     "$LOCAL45"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "10",
+      "pin_name": "IO17"
+     }
+    ]
+   },
+   "$LOCAL46": {
+    "aliases": [
+     "$LOCAL46"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "11",
+      "pin_name": "IO18"
+     }
+    ]
+   },
+   "$LOCAL37": {
+    "aliases": [
+     "$LOCAL37"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "12",
+      "pin_name": "IO8"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL38": {
+    "aliases": [
+     "$LOCAL38"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "13",
+      "pin_name": "IO19"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL39": {
+    "aliases": [
+     "$LOCAL39"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "14",
+      "pin_name": "IO20"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL47": {
+    "aliases": [
+     "$LOCAL47"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "15",
+      "pin_name": "IO3"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL48": {
+    "aliases": [
+     "$LOCAL48"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "16",
+      "pin_name": "IO46"
+     }
+    ]
+   },
+   "$LOCAL49": {
+    "aliases": [
+     "$LOCAL49"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "17",
+      "pin_name": "IO9"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL50": {
+    "aliases": [
+     "$LOCAL50"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "18",
+      "pin_name": "IO10"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL51": {
+    "aliases": [
+     "$LOCAL51"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "19",
+      "pin_name": "IO11"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL52": {
+    "aliases": [
+     "$LOCAL52"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "20",
+      "pin_name": "IO12"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL53": {
+    "aliases": [
+     "$LOCAL53"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "21",
+      "pin_name": "IO13"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL54": {
+    "aliases": [
+     "$LOCAL54"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "22",
+      "pin_name": "IO14"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL55": {
+    "aliases": [
+     "$LOCAL55"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "23",
+      "pin_name": "IO21"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL56": {
+    "aliases": [
+     "$LOCAL56"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "24",
+      "pin_name": "IO47"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL57": {
+    "aliases": [
+     "$LOCAL57"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "25",
+      "pin_name": "IO48"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL58": {
+    "aliases": [
+     "$LOCAL58"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "26",
+      "pin_name": "IO45"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL71": {
+    "aliases": [
+     "$LOCAL71"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "27",
+      "pin_name": "IO0"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL70": {
+    "aliases": [
+     "$LOCAL70"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "28",
+      "pin_name": "IO35"
+     }
+    ]
+   },
+   "$LOCAL69": {
+    "aliases": [
+     "$LOCAL69"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "29",
+      "pin_name": "IO36"
+     }
+    ]
+   },
+   "$LOCAL68": {
+    "aliases": [
+     "$LOCAL68"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "30",
+      "pin_name": "IO37"
+     }
+    ]
+   },
+   "$LOCAL67": {
+    "aliases": [
+     "$LOCAL67"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "31",
+      "pin_name": "IO38"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL66": {
+    "aliases": [
+     "$LOCAL66"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "32",
+      "pin_name": "IO39"
+     }
+    ]
+   },
+   "$LOCAL65": {
+    "aliases": [
+     "$LOCAL65"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "33",
+      "pin_name": "IO40"
+     }
+    ]
+   },
+   "$LOCAL64": {
+    "aliases": [
+     "$LOCAL64"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "34",
+      "pin_name": "IO41"
+     }
+    ]
+   },
+   "$LOCAL63": {
+    "aliases": [
+     "$LOCAL63"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "35",
+      "pin_name": "IO42"
+     }
+    ]
+   },
+   "$LOCAL62": {
+    "aliases": [
+     "$LOCAL62"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "36",
+      "pin_name": "RXD0"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL61": {
+    "aliases": [
+     "$LOCAL61"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "37",
+      "pin_name": "TXD0"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL60": {
+    "aliases": [
+     "$LOCAL60"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "38",
+      "pin_name": "IO2"
+     }
+    ]
+   },
+   "$LOCAL59": {
+    "aliases": [
+     "$LOCAL59"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U1",
+      "pin": "39",
+      "pin_name": "IO1"
+     }
+    ]
+   },
+   "$LOCAL30": {
+    "aliases": [
+     "$LOCAL30"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "J1",
+      "pin": "3",
+      "pin_name": "D+"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "3",
+      "pin_name": "3"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL29": {
+    "aliases": [
+     "$LOCAL29"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "J1",
+      "pin": "2",
+      "pin_name": "D-"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "USB_VBUS": {
+    "aliases": [
+     "USB_VBUS"
+    ],
+    "named": true,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "J1",
+      "pin": "1",
+      "pin_name": "VBUS"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "5",
+      "pin_name": "5"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "F1",
+      "pin": "1",
+      "pin_name": "1"
+     }
+    ],
+    "flags": [
+     "USB_VBUS"
+    ]
+   },
+   "$LOCAL33": {
+    "aliases": [
+     "$LOCAL33"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "4",
+      "pin_name": "4"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R2",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL32": {
+    "aliases": [
+     "$LOCAL32"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U3",
+      "pin": "6",
+      "pin_name": "6"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R1",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "VBUS5V": {
+    "aliases": [
+     "VBUS5V"
+    ],
+    "named": true,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "F1",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "D1",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C1",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "U4",
+      "pin": "3",
+      "pin_name": "VDD"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "C2",
+      "pin": "1",
+      "pin_name": "1"
+     }
+    ],
+    "flags": [
+     "VBUS5V"
+    ]
+   },
+   "$LOCAL34": {
+    "aliases": [
+     "$LOCAL34"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R1",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL35": {
+    "aliases": [
+     "$LOCAL35"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R2",
+      "pin": "2",
+      "pin_name": "2"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL31": {
+    "aliases": [
+     "$LOCAL31"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R4",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW2",
+      "pin": "2",
+      "pin_name": "B"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "SW2",
+      "pin": "1",
+      "pin_name": "A"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   },
+   "$LOCAL72": {
+    "aliases": [
+     "$LOCAL72"
+    ],
+    "named": false,
+    "pins": [
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": "R3",
+      "pin": "1",
+      "pin_name": "1"
+     },
+     {
+      "page": "01_Power_USB_ESP32",
+      "designator": null,
+      "pin": "1",
+      "pin_name": "BI"
+     }
+    ]
+   }
+  },
+  "net_ties": [],
+  "pins": [
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "1",
+    "pin_name": "DAT2(RSV)",
+    "pin_type": "BI",
+    "x": 185.0,
+    "y": -570.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL6"
+    ],
+    "net": "$LOCAL6",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "2",
+    "pin_name": "CDDAT3(CS)",
+    "pin_type": "BI",
+    "x": 185.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL7"
+    ],
+    "net": "$LOCAL7",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "3",
+    "pin_name": "CMD(DI)",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -540.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL8"
+    ],
+    "net": "$LOCAL8",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "4",
+    "pin_name": "VDD",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -590.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "5",
+    "pin_name": "CLK(SCLK)",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL3"
+    ],
+    "net": "$LOCAL3",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "6",
+    "pin_name": "VSS",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "7",
+    "pin_name": "DAT0(D0)",
+    "pin_type": "BI",
+    "x": 185.0,
+    "y": -590.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL4"
+    ],
+    "net": "$LOCAL4",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "8",
+    "pin_name": "DAT1(RSV)",
+    "pin_type": "BI",
+    "x": 185.0,
+    "y": -580.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL5"
+    ],
+    "net": "$LOCAL5",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "13",
+    "pin_name": "GND",
+    "pin_type": "IN",
+    "x": 265.0,
+    "y": -630.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "10",
+    "pin_name": "GND",
+    "pin_type": "IN",
+    "x": 265.0,
+    "y": -490.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "11",
+    "pin_name": "GND",
+    "pin_type": "IN",
+    "x": 275.0,
+    "y": -490.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "12",
+    "pin_name": "GND",
+    "pin_type": "IN",
+    "x": 275.0,
+    "y": -630.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "J3",
+    "pin": "9",
+    "pin_name": "CD",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -550.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL12"
+    ],
+    "net": "$LOCAL12",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "1",
+    "pin_name": "NC",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -685.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL22"
+    ],
+    "net": "$LOCAL22",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "2",
+    "pin_name": "NC",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -675.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL23"
+    ],
+    "net": "$LOCAL23",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "3",
+    "pin_name": "SDA",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -665.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL17"
+    ],
+    "net": "$LOCAL17",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "4",
+    "pin_name": "SCL",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -655.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL18"
+    ],
+    "net": "$LOCAL18",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "5",
+    "pin_name": "RS",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -645.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL19"
+    ],
+    "net": "$LOCAL19",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "6",
+    "pin_name": "RESET",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -635.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL20"
+    ],
+    "net": "$LOCAL20",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "7",
+    "pin_name": "CS",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL21"
+    ],
+    "net": "$LOCAL21",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "8",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -615.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "9",
+    "pin_name": "NC",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL24"
+    ],
+    "net": "$LOCAL24",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "10",
+    "pin_name": "VDD",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -595.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "11",
+    "pin_name": "LEDK",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -585.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL25"
+    ],
+    "net": "$LOCAL25",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "12",
+    "pin_name": "LEDA",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -575.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL26"
+    ],
+    "net": "$LOCAL26",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "LCD1",
+    "pin": "13",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 745.0,
+    "y": -565.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "Q1",
+    "pin": "2",
+    "pin_name": "S",
+    "pin_type": "Undefined",
+    "x": 960.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "Q1",
+    "pin": "1",
+    "pin_name": "G",
+    "pin_type": "Undefined",
+    "x": 935.0,
+    "y": -375.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL28"
+    ],
+    "net": "$LOCAL28",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "Q1",
+    "pin": "3",
+    "pin_name": "D",
+    "pin_type": "Undefined",
+    "x": 960.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL25"
+    ],
+    "net": "$LOCAL25",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "SW3",
+    "pin": "2",
+    "pin_name": "B",
+    "pin_type": "Undefined",
+    "x": 205.0,
+    "y": -150.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL9"
+    ],
+    "net": "$LOCAL9",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "SW3",
+    "pin": "1",
+    "pin_name": "A",
+    "pin_type": "Undefined",
+    "x": 165.0,
+    "y": -150.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL9"
+    ],
+    "net": "$LOCAL9",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "SW3",
+    "pin": "4",
+    "pin_name": "D",
+    "pin_type": "Undefined",
+    "x": 205.0,
+    "y": -120.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "SW3",
+    "pin": "3",
+    "pin_name": "C",
+    "pin_type": "Undefined",
+    "x": 165.0,
+    "y": -120.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C8",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 410.0,
+    "y": -565.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C8",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 410.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C9",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 480.0,
+    "y": -565.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C9",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 480.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R5",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 140.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL3"
+    ],
+    "net": "$LOCAL3",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R5",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 100.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL1"
+    ],
+    "net": "$LOCAL1",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R6",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 100.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R6",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 100.0,
+    "y": -380.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL2"
+    ],
+    "net": "$LOCAL2",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R7",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 180.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R7",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 180.0,
+    "y": -380.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL10"
+    ],
+    "net": "$LOCAL10",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R8",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 260.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R8",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 260.0,
+    "y": -380.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL11"
+    ],
+    "net": "$LOCAL11",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R9",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 340.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R9",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 340.0,
+    "y": -380.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL13"
+    ],
+    "net": "$LOCAL13",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R10",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 420.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R10",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 420.0,
+    "y": -380.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL14"
+    ],
+    "net": "$LOCAL14",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R11",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 840.0,
+    "y": -485.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R11",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 800.0,
+    "y": -485.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL26"
+    ],
+    "net": "$LOCAL26",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C10",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 940.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C10",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 940.0,
+    "y": -645.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C11",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 1040.0,
+    "y": -645.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C11",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 1040.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R12",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -495.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R12",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -455.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL15"
+    ],
+    "net": "$LOCAL15",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R13",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -375.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R13",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -335.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL16"
+    ],
+    "net": "$LOCAL16",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R14",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 870.0,
+    "y": -375.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL28"
+    ],
+    "net": "$LOCAL28",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R14",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 830.0,
+    "y": -375.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL27"
+    ],
+    "net": "$LOCAL27",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R15",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 900.0,
+    "y": -345.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL28"
+    ],
+    "net": "$LOCAL28",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R15",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 900.0,
+    "y": -305.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R16",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -240.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "R16",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -200.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL9"
+    ],
+    "net": "$LOCAL9",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C12",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 305.0,
+    "y": -120.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": "C12",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 305.0,
+    "y": -160.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL9"
+    ],
+    "net": "$LOCAL9",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 85.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL1"
+    ],
+    "net": "$LOCAL1",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 150.0,
+    "y": -570.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL6"
+    ],
+    "net": "$LOCAL6",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 150.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL7"
+    ],
+    "net": "$LOCAL7",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 150.0,
+    "y": -540.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL8"
+    ],
+    "net": "$LOCAL8",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 150.0,
+    "y": -590.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL4"
+    ],
+    "net": "$LOCAL4",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 150.0,
+    "y": -580.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL5"
+    ],
+    "net": "$LOCAL5",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 480.0,
+    "y": -630.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 480.0,
+    "y": -545.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 265.0,
+    "y": -475.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 265.0,
+    "y": -650.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 100.0,
+    "y": -450.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 700.0,
+    "y": -665.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL17"
+    ],
+    "net": "$LOCAL17",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 700.0,
+    "y": -655.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL18"
+    ],
+    "net": "$LOCAL18",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 700.0,
+    "y": -645.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL19"
+    ],
+    "net": "$LOCAL19",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 700.0,
+    "y": -635.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL20"
+    ],
+    "net": "$LOCAL20",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 700.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL21"
+    ],
+    "net": "$LOCAL21",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 725.0,
+    "y": -615.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 725.0,
+    "y": -595.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 725.0,
+    "y": -565.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 865.0,
+    "y": -485.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 940.0,
+    "y": -685.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 1040.0,
+    "y": -565.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -510.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 620.0,
+    "y": -390.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 800.0,
+    "y": -375.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL27"
+    ],
+    "net": "$LOCAL27",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 960.0,
+    "y": -285.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 305.0,
+    "y": -100.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 305.0,
+    "y": -180.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL9"
+    ],
+    "net": "$LOCAL9",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -255.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 1040.0,
+    "y": -475.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL25"
+    ],
+    "net": "$LOCAL25",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 780.0,
+    "y": -525.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL26"
+    ],
+    "net": "$LOCAL26",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 880.0,
+    "y": -405.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL28"
+    ],
+    "net": "$LOCAL28",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 110.0,
+    "y": -350.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL2"
+    ],
+    "net": "$LOCAL2",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 190.0,
+    "y": -350.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL10"
+    ],
+    "net": "$LOCAL10",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 270.0,
+    "y": -350.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL11"
+    ],
+    "net": "$LOCAL11",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 350.0,
+    "y": -350.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL13"
+    ],
+    "net": "$LOCAL13",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 430.0,
+    "y": -350.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL14"
+    ],
+    "net": "$LOCAL14",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 620.0,
+    "y": -425.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL15"
+    ],
+    "net": "$LOCAL15",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 620.0,
+    "y": -305.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL16"
+    ],
+    "net": "$LOCAL16",
+    "named": false
+   },
+   {
+    "page": "21d6bbde0b06c855",
+    "page_title": "02_TF_LCD_Control",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 130.0,
+    "y": -500.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL3"
+    ],
+    "net": "$LOCAL3",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "1",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -600.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "2",
+    "pin_name": "3V3",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -590.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "3",
+    "pin_name": "EN",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -580.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL36"
+    ],
+    "net": "$LOCAL36",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "4",
+    "pin_name": "IO4",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -570.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL40"
+    ],
+    "net": "$LOCAL40",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "5",
+    "pin_name": "IO5",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "6",
+    "pin_name": "IO6",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -550.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL41"
+    ],
+    "net": "$LOCAL41",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "7",
+    "pin_name": "IO7",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -540.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL42"
+    ],
+    "net": "$LOCAL42",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "8",
+    "pin_name": "IO15",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL43"
+    ],
+    "net": "$LOCAL43",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "9",
+    "pin_name": "IO16",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -520.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL44"
+    ],
+    "net": "$LOCAL44",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "10",
+    "pin_name": "IO17",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -510.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL45"
+    ],
+    "net": "$LOCAL45",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "11",
+    "pin_name": "IO18",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -500.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL46"
+    ],
+    "net": "$LOCAL46",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "12",
+    "pin_name": "IO8",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -490.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL37"
+    ],
+    "net": "$LOCAL37",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "13",
+    "pin_name": "IO19",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -480.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL38"
+    ],
+    "net": "$LOCAL38",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "14",
+    "pin_name": "IO20",
+    "pin_type": "Undefined",
+    "x": 730.0,
+    "y": -470.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL39"
+    ],
+    "net": "$LOCAL39",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "15",
+    "pin_name": "IO3",
+    "pin_type": "Undefined",
+    "x": 755.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL47"
+    ],
+    "net": "$LOCAL47",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "16",
+    "pin_name": "IO46",
+    "pin_type": "Undefined",
+    "x": 765.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL48"
+    ],
+    "net": "$LOCAL48",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "17",
+    "pin_name": "IO9",
+    "pin_type": "Undefined",
+    "x": 775.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL49"
+    ],
+    "net": "$LOCAL49",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "18",
+    "pin_name": "IO10",
+    "pin_type": "Undefined",
+    "x": 785.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL50"
+    ],
+    "net": "$LOCAL50",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "19",
+    "pin_name": "IO11",
+    "pin_type": "Undefined",
+    "x": 795.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL51"
+    ],
+    "net": "$LOCAL51",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "20",
+    "pin_name": "IO12",
+    "pin_type": "Undefined",
+    "x": 805.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL52"
+    ],
+    "net": "$LOCAL52",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "21",
+    "pin_name": "IO13",
+    "pin_type": "Undefined",
+    "x": 815.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL53"
+    ],
+    "net": "$LOCAL53",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "22",
+    "pin_name": "IO14",
+    "pin_type": "Undefined",
+    "x": 825.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL54"
+    ],
+    "net": "$LOCAL54",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "23",
+    "pin_name": "IO21",
+    "pin_type": "Undefined",
+    "x": 835.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL55"
+    ],
+    "net": "$LOCAL55",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "24",
+    "pin_name": "IO47",
+    "pin_type": "Undefined",
+    "x": 845.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL56"
+    ],
+    "net": "$LOCAL56",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "25",
+    "pin_name": "IO48",
+    "pin_type": "Undefined",
+    "x": 855.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL57"
+    ],
+    "net": "$LOCAL57",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "26",
+    "pin_name": "IO45",
+    "pin_type": "Undefined",
+    "x": 865.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL58"
+    ],
+    "net": "$LOCAL58",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "27",
+    "pin_name": "IO0",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -470.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL71"
+    ],
+    "net": "$LOCAL71",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "28",
+    "pin_name": "IO35",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -480.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL70"
+    ],
+    "net": "$LOCAL70",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "29",
+    "pin_name": "IO36",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -490.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL69"
+    ],
+    "net": "$LOCAL69",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "30",
+    "pin_name": "IO37",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -500.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL68"
+    ],
+    "net": "$LOCAL68",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "31",
+    "pin_name": "IO38",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -510.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL67"
+    ],
+    "net": "$LOCAL67",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "32",
+    "pin_name": "IO39",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -520.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL66"
+    ],
+    "net": "$LOCAL66",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "33",
+    "pin_name": "IO40",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -530.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL65"
+    ],
+    "net": "$LOCAL65",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "34",
+    "pin_name": "IO41",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -540.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL64"
+    ],
+    "net": "$LOCAL64",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "35",
+    "pin_name": "IO42",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -550.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL63"
+    ],
+    "net": "$LOCAL63",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "36",
+    "pin_name": "RXD0",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL62"
+    ],
+    "net": "$LOCAL62",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "37",
+    "pin_name": "TXD0",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -570.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL61"
+    ],
+    "net": "$LOCAL61",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "38",
+    "pin_name": "IO2",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -580.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL60"
+    ],
+    "net": "$LOCAL60",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "39",
+    "pin_name": "IO1",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -590.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL59"
+    ],
+    "net": "$LOCAL59",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "40",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 890.0,
+    "y": -600.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U1",
+    "pin": "41",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 810.0,
+    "y": -620.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "J1",
+    "pin": "4",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "J1",
+    "pin": "3",
+    "pin_name": "D+",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -405.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL30"
+    ],
+    "net": "$LOCAL30",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "J1",
+    "pin": "2",
+    "pin_name": "D-",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL29"
+    ],
+    "net": "$LOCAL29",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "J1",
+    "pin": "1",
+    "pin_name": "VBUS",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -425.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "J1",
+    "pin": "5",
+    "pin_name": "GND",
+    "pin_type": "Undefined",
+    "x": 80.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 295.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL29"
+    ],
+    "net": "$LOCAL29",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 295.0,
+    "y": -385.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "IN",
+    "x": 295.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL30"
+    ],
+    "net": "$LOCAL30",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "IN",
+    "x": 425.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL33"
+    ],
+    "net": "$LOCAL33",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "5",
+    "pin_name": "5",
+    "pin_type": "IN",
+    "x": 425.0,
+    "y": -385.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U3",
+    "pin": "6",
+    "pin_name": "6",
+    "pin_type": "IN",
+    "x": 425.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL32"
+    ],
+    "net": "$LOCAL32",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "F1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 140.0,
+    "y": -710.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "F1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 100.0,
+    "y": -710.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "D1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 120.0,
+    "y": -620.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "D1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 120.0,
+    "y": -660.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -620.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 180.0,
+    "y": -660.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 510.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL34"
+    ],
+    "net": "$LOCAL34",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 470.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL32"
+    ],
+    "net": "$LOCAL32",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R2",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 510.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL35"
+    ],
+    "net": "$LOCAL35",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R2",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 470.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL33"
+    ],
+    "net": "$LOCAL33",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C5",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 1030.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C5",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 1030.0,
+    "y": -665.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C6",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 1110.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C6",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 1110.0,
+    "y": -665.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C7",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "Undefined",
+    "x": 185.0,
+    "y": -170.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C7",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "Undefined",
+    "x": 185.0,
+    "y": -130.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW1",
+    "pin": "2",
+    "pin_name": "B",
+    "pin_type": "Undefined",
+    "x": 125.0,
+    "y": -130.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW1",
+    "pin": "1",
+    "pin_name": "A",
+    "pin_type": "Undefined",
+    "x": 85.0,
+    "y": -130.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW1",
+    "pin": "4",
+    "pin_name": "D",
+    "pin_type": "Undefined",
+    "x": 125.0,
+    "y": -100.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW1",
+    "pin": "3",
+    "pin_name": "C",
+    "pin_type": "Undefined",
+    "x": 85.0,
+    "y": -100.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R4",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -220.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R4",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -180.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL31"
+    ],
+    "net": "$LOCAL31",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW2",
+    "pin": "2",
+    "pin_name": "B",
+    "pin_type": "Undefined",
+    "x": 355.0,
+    "y": -130.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL31"
+    ],
+    "net": "$LOCAL31",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW2",
+    "pin": "1",
+    "pin_name": "A",
+    "pin_type": "Undefined",
+    "x": 315.0,
+    "y": -130.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL31"
+    ],
+    "net": "$LOCAL31",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW2",
+    "pin": "4",
+    "pin_name": "D",
+    "pin_type": "Undefined",
+    "x": 355.0,
+    "y": -100.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "SW2",
+    "pin": "3",
+    "pin_name": "C",
+    "pin_type": "Undefined",
+    "x": 315.0,
+    "y": -100.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 70.0,
+    "y": -710.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 180.0,
+    "y": -710.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 180.0,
+    "y": -580.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 1030.0,
+    "y": -695.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 1030.0,
+    "y": -605.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 60.0,
+    "y": -395.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 225.0,
+    "y": -425.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 455.0,
+    "y": -385.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "USB_VBUS"
+    ],
+    "net": "USB_VBUS",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 200.0,
+    "y": -310.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 540.0,
+    "y": -415.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL34"
+    ],
+    "net": "$LOCAL34",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 540.0,
+    "y": -355.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL35"
+    ],
+    "net": "$LOCAL35",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 185.0,
+    "y": -75.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 375.0,
+    "y": -75.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 375.0,
+    "y": -180.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL31"
+    ],
+    "net": "$LOCAL31",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -235.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 705.0,
+    "y": -600.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 705.0,
+    "y": -590.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 705.0,
+    "y": -580.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL36"
+    ],
+    "net": "$LOCAL36",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 705.0,
+    "y": -480.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL38"
+    ],
+    "net": "$LOCAL38",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 705.0,
+    "y": -470.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL39"
+    ],
+    "net": "$LOCAL39",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 915.0,
+    "y": -470.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL71"
+    ],
+    "net": "$LOCAL71",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 915.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL62"
+    ],
+    "net": "$LOCAL62",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 915.0,
+    "y": -570.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL61"
+    ],
+    "net": "$LOCAL61",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 915.0,
+    "y": -600.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 810.0,
+    "y": -645.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 245.0,
+    "y": -450.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL29"
+    ],
+    "net": "$LOCAL29",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 450.0,
+    "y": -455.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL32"
+    ],
+    "net": "$LOCAL32",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 245.0,
+    "y": -330.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL30"
+    ],
+    "net": "$LOCAL30",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 450.0,
+    "y": -330.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL33"
+    ],
+    "net": "$LOCAL33",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 815.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL53"
+    ],
+    "net": "$LOCAL53",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 795.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL51"
+    ],
+    "net": "$LOCAL51",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 805.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL52"
+    ],
+    "net": "$LOCAL52",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 825.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL54"
+    ],
+    "net": "$LOCAL54",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 835.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL55"
+    ],
+    "net": "$LOCAL55",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 785.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL50"
+    ],
+    "net": "$LOCAL50",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 865.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL58"
+    ],
+    "net": "$LOCAL58",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 845.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL56"
+    ],
+    "net": "$LOCAL56",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 855.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL57"
+    ],
+    "net": "$LOCAL57",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U4",
+    "pin": "1",
+    "pin_name": "VSS",
+    "pin_type": "Undefined",
+    "x": 260.0,
+    "y": -645.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U4",
+    "pin": "2",
+    "pin_name": "VOUT",
+    "pin_type": "Undefined",
+    "x": 260.0,
+    "y": -635.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U4",
+    "pin": "3",
+    "pin_name": "VDD",
+    "pin_type": "Undefined",
+    "x": 260.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "U4",
+    "pin": "4",
+    "pin_name": "TAB",
+    "pin_type": "Undefined",
+    "x": 335.0,
+    "y": -635.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -635.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 260.0,
+    "y": -645.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 260.0,
+    "y": -635.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C2",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 240.0,
+    "y": -625.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "VBUS5V"
+    ],
+    "net": "VBUS5V",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C2",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 240.0,
+    "y": -595.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C3",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -635.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "C3",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -605.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 240.0,
+    "y": -595.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 335.0,
+    "y": -605.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "GND"
+    ],
+    "net": "GND",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 775.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL49"
+    ],
+    "net": "$LOCAL49",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 915.0,
+    "y": -510.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL67"
+    ],
+    "net": "$LOCAL67",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 705.0,
+    "y": -560.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R3",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "IN",
+    "x": 1030.0,
+    "y": -480.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": "R3",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "IN",
+    "x": 1030.0,
+    "y": -440.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL72"
+    ],
+    "net": "$LOCAL72",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 1055.0,
+    "y": -420.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL72"
+    ],
+    "net": "$LOCAL72",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "Pin1",
+    "pin_type": "IN",
+    "x": 1030.0,
+    "y": -495.0,
+    "is_net_flag": true,
+    "net_aliases": [
+     "3V3"
+    ],
+    "net": "3V3",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 185.0,
+    "y": -205.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "SW1"
+    ],
+    "net": "SW1",
+    "named": true
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 705.0,
+    "y": -490.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL37"
+    ],
+    "net": "$LOCAL37",
+    "named": false
+   },
+   {
+    "page": "cfad4c293d2a49d2",
+    "page_title": "01_Power_USB_ESP32",
+    "designator": null,
+    "pin": "1",
+    "pin_name": "BI",
+    "pin_type": "BI",
+    "x": 755.0,
+    "y": -395.0,
+    "is_net_flag": false,
+    "net_aliases": [
+     "$LOCAL47"
+    ],
+    "net": "$LOCAL47",
+    "named": false
+   }
+  ]
+ },
+ "pcb": {
+  "by_pcb": {
+   "14bfa3958859fbb9": {
+    "VBUS5V": [
+     {
+      "designator": "C1",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 577.56,
+      "y": 755.0,
+      "layer": 1
+     },
+     {
+      "designator": "D1",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "115720361646db90",
+      "x": 637.4,
+      "y": 830.0,
+      "layer": 1
+     },
+     {
+      "designator": "F1",
+      "pad": "2",
+      "pad_id": "e4",
+      "footprint": "8260484ed28a255f",
+      "x": 283.11,
+      "y": 790.0,
+      "layer": 1
+     },
+     {
+      "designator": "U4",
+      "pad": "3",
+      "pad_id": "e10",
+      "footprint": "991b537ea5a96f40",
+      "x": 620.55,
+      "y": 576.927,
+      "layer": 1
+     },
+     {
+      "designator": "C2",
+      "pad": "1",
+      "pad_id": "ie8",
+      "footprint": "7e04048519f5f9dd",
+      "x": 437.76,
+      "y": 680.0,
+      "layer": 1
+     }
+    ],
+    "GND": [
+     {
+      "designator": "C1",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 522.44,
+      "y": 755.0,
+      "layer": 1
+     },
+     {
+      "designator": "C5",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 2010.0,
+      "y": 52.56,
+      "layer": 1
+     },
+     {
+      "designator": "C6",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 2080.0,
+      "y": 52.56,
+      "layer": 1
+     },
+     {
+      "designator": "C7",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1965.0,
+      "y": 187.56,
+      "layer": 1
+     },
+     {
+      "designator": "C8",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 579.997,
+      "y": 142.436,
+      "layer": 1
+     },
+     {
+      "designator": "C9",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 644.997,
+      "y": 142.436,
+      "layer": 1
+     },
+     {
+      "designator": "C10",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1107.44,
+      "y": 200.0,
+      "layer": 1
+     },
+     {
+      "designator": "C11",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1107.44,
+      "y": 140.0,
+      "layer": 1
+     },
+     {
+      "designator": "C12",
+      "pad": "1",
+      "pad_id": "e15",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1075.0,
+      "y": 187.56,
+      "layer": 1
+     },
+     {
+      "designator": "D1",
+      "pad": "2",
+      "pad_id": "e16",
+      "footprint": "115720361646db90",
+      "x": 512.6,
+      "y": 830.0,
+      "layer": 1
+     },
+     {
+      "designator": "J1",
+      "pad": "4",
+      "pad_id": "e22",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 252.681,
+      "y": 277.199,
+      "layer": 12
+     },
+     {
+      "designator": "J1",
+      "pad": "5",
+      "pad_id": "e26",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 337.321,
+      "y": 649.249,
+      "layer": 12
+     },
+     {
+      "designator": "J1",
+      "pad": "5",
+      "pad_id": "e27",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 337.321,
+      "y": 180.749,
+      "layer": 12
+     },
+     {
+      "designator": "J3",
+      "pad": "6",
+      "pad_id": "e35",
+      "footprint": "7adce795c58d0598",
+      "x": 1091.81,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "J3",
+      "pad": "10",
+      "pad_id": "e39",
+      "footprint": "7adce795c58d0598",
+      "x": 1272.17,
+      "y": 678.175,
+      "layer": 1
+     },
+     {
+      "designator": "J3",
+      "pad": "13",
+      "pad_id": "e40",
+      "footprint": "7adce795c58d0598",
+      "x": 690.79,
+      "y": 678.175,
+      "layer": 1
+     },
+     {
+      "designator": "J3",
+      "pad": "12",
+      "pad_id": "e41",
+      "footprint": "7adce795c58d0598",
+      "x": 660.79,
+      "y": 298.185,
+      "layer": 1
+     },
+     {
+      "designator": "J3",
+      "pad": "11",
+      "pad_id": "e42",
+      "footprint": "7adce795c58d0598",
+      "x": 1270.79,
+      "y": 298.175,
+      "layer": 1
+     },
+     {
+      "designator": "LCD1",
+      "pad": "8",
+      "pad_id": "e27",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 532.443,
+      "layer": 1
+     },
+     {
+      "designator": "LCD1",
+      "pad": "13",
+      "pad_id": "e32",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 394.643,
+      "layer": 1
+     },
+     {
+      "designator": "Q1",
+      "pad": "2",
+      "pad_id": "e10",
+      "footprint": "eb48e18b7c825c3a",
+      "x": 1412.4,
+      "y": 719.37,
+      "layer": 1
+     },
+     {
+      "designator": "R15",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1399.238,
+      "y": 771.102,
+      "layer": 1
+     },
+     {
+      "designator": "SW1",
+      "pad": "3",
+      "pad_id": "e22",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1666.89,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "SW1",
+      "pad": "4",
+      "pad_id": "e23",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1903.11,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "SW2",
+      "pad": "3",
+      "pad_id": "e22",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1224.39,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "SW2",
+      "pad": "4",
+      "pad_id": "e23",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1460.61,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "SW3",
+      "pad": "3",
+      "pad_id": "e22",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 781.89,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "SW3",
+      "pad": "4",
+      "pad_id": "e23",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1018.11,
+      "y": 47.17,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "1",
+      "pad_id": "e54",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 2180.904,
+      "y": 127.951,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "40",
+      "pad_id": "e93",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 2180.904,
+      "y": 816.931,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e94",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1821.844,
+      "y": 468.501,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e95",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1821.844,
+      "y": 413.381,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e96",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1821.844,
+      "y": 358.261,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e97",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1932.084,
+      "y": 358.261,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e98",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1932.084,
+      "y": 413.381,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e99",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1932.084,
+      "y": 468.501,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e100",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1876.964,
+      "y": 468.501,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e101",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1876.964,
+      "y": 358.261,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "41",
+      "pad_id": "e102",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1876.964,
+      "y": 413.381,
+      "layer": 1
+     },
+     {
+      "designator": "U3",
+      "pad": "2",
+      "pad_id": "e8",
+      "footprint": "8927855428b4e424",
+      "x": 489.76,
+      "y": 45.0,
+      "layer": 1
+     },
+     {
+      "designator": "U4",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "991b537ea5a96f40",
+      "x": 439.45,
+      "y": 576.927,
+      "layer": 1
+     },
+     {
+      "designator": "C2",
+      "pad": "2",
+      "pad_id": "ie9",
+      "footprint": "7e04048519f5f9dd",
+      "x": 532.24,
+      "y": 680.0,
+      "layer": 1
+     },
+     {
+      "designator": "C3",
+      "pad": "2",
+      "pad_id": "ie9",
+      "footprint": "7e04048519f5f9dd",
+      "x": 485.0,
+      "y": 162.76,
+      "layer": 1
+     }
+    ],
+    "3V3": [
+     {
+      "designator": "C5",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 2010.0,
+      "y": -2.56,
+      "layer": 1
+     },
+     {
+      "designator": "C6",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 2080.0,
+      "y": -2.56,
+      "layer": 1
+     },
+     {
+      "designator": "C8",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 579.997,
+      "y": 197.556,
+      "layer": 1
+     },
+     {
+      "designator": "C9",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 644.997,
+      "y": 197.556,
+      "layer": 1
+     },
+     {
+      "designator": "C10",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1162.56,
+      "y": 200.0,
+      "layer": 1
+     },
+     {
+      "designator": "C11",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1162.56,
+      "y": 140.0,
+      "layer": 1
+     },
+     {
+      "designator": "J3",
+      "pad": "4",
+      "pad_id": "e33",
+      "footprint": "7adce795c58d0598",
+      "x": 1005.31,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "LCD1",
+      "pad": "10",
+      "pad_id": "e29",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 477.323,
+      "layer": 1
+     },
+     {
+      "designator": "R3",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1945.0,
+      "y": -4.66,
+      "layer": 1
+     },
+     {
+      "designator": "R4",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1345.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R6",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 865.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R7",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 780.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R8",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 720.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R9",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 985.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R10",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 925.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R11",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1045.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R12",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1225.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R13",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1285.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "R16",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1405.0,
+      "y": 140.34,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "2",
+      "pad_id": "e55",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 2130.904,
+      "y": 127.951,
+      "layer": 1
+     },
+     {
+      "designator": "U4",
+      "pad": "2",
+      "pad_id": "e9",
+      "footprint": "991b537ea5a96f40",
+      "x": 530.0,
+      "y": 576.927,
+      "layer": 1
+     },
+     {
+      "designator": "U4",
+      "pad": "4",
+      "pad_id": "e11",
+      "footprint": "991b537ea5a96f40",
+      "x": 530.0,
+      "y": 343.072,
+      "layer": 1
+     },
+     {
+      "designator": "C3",
+      "pad": "1",
+      "pad_id": "ie8",
+      "footprint": "7e04048519f5f9dd",
+      "x": 485.0,
+      "y": 257.24,
+      "layer": 1
+     }
+    ],
+    "SW1": [
+     {
+      "designator": "C7",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1965.0,
+      "y": 132.44,
+      "layer": 1
+     },
+     {
+      "designator": "SW1",
+      "pad": "1",
+      "pad_id": "e20",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1666.89,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "SW1",
+      "pad": "2",
+      "pad_id": "e21",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1903.11,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "5",
+      "pad_id": "e58",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1980.904,
+      "y": 127.951,
+      "layer": 1
+     }
+    ],
+    "MODE_KEY": [
+     {
+      "designator": "C12",
+      "pad": "2",
+      "pad_id": "e14",
+      "footprint": "020d7ae63d4a2994",
+      "x": 1075.0,
+      "y": 132.44,
+      "layer": 1
+     },
+     {
+      "designator": "R16",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1405.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "SW3",
+      "pad": "1",
+      "pad_id": "e20",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 781.89,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "SW3",
+      "pad": "2",
+      "pad_id": "e21",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1018.11,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "12",
+      "pad_id": "e65",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1630.904,
+      "y": 127.951,
+      "layer": 1
+     }
+    ],
+    "USB_VBUS": [
+     {
+      "designator": "F1",
+      "pad": "1",
+      "pad_id": "e3",
+      "footprint": "8260484ed28a255f",
+      "x": 396.89,
+      "y": 790.0,
+      "layer": 1
+     },
+     {
+      "designator": "J1",
+      "pad": "1",
+      "pad_id": "e25",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 252.681,
+      "y": 552.789,
+      "layer": 12
+     },
+     {
+      "designator": "U3",
+      "pad": "5",
+      "pad_id": "e11",
+      "footprint": "8927855428b4e424",
+      "x": 580.24,
+      "y": 45.0,
+      "layer": 1
+     }
+    ],
+    "USB_DP_CONN": [
+     {
+      "designator": "J1",
+      "pad": "3",
+      "pad_id": "e23",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 252.681,
+      "y": 375.619,
+      "layer": 12
+     },
+     {
+      "designator": "R2",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1420.566,
+      "y": 59.803,
+      "layer": 1
+     },
+     {
+      "designator": "U3",
+      "pad": "3",
+      "pad_id": "e9",
+      "footprint": "8927855428b4e424",
+      "x": 489.76,
+      "y": 82.4,
+      "layer": 1
+     },
+     {
+      "designator": "U3",
+      "pad": "4",
+      "pad_id": "e10",
+      "footprint": "8927855428b4e424",
+      "x": 580.24,
+      "y": 82.4,
+      "layer": 1
+     }
+    ],
+    "USB_DM_CONN": [
+     {
+      "designator": "J1",
+      "pad": "2",
+      "pad_id": "e24",
+      "footprint": "3f21f5c0d8fd6612",
+      "x": 252.681,
+      "y": 454.359,
+      "layer": 12
+     },
+     {
+      "designator": "R1",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1420.566,
+      "y": 9.803,
+      "layer": 1
+     },
+     {
+      "designator": "U3",
+      "pad": "1",
+      "pad_id": "e7",
+      "footprint": "8927855428b4e424",
+      "x": 489.76,
+      "y": 7.6,
+      "layer": 1
+     },
+     {
+      "designator": "U3",
+      "pad": "6",
+      "pad_id": "e12",
+      "footprint": "8927855428b4e424",
+      "x": 580.24,
+      "y": 7.6,
+      "layer": 1
+     }
+    ],
+    "SD_D2": [
+     {
+      "designator": "J3",
+      "pad": "1",
+      "pad_id": "e30",
+      "footprint": "7adce795c58d0598",
+      "x": 875.82,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "R9",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 985.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "18",
+      "pad_id": "e71",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 347.441,
+      "layer": 1
+     }
+    ],
+    "SD_D3": [
+     {
+      "designator": "J3",
+      "pad": "2",
+      "pad_id": "e31",
+      "footprint": "7adce795c58d0598",
+      "x": 918.86,
+      "y": 699.295,
+      "layer": 1
+     },
+     {
+      "designator": "R10",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 925.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "19",
+      "pad_id": "e72",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 397.441,
+      "layer": 1
+     }
+    ],
+    "SD_CMD": [
+     {
+      "designator": "J3",
+      "pad": "3",
+      "pad_id": "e32",
+      "footprint": "7adce795c58d0598",
+      "x": 962.03,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "R6",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 865.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "20",
+      "pad_id": "e73",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 447.441,
+      "layer": 1
+     }
+    ],
+    "SD_CLK_CARD": [
+     {
+      "designator": "J3",
+      "pad": "5",
+      "pad_id": "e34",
+      "footprint": "7adce795c58d0598",
+      "x": 1048.57,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "R5",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1384.66,
+      "y": 505.0,
+      "layer": 1
+     }
+    ],
+    "SD_D0": [
+     {
+      "designator": "J3",
+      "pad": "7",
+      "pad_id": "e36",
+      "footprint": "7adce795c58d0598",
+      "x": 1134.98,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "R7",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 780.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "22",
+      "pad_id": "e75",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 547.441,
+      "layer": 1
+     }
+    ],
+    "SD_D1": [
+     {
+      "designator": "J3",
+      "pad": "8",
+      "pad_id": "e37",
+      "footprint": "7adce795c58d0598",
+      "x": 1178.21,
+      "y": 699.365,
+      "layer": 1
+     },
+     {
+      "designator": "R8",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 720.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "23",
+      "pad_id": "e76",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 597.441,
+      "layer": 1
+     }
+    ],
+    "LCD_MOSI": [
+     {
+      "designator": "LCD1",
+      "pad": "3",
+      "pad_id": "e22",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 670.233,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "24",
+      "pad_id": "e77",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 647.441,
+      "layer": 1
+     }
+    ],
+    "LCD_SCLK": [
+     {
+      "designator": "LCD1",
+      "pad": "4",
+      "pad_id": "e23",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 642.673,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "25",
+      "pad_id": "e78",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 697.441,
+      "layer": 1
+     }
+    ],
+    "LCD_DC": [
+     {
+      "designator": "LCD1",
+      "pad": "5",
+      "pad_id": "e24",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 615.123,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "26",
+      "pad_id": "e79",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1481.694,
+      "y": 747.441,
+      "layer": 1
+     }
+    ],
+    "LCD_RST": [
+     {
+      "designator": "LCD1",
+      "pad": "6",
+      "pad_id": "e25",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 587.563,
+      "layer": 1
+     },
+     {
+      "designator": "R13",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1285.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "15",
+      "pad_id": "e68",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 197.441,
+      "layer": 1
+     }
+    ],
+    "LCD_CS": [
+     {
+      "designator": "LCD1",
+      "pad": "7",
+      "pad_id": "e26",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 560.003,
+      "layer": 1
+     },
+     {
+      "designator": "R12",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1225.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "17",
+      "pad_id": "e70",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 297.441,
+      "layer": 1
+     }
+    ],
+    "LCD_LED_K": [
+     {
+      "designator": "LCD1",
+      "pad": "11",
+      "pad_id": "e30",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 449.763,
+      "layer": 1
+     },
+     {
+      "designator": "Q1",
+      "pad": "3",
+      "pad_id": "e11",
+      "footprint": "eb48e18b7c825c3a",
+      "x": 1375.0,
+      "y": 640.63,
+      "layer": 1
+     }
+    ],
+    "LCD_LED_A": [
+     {
+      "designator": "LCD1",
+      "pad": "12",
+      "pad_id": "e31",
+      "footprint": "0f896202797d2033",
+      "x": 1245.755,
+      "y": 422.203,
+      "layer": 1
+     },
+     {
+      "designator": "R11",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1045.0,
+      "y": 199.66,
+      "layer": 1
+     }
+    ],
+    "LCD_BL_GATE": [
+     {
+      "designator": "Q1",
+      "pad": "1",
+      "pad_id": "e9",
+      "footprint": "eb48e18b7c825c3a",
+      "x": 1337.6,
+      "y": 719.37,
+      "layer": 1
+     },
+     {
+      "designator": "R14",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1339.238,
+      "y": 771.102,
+      "layer": 1
+     },
+     {
+      "designator": "R15",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1399.238,
+      "y": 830.422,
+      "layer": 1
+     }
+    ],
+    "USB_DM": [
+     {
+      "designator": "R1",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1361.245,
+      "y": 9.803,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "13",
+      "pad_id": "e66",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1580.904,
+      "y": 127.951,
+      "layer": 1
+     }
+    ],
+    "USB_DP": [
+     {
+      "designator": "R2",
+      "pad": "2",
+      "pad_id": "e7",
+      "footprint": "434f23f8537b8473",
+      "x": 1361.245,
+      "y": 59.803,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "14",
+      "pad_id": "e67",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1530.904,
+      "y": 127.951,
+      "layer": 1
+     }
+    ],
+    "ESP_EN": [
+     {
+      "designator": "R3",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1945.0,
+      "y": 54.66,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "3",
+      "pad_id": "e56",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 2080.904,
+      "y": 127.951,
+      "layer": 1
+     }
+    ],
+    "BOOT0": [
+     {
+      "designator": "R4",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1345.0,
+      "y": 199.66,
+      "layer": 1
+     },
+     {
+      "designator": "SW2",
+      "pad": "1",
+      "pad_id": "e20",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1224.39,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "SW2",
+      "pad": "2",
+      "pad_id": "e21",
+      "footprint": "6e4fe82df615cd8c",
+      "x": 1460.61,
+      "y": 192.83,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "27",
+      "pad_id": "e80",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1530.904,
+      "y": 816.931,
+      "layer": 1
+     }
+    ],
+    "SD_CLK": [
+     {
+      "designator": "R5",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1325.34,
+      "y": 505.0,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "21",
+      "pad_id": "e74",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1480.514,
+      "y": 497.441,
+      "layer": 1
+     }
+    ],
+    "LCD_BL": [
+     {
+      "designator": "R14",
+      "pad": "1",
+      "pad_id": "e8",
+      "footprint": "434f23f8537b8473",
+      "x": 1339.238,
+      "y": 830.422,
+      "layer": 1
+     },
+     {
+      "designator": "U1",
+      "pad": "31",
+      "pad_id": "e84",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1730.904,
+      "y": 816.931,
+      "layer": 1
+     }
+    ],
+    "UART_RX": [
+     {
+      "designator": "U1",
+      "pad": "36",
+      "pad_id": "e89",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 1980.904,
+      "y": 816.931,
+      "layer": 1
+     }
+    ],
+    "UART_TX": [
+     {
+      "designator": "U1",
+      "pad": "37",
+      "pad_id": "e90",
+      "footprint": "9b632dfe1f40a8e6",
+      "x": 2030.904,
+      "y": 816.931,
+      "layer": 1
+     }
+    ]
+   }
+  },
+  "standalone_pads": {}
+ },
+ "comparison": {
+  "pins_compared": 134,
+  "match": 69,
+  "mismatch": 0,
+  "net_tie_equivalent": 0,
+  "both_auto_named": 0,
+  "schematic_named_only": 0,
+  "pcb_named_only": 65,
+  "mismatch_details": [],
+  "only_in_schematic": [
+   "J3.9",
+   "LCD1.1",
+   "LCD1.2",
+   "LCD1.9",
+   "U1.10",
+   "U1.11",
+   "U1.16",
+   "U1.28",
+   "U1.29",
+   "U1.30",
+   "U1.32",
+   "U1.33",
+   "U1.34",
+   "U1.35",
+   "U1.38",
+   "U1.39",
+   "U1.4",
+   "U1.6",
+   "U1.7",
+   "U1.8",
+   "U1.9"
+  ],
+  "only_in_pcb": [],
+  "nets_compared": 5,
+  "net_mismatches": [],
+  "pcb_uuid": "14bfa3958859fbb9",
+  "pcb_title": "PCB1",
+  "designators_schematic": 39,
+  "designators_pcb": 39,
+  "only_designators_schematic": [],
+  "only_designators_pcb": []
+ }
+}

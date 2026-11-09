@@ -1,0 +1,465 @@
+# 要求基线 — STM32控制板（Board1）
+# 生成日期 2026-11-08。来源标注：
+#   explicit  = 器件手册/标准/板厂规则/用户明确给出
+#   inferred  = 从设计推断，只作检查假设
+#   missing   = 无依据，相关项只能 REVIEW / NOT_CHECKED
+# 手册依据说明：本轮 WebFetch 被拦，datasheet 事实来自检索结果引述（标「手册引述（检索）」），
+# 未直接打开 PDF 原文；引用条款号需人工复核。
+
+requirements:
+  # ---------- A 类：数据一致性 ----------
+  - id: REQ-A01-001
+    check: A-01
+    object: 快照
+    requirement: "快照含编辑器版本、工程 UUID、文档数、图元数；文件可解析"
+    source: "review-method.md §2"
+    conditions: "2026-11-08 采集"
+    status: explicit
+    evidence: "pcb_raw.json / sch_*_raw.json / sch.net / pcb.net，SHA256 见 source.md"
+    note: "无 .epro2 原始包，A-01 的包完整性不适用；以 API 快照代替"
+
+  - id: REQ-A03-001
+    check: A-03
+    object: 离线网表 vs API 网表
+    requirement: "逐引脚映射及成员分组一致；别名/过滤对象/导出范围差异逐项解释"
+    source: "review-method.md A-03"
+    conditions: "需 `.epro2` 离线包"
+    status: missing
+    evidence: "无 `.epro2` 离线包，未执行；本轮做的是 sch.net vs pcb.net（属 A-05）"
+    note: "A-03 = NOT_CHECKED；不得用 A-05 的结果顶替"
+
+  - id: REQ-A05-001
+    check: A-05
+    object: 原理图↔PCB
+    requirement: "逐引脚映射一致；独有/缺失引脚逐条解释"
+    source: "review-method.md A-05"
+    conditions: "同一工程的 sch.net 与 pcb.net（均为 API 导出）"
+    status: explicit
+    evidence: "79 元件 / 306 共有引脚 / 69 网 / 0 个仅在单侧的引脚 / 0 个网名或成员不一致"
+    note: "这是本板唯一一次完整的双平面网表比对；A-03（离线 vs API）未做"
+
+  - id: REQ-A06-001
+    check: A-06
+    object: 位号
+    requirement: "两侧位号集合一致；AddIntoBom/AddIntoPcb/空封装有解释"
+    source: "review-method.md A-06"
+    conditions: "同上"
+    status: explicit
+    evidence: "79 对 79，无缺失；H1–H3 等无 MPN 不影响位号一致"
+    note: ""
+
+  - id: REQ-A07-001
+    check: A-07
+    object: U1 / U8 / USB1 / U5,U9,U10
+    requirement: "符号引脚号与封装焊盘号按确切 MPN 逐脚对应，重复焊盘号有解释"
+    source: "器件手册 + 封装定义"
+    conditions: "LQFP48 / SOP-16 / USB-C 16P / SMA"
+    status: explicit
+    evidence: "U1 48 脚 1:1 映射；U8 16 脚 1:1；USB1 16P+EP4 焊盘；U5/U9/U10 2 脚"
+    note: "SS54 引脚号随库定义变化，A 端/C 端需按网表语义判，不按脚号"
+
+  # ---------- B 类：电气连接 ----------
+  - id: REQ-B01-001
+    check: B-01
+    object: U8.7/8/9/10/11/12/15, USB1.A8/B8
+    requirement: "未连接脚按手册允许悬空"
+    source: "CH340C 手册引述（检索）；USB-C 规范"
+    conditions: "TTL 模式，无硬件流控"
+    status: explicit
+    evidence: "U8.15 R232 悬空 = TTL 模式；7=NC；8/9–12 可悬空；USB1 SBU1/2 不用"
+    note: "引述未回查 PDF 原文，标「手册引述（检索）」"
+
+  - id: REQ-B02-001
+    check: B-02
+    object: 全部网
+    requirement: "无单脚网；单脚网需设计意图解释"
+    source: "review-method.md B-02"
+    conditions: "69 网 / 297 有网引脚"
+    status: explicit
+    evidence: "0 个单脚网"
+    note: ""
+
+  - id: REQ-B03-001
+    check: B-03
+    object: U1.35 / U1.36 / U1.47 / U1.48
+    requirement: "VSS 接 GND，VDD 接 VCC+3.3V"
+    source: "STM32F103x8/xB 手册引脚表（DS5319 Table 5，手册引述（检索））"
+    conditions: "LQFP48"
+    status: explicit
+    evidence: "U1.35=VSS_2→VCC+3.3V；U1.36=VDD_2→GND；U1.47=VSS_3→VCC+3.3V；U1.48=VDD_3→GND"
+    note: "违反 → F-001 (S0)"
+
+  - id: REQ-B03-002
+    check: B-03
+    object: U2/U3/U4/U5/U9/U10
+    requirement: "稳压器/二极管电源脚接预期轨，电压档正确"
+    source: "LM2596 / AMS1117 / XL1509 / SS54 手册引述（检索）"
+    conditions: "标称输入"
+    status: explicit
+    evidence: "U2.1=12V, U2.4=USB+5V；U3.3=5V, U3.2/4=3.3V；U4.1=24V, U4.3=12V；U5.1=24V, U5.2=输入"
+    note: "U9/U10 输出方向 → F-003"
+
+  - id: REQ-B04-001
+    check: B-04
+    object: U2.4 / U3.2+U3.4 / U8 D+/D−
+    requirement: "同网多驱动被允许；输出端并联需均流/ORing"
+    source: "器件手册"
+    conditions: "稳态"
+    status: inferred
+    evidence: "U2.4 反馈与 U3 输出并联属正常；USB+5V 与 VBUS 直连 → F-004"
+    note: ""
+
+  - id: REQ-B05-001
+    check: B-05
+    object: U1.44 BOOT0 / U1.20 BOOT1 / U4.4 / U2.5
+    requirement: "需确定电平的输入有有效驱动或偏置"
+    source: "STM32F103 手册；XL1509/LM2596 手册引述（检索）"
+    conditions: "上电/复位"
+    status: explicit
+    evidence: "U4.4 EN=GND（低有效，正确）；U2.5 ON/OFF=GND（低=开，正确）；BOOT0 仅经 R11 到 H1.3，BOOT1 经 R12 到 H1.4"
+    note: "BOOT 脚无常态下拉 → F-009"
+
+  - id: REQ-B06-001
+    check: B-06
+    object: 7 个短接符号 + 全局标签
+    requirement: "别名合并有解释；同名网跨页无歧义"
+    source: "review-method.md B-06"
+    conditions: "3 页原理图"
+    status: explicit
+    evidence: "短接符号合并 7 组别名；两侧网表均无别名网残留；69 网一致"
+    note: ""
+
+  - id: REQ-B07-001
+    check: B-07
+    object: Short-Symbol ×7
+    requirement: "逻辑短接 vs PCB net-tie 语义正确"
+    source: "review-method.md B-07"
+    conditions: "原理图逻辑合并"
+    status: explicit
+    evidence: "7 个 Short-Symbol 均为原理图逻辑合并，PCB 无 net-tie 元件；合并后网名唯一"
+    note: ""
+
+  - id: REQ-B08-001
+    check: B-08
+    object: 跨页网络标签
+    requirement: "跨页连接配置与意图一致"
+    source: "netlist CONFIG"
+    conditions: "3 页"
+    status: missing
+    evidence: "未导出 CONFIG.UNIVERSAL.netLabelCrossPageConnection；仅从网表推断跨页已连通"
+    note: "缺字段 → 只能 REVIEW"
+
+  - id: REQ-B10-001
+    check: B-10
+    object: D1/D2/D3/D5/D6/U5/U9/U10/LED/C1/C3/C4/C5
+    requirement: "二极管/电解/LED 方向与封装标记一致"
+    source: "器件手册引述（检索）"
+    conditions: "SMA/SMB/SOD-123/直插"
+    status: explicit
+    evidence: "U5 A=输入 C=+24V 正确；U9/U10 阴极在电源侧、阳极在连接器侧；D1 A=GND C=$1N75（续流方向）正确；D2 K=$1N19 A=GND 正确；D3/D6 K=输出 A=GND 正确"
+    note: "U9/U10 → F-003，但结论以「CN2/CN3 为输出」为前提（推断），故 F-003 记待复核而非已确认"
+
+  # ---------- C 类：设计语义 ----------
+  - id: REQ-C01-001
+    check: C-01
+    object: 电源树
+    requirement: "每级输入电压在器件范围，输出电流有裕量，EN/反馈正确"
+    source: "各稳压器手册引述（检索）"
+    conditions: "标称 24V 输入"
+    status: explicit
+    evidence: "24V→XL1509(40V max)→12V→LM2596(40V max)→5V→AMS1117(15V max)→3.3V，电压档均在范围内"
+    note: "电流裕量因负载未知 → REVIEW"
+
+  - id: REQ-C01-002
+    check: C-01
+    object: L1 / L2
+    requirement: "功率电感额定电流 ≥ 该路最大输出电流并留降额裕量"
+    source: "BOM Current Rating / Isat；LM2596 3A、XL1509 2A（BOM）"
+    conditions: "满载"
+    status: explicit
+    evidence: "L2 1.35A（Isat 1.45A）在 5V 路；L1 1.1A（Isat 1.3A）在 12V 路"
+    note: "→ F-019；实际输出能力被电感封顶"
+
+  - id: REQ-C02-001
+    check: C-02
+    object: U3 输出 / U1 电源脚 / U2 / U4
+    requirement: "按手册核去耦容值/有效容量/耐压/ESR 与布局"
+    source: "AMS1117 手册引述（检索）：输出电容参与频率补偿，建议 22µF 固体钽；STM32F103 每个 VDD 100nF"
+    conditions: "全温度/全负载"
+    status: explicit
+    evidence: "3.3V 仅 7×100nF（C8,C9,C15–C18,C23），无 ≥10µF；U1 每个 VDD 有 100nF"
+    note: "→ F-005"
+
+  - id: REQ-C03-001
+    check: C-03
+    object: NRST / BOOT0 / BOOT1 / PB11
+    requirement: "复位上拉、BOOT 常态电平、开集上拉正确"
+    source: "STM32F103 手册引述（检索）"
+    conditions: "上电/复位"
+    status: explicit
+    evidence: "R6 10K NRST→3.3V 正确；R7 4.7K PB11→3.3V 正确；BOOT0/BOOT1 只有 10K 串到排针，无下拉"
+    note: "→ F-009"
+
+  - id: REQ-C04-001
+    check: C-04
+    object: X1 / X2 / NRST
+    requirement: "晶振负载电容匹配器件 CL；复位电路满足手册"
+    source: "ST AN2867 / STM32F103 手册引述（检索）：不要用 CL=12.5pF 的谐振器；CL1/CL2 5–15pF"
+    conditions: "室温起振"
+    status: explicit
+    evidence: "X2 CL=12.5pF，C12/C13=10pF；X1 CL=9pF，C10/C11=20pF"
+    note: "→ F-007, F-008"
+
+  - id: REQ-C05-001
+    check: C-05
+    object: CN1 / USB1 / 外露接口
+    requirement: "按暴露场景核防反接、TVS、保险丝、ESD"
+    source: "接口暴露/系统防护要求（用户未给）"
+    conditions: "未知"
+    status: missing
+    evidence: "24V 输入无 TVS/保险丝；USB/串口/DBUS/SWD 无 ESD；输出侧有 D3/D6 TVS"
+    note: "缺环境/EMC 要求 → REVIEW（F-012）"
+
+  - id: REQ-C06-001
+    check: C-06
+    object: USB D± / UART / DBUS / Q1
+    requirement: "跨域电平兼容，极性正确"
+    source: "CH340C / USB 规范 / S8050 手册引述（检索）"
+    conditions: "稳态"
+    status: explicit
+    evidence: "U8.5 D+=DP, U8.6 D−=DN 正确；U8.2 TXD→PA3, U8.3 RXD←PA2 正确；Q1 基极直连 DBUS"
+    note: "→ F-010, F-011"
+
+  - id: REQ-C07-001
+    check: C-07
+    object: 关键参数
+    requirement: "供电范围、引脚定义、电流、CL/ESR 逐项核"
+    source: "各手册引述（检索）"
+    conditions: "标称工况"
+    status: explicit
+    evidence: "见 findings 各条 Requirements 列"
+    note: "全部为检索引述，非 PDF 原文"
+
+  - id: REQ-C08-001
+    check: C-08
+    object: CN1/CN2/CN3/USB1/DBUS1/USART1/SWD1/H1–H3
+    requirement: "脚序、方向、屏蔽/地脚与对端一致"
+    source: "连接器手册 / 对端定义（未提供）"
+    conditions: "—"
+    status: missing
+    evidence: "仅能从网表与丝印确认板上连接；对端线序无资料"
+    note: "对端资料缺失 → REVIEW/NOT_CHECKED"
+
+  - id: REQ-C09-001
+    check: C-09
+    object: BOM 全部
+    requirement: "值、封装、极性、DNP 与原理图/PCB 一致"
+    source: "BOM"
+    conditions: "—"
+    status: explicit
+    evidence: "见 F-013"
+    note: "~49 项无 MPN；SS54 封装描述不一致"
+
+  - id: REQ-C10-001
+    check: C-10
+    object: 全部 79 个 PCB 元件
+    requirement: "完整 MPN/封装后缀、引脚定义/pin1/极性/观察面、焊盘数量与尺寸"
+    source: "厂商图纸 + 库定义"
+    conditions: "—"
+    status: missing
+    evidence: "只完成型号绑定与焊盘计数；尺寸/厂商图纸未取得"
+    note: "见 footprint-review.md"
+
+  # ---------- D 类：PCB 几何 ----------
+  - id: REQ-D01-001
+    check: D-01
+    object: PCB DRC / SCH ERC
+    requirement: "启用规则已确认，error/warn 逐项分析"
+    source: "api pcb_Drc.check / sch_Drc.check"
+    conditions: "JLCPCB 两层规则"
+    status: explicit
+    evidence: "DRC: 1 Netlist Error，drcPass=false；ERC: 每页 1 warn，无明细"
+    note: "→ F-014, F-015"
+
+  - id: REQ-D02-001
+    check: D-02
+    object: 走线/间距/孔径
+    requirement: "≥ 规则值：安全间距 0.152mm，最小线宽 0.127mm"
+    source: "JLCPCB Capability(Two Layers Board) 规则快照"
+    conditions: "两层 1oz（铜厚未确认）"
+    status: explicit
+    evidence: "DRC 0 个间距/线宽/孔径报项；线宽 10–50mil"
+    note: "规则表单位以 API 字段为准，已按 mm 记录"
+
+  - id: REQ-D03-001
+    check: D-03
+    object: 铜/孔到板边
+    requirement: "≥ 厂能力（未指定板厂时只报疑似）"
+    source: "JLCPCB 规则"
+    conditions: "—"
+    status: explicit
+    evidence: "最小铜到边 19.7mil (0.50mm)；最小孔到边 76.2mil (1.94mm)"
+    note: ""
+
+  - id: REQ-D04-001
+    check: D-04
+    object: 连通性/短路
+    requirement: "同网连通，异网无未授权接触"
+    source: "review-method.md D-04"
+    conditions: "含铺铜"
+    status: missing
+    evidence: "铺铜 path 坐标系未校准；离线几何脚本未跑"
+    note: "→ NOT_CHECKED"
+
+  - id: REQ-D05-001
+    check: D-05
+    object: 362 过孔
+    requirement: "直径/孔径/环宽 ≥ 厂能力"
+    source: "JLCPCB 规则"
+    conditions: "—"
+    status: explicit
+    evidence: "357 个 24/12mil；4 个 158/118mil 安装孔；1 个 30/20mil；全部环宽 ≥ 6mil"
+    note: ""
+
+  - id: REQ-D06-001
+    check: D-06
+    object: 叠层
+    requirement: "铜层数/叠层参数/阻抗可算"
+    source: "层列表"
+    conditions: "—"
+    status: missing
+    evidence: "2 层；板厚/铜厚/介质未取得"
+    note: "阻抗不可算"
+
+  - id: REQ-D07-001
+    check: D-07
+    object: POUR1 / POUR2
+    requirement: "无孤岛，热焊盘正确，网归属正确"
+    source: "review-method.md D-07"
+    conditions: "—"
+    status: missing
+    evidence: "两层 GND 铺铜，priority 1；孤岛/热焊盘未逐项验证"
+    note: "REVIEW"
+
+  - id: REQ-D08-001
+    check: D-08
+    object: 丝印
+    requirement: "位号可见且在板内，丝印不压焊盘"
+    source: "review-method.md D-08"
+    conditions: "—"
+    status: missing
+    evidence: "未做丝印-焊盘几何相交计算"
+    note: "NOT_CHECKED"
+
+  - id: REQ-D09-001
+    check: D-09
+    object: 板框 / 4 安装孔
+    requirement: "闭合、尺寸、孔位符合结构"
+    source: "结构要求（未提供）"
+    conditions: "—"
+    status: missing
+    evidence: "板框 70.0×100.0mm R3 闭合；4×φ3.0mm 孔在四角"
+    note: "结构要求缺失 → 尺寸闭合可判，孔位符合性 REVIEW"
+
+  # ---------- E 类 ----------
+  - id: REQ-E01-001
+    check: E-01
+    object: GND 平面
+    requirement: "回流不跨分割"
+    source: "emc GP-001~005（需回查）"
+    conditions: "—"
+    status: missing
+    evidence: "两层均有 GND 铺铜；割裂情况未量化"
+    note: "REVIEW"
+
+  - id: REQ-E02-001
+    check: E-02
+    object: 去耦布局
+    requirement: "按 IC 手册/回流路径核"
+    source: "器件手册"
+    conditions: "—"
+    status: inferred
+    evidence: "100nF 距 U1 电源脚 2.5–5.0mm"
+    note: "5/8/3mm 不作门限"
+
+  - id: REQ-E03-001
+    check: E-03
+    object: U2/U4 开关电源布局
+    requirement: "输入热环路、SW 区、反馈、回流按厂商布局指南"
+    source: "LM2596/XL1509 手册引述（检索）"
+    conditions: "—"
+    status: missing
+    evidence: "未取得厂商布局图；输入电容 C3/C4/C5 靠近；反馈取自输出电容"
+    note: "REVIEW"
+
+  - id: REQ-E06-001
+    check: E-06
+    object: 接口 ESD/滤波
+    requirement: "按暴露等级与线缆核"
+    source: "用户环境要求（未给）"
+    conditions: "—"
+    status: missing
+    evidence: "无 ESD 器件"
+    note: "→ F-012"
+
+  - id: REQ-E07-001
+    check: E-07
+    object: X1/X2 布局
+    requirement: "按器件布局建议核负载/寄生/回流"
+    source: "ST AN2867（检索）"
+    conditions: "—"
+    status: explicit
+    evidence: "X1 距 U1 约 3.5mm；C10/C11 紧邻"
+    note: "负载电容值本身 → F-007/F-008"
+
+  - id: REQ-E08-001
+    check: E-08
+    object: U2/U3 散热
+    requirement: "功率器件铜面积/过孔阵列/降额（需功率数据）"
+    source: "功率数据（未提供）"
+    conditions: "—"
+    status: missing
+    evidence: "U2 12 个散热过孔，U3 7 个"
+    note: "功率未知 → REVIEW"
+
+  # ---------- F 类 ----------
+  - id: REQ-F01-001
+    check: F-01
+    object: 全板
+    requirement: "按板厂能力核线宽/间距/孔径/板厚"
+    source: "JLCPCB Capability(Two Layers Board)"
+    conditions: "两层"
+    status: explicit
+    evidence: "DRC 规则为该配置；线宽/间距/孔径 0 报项"
+    note: "板厚/铜厚/工艺档未指定"
+
+  - id: REQ-F02-001
+    check: F-02
+    object: BOM
+    requirement: "MPN/规格/封装/装配变体一致"
+    source: "BOM"
+    conditions: "—"
+    status: explicit
+    evidence: "见 F-013"
+    note: ""
+
+  - id: REQ-F04-001
+    check: F-04
+    object: Gerber/钻孔
+    requirement: "核实际制造层/孔/外形/版本"
+    source: "review-method.md F-04"
+    conditions: "—"
+    status: missing
+    evidence: "未导出 Gerber/钻孔"
+    note: "NOT_CHECKED"
+
+  # ---------- G 类 ----------
+  - id: REQ-G01-001
+    check: G-01
+    object: 电源环路
+    requirement: "不适用：结论不依赖手册未给数值，且无稳定性指标"
+    source: "review-method.md G 触发条件"
+    conditions: "—"
+    status: missing
+    evidence: "未指定纹波/瞬态指标"
+    note: "不跑仿真，理由记录"

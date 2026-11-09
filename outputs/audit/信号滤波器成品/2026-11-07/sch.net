@@ -1,0 +1,4641 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+CN1
+FOOTPRINT
+CONN-TH_3P-P2.50_HC-XH-3A-G
+PARTTYPE
+HX-XH2.54-3PZZ
+DESCRIPTION
+插针结构:1x3P;间距:2.54mm;安装方式:直插;参考系列:XH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:3A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+HX-XH2.54-3PZZ
+Designator
+CN1
+Device
+HX-XH2.54-3PZZ
+Unique ID
+gge5
+Name
+HX-XH2.54-3PZZ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1x3P 间距:2.54mm 直插 系列:XH
+Supplier Part
+C42391661
+Manufacturer
+hanxia(韩下)
+Manufacturer Part
+HX-XH2.54-3PZZ
+Supplier Footprint
+插件,P=2.5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/HX-XH2.54-3PZZ/44326933.html
+Supplier
+LCSC
+3D Model Title
+CONN-TH_3P-P2.50_HC-XH-3A-G
+Pins Structure
+1x3P
+Pitch
+2.54mm
+Mounting Type
+直插
+Reference Series
+XH
+Number of Pins
+3P
+Number of Rows
+1
+Number of PINs Per Row
+3
+Row Spacing
+-
+Current Rating
+3A
+Contact Material
+黄铜
+Contact Plating
+锡
+Operating Temperature
+-25℃~+85℃
+Voltage Rating
+250V
+Plastic Material
+PA66
+Flame Retardant Rating
+UL94V-0
+Color
+白色
+Description
+插针结构:1x3P;间距:2.54mm;安装方式:直插;参考系列:XH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:3A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;
+
+*
+]
+[
+DESIGNATOR
+R1
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1001TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1001TS
+Designator
+R1
+Device
+FRC0603F1001TS
+Unique ID
+gge6
+Name
+1kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907002
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1001TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1001TS/3180515.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R2
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1001TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1001TS
+Designator
+R2
+Device
+FRC0603F1001TS
+Name
+1kΩ
+Unique ID
+gge7
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907002
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1001TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1001TS/3180515.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R3
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1001TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1001TS
+Designator
+R3
+Device
+FRC0603F1001TS
+Name
+1kΩ
+Unique ID
+gge8
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907002
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1001TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1001TS/3180515.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C1
+Device
+FCC0603B562K500CT
+Unique ID
+gge9
+Name
+5.6nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C2
+Device
+FCC0603B562K500CT
+Unique ID
+gge10
+Name
+5.6nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R4
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1501TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.5kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1501TS
+Designator
+R4
+Device
+FRC0603F1501TS
+Unique ID
+gge11
+Name
+1.5kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1.5kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2930050
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1501TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.5kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1.5kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+C3
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C3
+Device
+FCC0603B562K500CT
+Name
+5.6nF
+Unique ID
+gge12
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C4
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C4
+Device
+FCC0603B562K500CT
+Name
+5.6nF
+Unique ID
+gge13
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C5
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C5
+Device
+FCC0603B562K500CT
+Name
+5.6nF
+Unique ID
+gge14
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C6
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B562K500CT
+DESCRIPTION
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B562K500CT
+Designator
+C6
+Device
+FCC0603B562K500CT
+Name
+5.6nF
+Unique ID
+gge15
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+5.6nF ±10% 50V
+Supplier Part
+C7467139
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B562K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B562K500CT/8513676.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+5.6nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:5.6nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R10
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F2201TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:2.2kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F2201TS
+Designator
+R10
+Device
+FRC0603F2201TS
+Unique ID
+gge16
+Name
+2.2kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+2.2kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907005
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F2201TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+2.2kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:2.2kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R7
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1601T5E
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603WAF1601T5E
+Designator
+R7
+Device
+0603WAF1601T5E
+Unique ID
+gge17
+Name
+1.6kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+厚膜电阻 1.6kΩ ±1%
+Supplier Part
+C22847
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1601T5E
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1601T5E/23574.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.6kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R5
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1101TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1101TS
+Designator
+R5
+Device
+FRC0603F1101TS
+Unique ID
+gge18
+Name
+1.1kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1.1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2906975
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1101TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1101TS/3180488.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R6
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F3900TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:390Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F3900TS
+Designator
+R6
+Device
+FRC0603F3900TS
+Unique ID
+gge19
+Name
+390Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+390Ω ±1% 100mW 厚膜电阻
+Supplier Part
+C2907031
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F3900TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F3900TS/3180544.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+390Ω
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:390Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R8
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F6201TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:6.2kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F6201TS
+Designator
+R8
+Device
+FRC0603F6201TS
+Unique ID
+gge20
+Name
+6.2kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+6.2kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907054
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F6201TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F6201TS/3180567.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+6.2kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:6.2kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R9
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF2000T5E
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:200Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603WAF2000T5E
+Designator
+R9
+Device
+0603WAF2000T5E
+Unique ID
+gge21
+Name
+200Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+200Ω ±1% 100mW 厚膜电阻
+Supplier Part
+C8218
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF2000T5E
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF2000T5E/8708.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+200Ω
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:200Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+U5
+FOOTPRINT
+DIP-8_L10.0-W6.5-P2.54-LS7.6-BL-1
+PARTTYPE
+LM311P
+DESCRIPTION
+比较器数:单路;输入失调电压(Vos):7.5mV;输入偏置电流(Ib):250nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+LM311P
+Designator
+U5
+Device
+LM311P
+Unique ID
+gge22
+Name
+LM311P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+带选通功能的差分比较器
+Supplier Part
+C5219
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+LM311P
+Supplier Footprint
+PDIP-8
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://www.ti.com/cn/lit/ds/symlink/lm311.pdf
+Supplier
+LCSC
+3D Model Title
+DIP-8_L10.0-W6.5-P2.54-LS7.6-BL
+Number of Channels
+单路
+Vos - Input Offset Voltage
+7.5mV
+Ib - Input Bias Current
+250nA
+Propagation Delay Time
+165ns
+Input Hysteresis Voltage (Vhys)
+-
+Common Mode Rejection Ratio(CMRR)
+-
+Output Type
+-
+Output Mode
+MOS；TTL
+Quiescent Current
+7.5mA
+Operating Temperature
+0℃~+70℃
+Maximum Power Supply Range (Vdd-Vss)
+36V
+Single Supply
+3.5V~30V
+Dual Supply
+±15V
+Input Offset Current(Ios)
+50nA
+Features
+失调电压调零；使能/关断功能
+Description
+比较器数:单路;输入失调电压(Vos):7.5mV;输入偏置电流(Ib):250nA;
+
+*
+]
+[
+DESIGNATOR
+C7
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B104K500CT
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B104K500CT
+Designator
+C7
+Device
+FCC0603B104K500CT
+Unique ID
+gge23
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+100nF ±10% 50V
+Supplier Part
+C5137636
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B104K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B104K500CT/5747088.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R11
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1001TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1001TS
+Designator
+R11
+Device
+FRC0603F1001TS
+Unique ID
+gge24
+Name
+1kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2907002
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1001TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1001TS/3180515.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+U6
+FOOTPRINT
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+NE5532DRG
+DESCRIPTION
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+NE5532DRG
+Designator
+U6
+Device
+NE5532DRG
+Unique ID
+gge25
+Name
+NE5532DRG
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+双路低噪声高速音频运算放大器
+Supplier Part
+C46552270
+Manufacturer
+HGC(深圳汉芯)
+Manufacturer Part
+NE5532DRG
+Supplier Footprint
+SOP-8
+JLCPCB Part Class
+
+Datasheet
+https://item.szlcsc.com/datasheet/NE5532DRG/48684317.html
+Supplier
+LCSC
+3D Model Title
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1
+Number of Channels
+2
+Rail to Rail
+-
+Gain Bandwidth Product
+10MHz
+Vos - Input Offset Voltage
+500uV
+Input Offset Voltage Drift(Vos TC)
+-
+Slew Rate
+11V/us
+Ib - Input Bias Current
+30nA
+Input Offset Current(Ios)
+5nA
+Input Voltage Noise Density
+8nV/√Hz@1kHz
+Common Mode Rejection Ratio(CMRR)
+100dB
+Quiescent Current
+-
+Output Current
+-
+Operating Temperature
+0℃~+70℃
+Single supply
+-
+Dual Supply
+-15V~15V
+Features
+内置补偿
+Description
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+
+*
+]
+[
+DESIGNATOR
+U1
+FOOTPRINT
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+NE5532DRG
+DESCRIPTION
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+NE5532DRG
+Designator
+U1
+Device
+NE5532DRG
+Unique ID
+gge26
+Name
+NE5532DRG
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+双路低噪声高速音频运算放大器
+Supplier Part
+C46552270
+Manufacturer
+HGC(深圳汉芯)
+Manufacturer Part
+NE5532DRG
+Supplier Footprint
+SOP-8
+JLCPCB Part Class
+
+Datasheet
+https://item.szlcsc.com/datasheet/NE5532DRG/48684317.html
+Supplier
+LCSC
+3D Model Title
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1
+Number of Channels
+2
+Rail to Rail
+-
+Gain Bandwidth Product
+10MHz
+Vos - Input Offset Voltage
+500uV
+Input Offset Voltage Drift(Vos TC)
+-
+Slew Rate
+11V/us
+Ib - Input Bias Current
+30nA
+Input Offset Current(Ios)
+5nA
+Input Voltage Noise Density
+8nV/√Hz@1kHz
+Common Mode Rejection Ratio(CMRR)
+100dB
+Quiescent Current
+-
+Output Current
+-
+Operating Temperature
+0℃~+70℃
+Single supply
+-
+Dual Supply
+-15V~15V
+Features
+内置补偿
+Description
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+
+*
+]
+[
+DESIGNATOR
+C8
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B104K500CT
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B104K500CT
+Designator
+C8
+Device
+FCC0603B104K500CT
+Unique ID
+gge23_0
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+100nF ±10% 50V
+Supplier Part
+C5137636
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B104K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B104K500CT/5747088.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R12
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1003TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1003TS
+Designator
+R12
+Device
+FRC0603F1003TS
+Unique ID
+gge27
+Name
+100kΩ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+100kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2906980
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1003TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1003TS/3180493.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+100kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+C9
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B104K500CT
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B104K500CT
+Designator
+C9
+Device
+FCC0603B104K500CT
+Unique ID
+gge23_1
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+100nF ±10% 50V
+Supplier Part
+C5137636
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B104K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B104K500CT/5747088.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C10
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B104K500CT
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B104K500CT
+Designator
+C10
+Device
+FCC0603B104K500CT
+Unique ID
+gge23_2
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+100nF ±10% 50V
+Supplier Part
+C5137636
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B104K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B104K500CT/5747088.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+TP1
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP1
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge28
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP2
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP2
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge29
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP3
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP3
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge30
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP4
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP4
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge31
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+R21
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1101TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1101TS
+Designator
+R21
+Device
+FRC0603F1101TS
+Unique ID
+gge32
+LCSC Part Name
+1.1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2906975
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1101TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1101TS/3180488.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Name
+1.1kΩ
+Description
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R22
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F1101TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F1101TS
+Designator
+R22
+Device
+FRC0603F1101TS
+Unique ID
+gge33
+LCSC Part Name
+1.1kΩ ±1% 100mW 厚膜电阻
+Supplier Part
+C2906975
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F1101TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FRC0603F1101TS/3180488.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.1kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Name
+1.1kΩ
+Description
+电阻类型:厚膜电阻;阻值:1.1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C11
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB123
+DESCRIPTION
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CC0603KRX7R9BB123
+Designator
+C11
+Device
+CC0603KRX7R9BB123
+Unique ID
+gge34
+Name
+12nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+12nF ±10% 50V
+Supplier Part
+C107074
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB123
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB123/108290.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+12nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C12
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB123
+DESCRIPTION
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CC0603KRX7R9BB123
+Designator
+C12
+Device
+CC0603KRX7R9BB123
+Name
+12nF
+Unique ID
+gge35
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+12nF ±10% 50V
+Supplier Part
+C107074
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB123
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB123/108290.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+12nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R13
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1601T5E
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603WAF1601T5E
+Designator
+R13
+Device
+0603WAF1601T5E
+Unique ID
+gge36
+LCSC Part Name
+厚膜电阻 1.6kΩ ±1%
+Supplier Part
+C22847
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1601T5E
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1601T5E/23574.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.6kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Name
+1.6kΩ
+Description
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R14
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1601T5E
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603WAF1601T5E
+Designator
+R14
+Device
+0603WAF1601T5E
+Unique ID
+gge37
+LCSC Part Name
+厚膜电阻 1.6kΩ ±1%
+Supplier Part
+C22847
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1601T5E
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1601T5E/23574.html
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+1.6kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Name
+1.6kΩ
+Description
+电阻类型:厚膜电阻;阻值:1.6kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C13
+FOOTPRINT
+C0603
+PARTTYPE
+FCC0603B103K500CT
+DESCRIPTION
+容值:10nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FCC0603B103K500CT
+Designator
+C13
+Device
+FCC0603B103K500CT
+Unique ID
+gge38
+Name
+10nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+10nF ±10% 50V
+Supplier Part
+C5137477
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FCC0603B103K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FCC0603B103K500CT/5746979.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+10nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Operating Temperature
+-55℃~+125℃
+Description
+容值:10nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C14
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB682
+DESCRIPTION
+容值:6.8nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CC0603KRX7R9BB682
+Designator
+C14
+Device
+CC0603KRX7R9BB682
+Unique ID
+gge39
+Name
+6.8nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+6.8nF ±10% 50V
+Supplier Part
+C107097
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB682
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB682/108313.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+6.8nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:6.8nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C15
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB393
+DESCRIPTION
+容值:39nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CC0603KRX7R9BB393
+Designator
+C15
+Device
+CC0603KRX7R9BB393
+Unique ID
+gge40
+Name
+39nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+39nF ±10% 50V
+Supplier Part
+C107091
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB393
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB393/108307.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+39nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:39nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C16
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB123
+DESCRIPTION
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CC0603KRX7R9BB123
+Designator
+C16
+Device
+CC0603KRX7R9BB123
+Name
+12nF
+Unique ID
+gge41
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+12nF ±10% 50V
+Supplier Part
+C107074
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB123
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB123/108290.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+12nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:12nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+R15
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603J621 TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:620Ω;精度:±5%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603J621 TS
+Designator
+R15
+Device
+FRC0603J621 TS
+Unique ID
+gge42
+Name
+620Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+620Ω ±5% 100mW 厚膜电阻
+Supplier Part
+C2907191
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603J621 TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+620Ω
+Tolerance
+±5%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:620Ω;精度:±5%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R16
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603J621 TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:620Ω;精度:±5%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603J621 TS
+Designator
+R16
+Device
+FRC0603J621 TS
+Unique ID
+gge43
+Name
+620Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+620Ω ±5% 100mW 厚膜电阻
+Supplier Part
+C2907191
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603J621 TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+620Ω
+Tolerance
+±5%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:620Ω;精度:±5%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R17
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F5600TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:560Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F5600TS
+Designator
+R17
+Device
+FRC0603F5600TS
+Unique ID
+gge44
+Name
+560Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+560Ω ±1% 100mW 厚膜电阻
+Supplier Part
+C2907052
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F5600TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+560Ω
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:560Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+R18
+FOOTPRINT
+R0603
+PARTTYPE
+FRC0603F5600TS
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:560Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FRC0603F5600TS
+Designator
+R18
+Device
+FRC0603F5600TS
+Unique ID
+gge45
+Name
+560Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+560Ω ±1% 100mW 厚膜电阻
+Supplier Part
+C2907052
+Manufacturer
+FOJAN(富捷)
+Manufacturer Part
+FRC0603F5600TS
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0603
+Type
+厚膜电阻
+Value
+560Ω
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:560Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+
+*
+]
+[
+DESIGNATOR
+C17
+FOOTPRINT
+C0603
+PARTTYPE
+TCC0603X7R124K500CT
+DESCRIPTION
+容值:120nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TCC0603X7R124K500CT
+Designator
+C17
+Device
+TCC0603X7R124K500CT
+Unique ID
+gge46
+Name
+120nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+120nF ±10% 50V
+Supplier Part
+C282672
+Manufacturer
+CCTC(三环)
+Manufacturer Part
+TCC0603X7R124K500CT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/TCC0603X7R124K500CT/268643.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+120nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:120nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+C18
+FOOTPRINT
+C0603
+PARTTYPE
+0603B472K500NT
+DESCRIPTION
+容值:4.7nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603B472K500NT
+Designator
+C18
+Device
+0603B472K500NT
+Unique ID
+gge47
+Name
+4.7nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+4.7nF ±10% 50V
+Supplier Part
+C53987
+Manufacturer
+FH(风华)
+Manufacturer Part
+0603B472K500NT
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603B472K500NT/55004.html
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+4.7nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+容值:4.7nF;精度:±10%;额定电压:50V;温度系数:X7R;
+
+*
+]
+[
+DESIGNATOR
+TP5
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP5
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge48
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP6
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP6
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge49
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP7
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP7
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge50
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+TP8
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP8
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge51
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+Test Point 测试点
+
+*
+]
+[
+DESIGNATOR
+U2
+FOOTPRINT
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+NE5532DRG
+DESCRIPTION
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+NE5532DRG
+Designator
+U2
+Device
+NE5532DRG
+Unique ID
+gge52
+Name
+NE5532DRG
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+双路低噪声高速音频运算放大器
+Supplier Part
+C46552270
+Manufacturer
+HGC(深圳汉芯)
+Manufacturer Part
+NE5532DRG
+Supplier Footprint
+SOP-8
+JLCPCB Part Class
+
+Datasheet
+https://item.szlcsc.com/datasheet/NE5532DRG/48684317.html
+Supplier
+LCSC
+3D Model Title
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1
+Number of Channels
+2
+Rail to Rail
+-
+Gain Bandwidth Product
+10MHz
+Vos - Input Offset Voltage
+500uV
+Input Offset Voltage Drift(Vos TC)
+-
+Slew Rate
+11V/us
+Ib - Input Bias Current
+30nA
+Input Offset Current(Ios)
+5nA
+Input Voltage Noise Density
+8nV/√Hz@1kHz
+Common Mode Rejection Ratio(CMRR)
+100dB
+Quiescent Current
+-
+Output Current
+-
+Operating Temperature
+0℃~+70℃
+Single supply
+-
+Dual Supply
+-15V~15V
+Features
+内置补偿
+Description
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+
+*
+]
+[
+DESIGNATOR
+U3
+FOOTPRINT
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+NE5532DRG
+DESCRIPTION
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+NE5532DRG
+Designator
+U3
+Device
+NE5532DRG
+Unique ID
+gge53
+Name
+NE5532DRG
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+双路低噪声高速音频运算放大器
+Supplier Part
+C46552270
+Manufacturer
+HGC(深圳汉芯)
+Manufacturer Part
+NE5532DRG
+Supplier Footprint
+SOP-8
+JLCPCB Part Class
+
+Datasheet
+https://item.szlcsc.com/datasheet/NE5532DRG/48684317.html
+Supplier
+LCSC
+3D Model Title
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1
+Number of Channels
+2
+Rail to Rail
+-
+Gain Bandwidth Product
+10MHz
+Vos - Input Offset Voltage
+500uV
+Input Offset Voltage Drift(Vos TC)
+-
+Slew Rate
+11V/us
+Ib - Input Bias Current
+30nA
+Input Offset Current(Ios)
+5nA
+Input Voltage Noise Density
+8nV/√Hz@1kHz
+Common Mode Rejection Ratio(CMRR)
+100dB
+Quiescent Current
+-
+Output Current
+-
+Operating Temperature
+0℃~+70℃
+Single supply
+-
+Dual Supply
+-15V~15V
+Features
+内置补偿
+Description
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+
+*
+]
+[
+DESIGNATOR
+U4
+FOOTPRINT
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+NE5532DRG
+DESCRIPTION
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+NE5532DRG
+Designator
+U4
+Device
+NE5532DRG
+Unique ID
+gge54
+Name
+NE5532DRG
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+双路低噪声高速音频运算放大器
+Supplier Part
+C46552270
+Manufacturer
+HGC(深圳汉芯)
+Manufacturer Part
+NE5532DRG
+Supplier Footprint
+SOP-8
+JLCPCB Part Class
+
+Datasheet
+https://item.szlcsc.com/datasheet/NE5532DRG/48684317.html
+Supplier
+LCSC
+3D Model Title
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1
+Number of Channels
+2
+Rail to Rail
+-
+Gain Bandwidth Product
+10MHz
+Vos - Input Offset Voltage
+500uV
+Input Offset Voltage Drift(Vos TC)
+-
+Slew Rate
+11V/us
+Ib - Input Bias Current
+30nA
+Input Offset Current(Ios)
+5nA
+Input Voltage Noise Density
+8nV/√Hz@1kHz
+Common Mode Rejection Ratio(CMRR)
+100dB
+Quiescent Current
+-
+Output Current
+-
+Operating Temperature
+0℃~+70℃
+Single supply
+-
+Dual Supply
+-15V~15V
+Features
+内置补偿
+Description
+放大器数:2;轨到轨:-;增益带宽积(GBW):10MHz;输入失调电压(Vos):500uV;压摆率(SR):11V/us;输入偏置电流(Ib):30nA;
+
+*
+]
+[
+DESIGNATOR
+RF1
+FOOTPRINT
+CONN-SMD_KH-SMA-KE8-G
+PARTTYPE
+KH-SMA-KE8-G1.3
+DESCRIPTION
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+KH-SMA-KE8-G1.3
+Designator
+RF1
+Device
+KH-SMA-KE8-G1.3
+Unique ID
+gge55
+Name
+KH-SMA-KE8-G1.3
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+内孔 SMA 偏脚
+Supplier Part
+C6915273
+Manufacturer
+kinghelm(金航标)
+Manufacturer Part
+KH-SMA-KE8-G1.3
+Supplier Footprint
+插件
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/KH-SMA-KE8-G1.3/7879789.html
+Supplier
+LCSC
+3D Model Title
+ANT-TH_L13.5-W6.5-H6.5
+Connector Type
+板端
+Interface
+内孔
+Number of Ports
+1
+Interface Diameter
+5.3mm
+Interface Length/Height
+8mm
+RF Series
+SMA
+Style
+偏脚
+Description
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+
+*
+]
+[
+DESIGNATOR
+RF2
+FOOTPRINT
+CONN-SMD_KH-SMA-KE8-G
+PARTTYPE
+KH-SMA-KE8-G1.3
+DESCRIPTION
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+KH-SMA-KE8-G1.3
+Designator
+RF2
+Device
+KH-SMA-KE8-G1.3
+Name
+KH-SMA-KE8-G1.3
+Unique ID
+gge55_0
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+内孔 SMA 偏脚
+Supplier Part
+C6915273
+Manufacturer
+kinghelm(金航标)
+Manufacturer Part
+KH-SMA-KE8-G1.3
+Supplier Footprint
+插件
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/KH-SMA-KE8-G1.3/7879789.html
+Supplier
+LCSC
+3D Model Title
+ANT-TH_L13.5-W6.5-H6.5
+Connector Type
+板端
+Interface
+内孔
+Number of Ports
+1
+Interface Diameter
+5.3mm
+Interface Length/Height
+8mm
+RF Series
+SMA
+Style
+偏脚
+Description
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+
+*
+]
+[
+DESIGNATOR
+RF3
+FOOTPRINT
+CONN-SMD_KH-SMA-KE8-G
+PARTTYPE
+KH-SMA-KE8-G1.3
+DESCRIPTION
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+KH-SMA-KE8-G1.3
+Designator
+RF3
+Device
+KH-SMA-KE8-G1.3
+Name
+KH-SMA-KE8-G1.3
+Unique ID
+gge55_1
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+内孔 SMA 偏脚
+Supplier Part
+C6915273
+Manufacturer
+kinghelm(金航标)
+Manufacturer Part
+KH-SMA-KE8-G1.3
+Supplier Footprint
+插件
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/KH-SMA-KE8-G1.3/7879789.html
+Supplier
+LCSC
+3D Model Title
+ANT-TH_L13.5-W6.5-H6.5
+Connector Type
+板端
+Interface
+内孔
+Number of Ports
+1
+Interface Diameter
+5.3mm
+Interface Length/Height
+8mm
+RF Series
+SMA
+Style
+偏脚
+Description
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+
+*
+]
+[
+DESIGNATOR
+R19
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R19
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge56
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+0R
+Name
+0R
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R20
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R20
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge57
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+0R
+Name
+0R
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C19
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C19
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge58
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C20
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C20
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge59
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C21
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C21
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge60
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C22
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C22
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge61
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C23
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C23
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge62
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C24
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C24
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge63
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C25
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C25
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge64
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C26
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C26
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge65
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C27
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C27
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge66
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C28
+FOOTPRINT
+C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C28
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge67
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+RF4
+FOOTPRINT
+CONN-SMD_KH-SMA-KE8-G
+PARTTYPE
+KH-SMA-KE8-G1.3
+DESCRIPTION
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+KH-SMA-KE8-G1.3
+Designator
+RF4
+Device
+KH-SMA-KE8-G1.3
+Name
+KH-SMA-KE8-G1.3
+Unique ID
+gge55_2
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+内孔 SMA 偏脚
+Supplier Part
+C6915273
+Manufacturer
+kinghelm(金航标)
+Manufacturer Part
+KH-SMA-KE8-G1.3
+Supplier Footprint
+插件
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/KH-SMA-KE8-G1.3/7879789.html
+Supplier
+LCSC
+3D Model Title
+ANT-TH_L13.5-W6.5-H6.5
+Connector Type
+板端
+Interface
+内孔
+Number of Ports
+1
+Interface Diameter
+5.3mm
+Interface Length/Height
+8mm
+RF Series
+SMA
+Style
+偏脚
+Description
+连接器类型:板端;接口类型:内孔;端口数量:1;接口直径:5.3mm;接口长度/高度:8mm;射频系列:SMA;样式:偏脚;
+
+*
+]
+[
+DESIGNATOR
+TP9
+FOOTPRINT
+Test-Point-0.5mm
+PARTTYPE
+Test-Point
+DESCRIPTION
+Test Point 测试点
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+TP9
+Symbol
+Test-Point
+Device
+Test-Point
+Unique ID
+gge68
+Name
+
+3D Model Title
+
+Description
+Test Point 测试点
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+(
++5V 
+CN1-1 HX-XH2.54-3PZZ-1 Passive 
+U5-8 LM311P-VCC+ Passive 
+C7-1 FCC0603B104K500CT-1 Passive 
+R11-1 FRC0603F1001TS-1 Passive 
+U6-8 NE5532DRG-VCC Passive 
+U1-8 NE5532DRG-VCC Passive 
+C9-1 FCC0603B104K500CT-1 Passive 
+U2-8 NE5532DRG-VCC Passive 
+U3-8 NE5532DRG-VCC Passive 
+U4-8 NE5532DRG-VCC Passive 
+C19-1 CAP_0603-1 Input   
+C22-1 CAP_0603-1 Input   
+C24-1 CAP_0603-1 Input   
+C26-1 CAP_0603-1 Input   
+C28-1 CAP_0603-1 Input   
+)
+(
+GND 
+CN1-2 HX-XH2.54-3PZZ-2 Passive 
+R10-1 FRC0603F2201TS-1 Passive 
+R7-1 0603WAF1601T5E-1 Input   
+R8-1 FRC0603F6201TS-1 Passive 
+U5-3 LM311P-IN- Passive 
+C7-2 FCC0603B104K500CT-2 Passive 
+U6-3 NE5532DRG-1IN+ Passive 
+C8-2 FCC0603B104K500CT-2 Passive 
+C9-2 FCC0603B104K500CT-2 Passive 
+C10-2 FCC0603B104K500CT-2 Passive 
+C12-1 CC0603KRX7R9BB123-1 Input   
+C14-1 CC0603KRX7R9BB682-1 Input   
+C16-1 CC0603KRX7R9BB123-1 Input   
+C18-1 0603B472K500NT-1 Input   
+U4-5 NE5532DRG-2IN+ Passive 
+U4-3 NE5532DRG-1IN+ Passive 
+RF1-4 KH-SMA-KE8-G1.3-4 Passive 
+RF1-1 KH-SMA-KE8-G1.3-1 Passive 
+RF1-2 KH-SMA-KE8-G1.3-2 Passive 
+RF1-3 KH-SMA-KE8-G1.3-3 Passive 
+RF2-4 KH-SMA-KE8-G1.3-4 Passive 
+RF2-1 KH-SMA-KE8-G1.3-1 Passive 
+RF2-2 KH-SMA-KE8-G1.3-2 Passive 
+RF2-3 KH-SMA-KE8-G1.3-3 Passive 
+RF3-4 KH-SMA-KE8-G1.3-4 Passive 
+RF3-1 KH-SMA-KE8-G1.3-1 Passive 
+RF3-2 KH-SMA-KE8-G1.3-2 Passive 
+RF3-3 KH-SMA-KE8-G1.3-3 Passive 
+C19-2 CAP_0603-2 Input   
+C20-1 CAP_0603-1 Input   
+C21-1 CAP_0603-1 Input   
+C22-2 CAP_0603-2 Input   
+C23-1 CAP_0603-1 Input   
+C24-2 CAP_0603-2 Input   
+C25-1 CAP_0603-1 Input   
+C26-2 CAP_0603-2 Input   
+C27-1 CAP_0603-1 Input   
+C28-2 CAP_0603-2 Input   
+RF4-4 KH-SMA-KE8-G1.3-4 Passive 
+RF4-1 KH-SMA-KE8-G1.3-1 Passive 
+RF4-2 KH-SMA-KE8-G1.3-2 Passive 
+RF4-3 KH-SMA-KE8-G1.3-3 Passive 
+TP9-1 Test-Point-1 Input   
+)
+(
+-5V 
+CN1-3 HX-XH2.54-3PZZ-3 Passive 
+U5-1 LM311P-EMIT/OUT Passive 
+U5-4 LM311P-VCC- Passive 
+U6-4 NE5532DRG-VEE Passive 
+U1-4 NE5532DRG-VEE Passive 
+C8-1 FCC0603B104K500CT-1 Passive 
+C10-1 FCC0603B104K500CT-1 Passive 
+U2-4 NE5532DRG-VEE Passive 
+U3-4 NE5532DRG-VEE Passive 
+U4-4 NE5532DRG-VEE Passive 
+C20-2 CAP_0603-2 Input   
+C21-2 CAP_0603-2 Input   
+C23-2 CAP_0603-2 Input   
+C25-2 CAP_0603-2 Input   
+C27-2 CAP_0603-2 Input   
+)
+(
+1_1IN- 
+R1-2 FRC0603F1001TS-2 Passive 
+R2-2 FRC0603F1001TS-2 Passive 
+R3-1 FRC0603F1001TS-1 Passive 
+U4-2 NE5532DRG-1IN– Passive 
+)
+(
+IN2 
+R1-1 FRC0603F1001TS-1 Passive 
+RF3-5 KH-SMA-KE8-G1.3-5 Passive 
+)
+(
+IN1 
+R2-1 FRC0603F1001TS-1 Passive 
+RF2-5 KH-SMA-KE8-G1.3-5 Passive 
+)
+(
+1_1OUT 
+R3-2 FRC0603F1001TS-2 Passive 
+C1-1 FCC0603B562K500CT-1 Passive 
+TP3-1 Test-Point-1 Input   
+R21-1 FRC0603F1101TS-1 Passive 
+U4-1 NE5532DRG-1OUT Passive 
+)
+(
+$1N11 
+C1-2 FCC0603B562K500CT-2 Passive 
+C2-1 FCC0603B562K500CT-1 Passive 
+R4-1 FRC0603F1501TS-1 Passive 
+)
+(
+1_2IN+ 
+C2-2 FCC0603B562K500CT-2 Passive 
+R7-2 0603WAF1601T5E-2 Input   
+U6-5 NE5532DRG-2IN+ Passive 
+)
+(
+1_2IN- 
+R4-2 FRC0603F1501TS-2 Passive 
+C3-1 FCC0603B562K500CT-1 Passive 
+U6-7 NE5532DRG-2OUT Passive 
+U6-6 NE5532DRG-2IN- Passive 
+TP4-1 Test-Point-1 Input   
+)
+(
+$1N73 
+C3-2 FCC0603B562K500CT-2 Passive 
+C4-2 FCC0603B562K500CT-2 Passive 
+R5-2 FRC0603F1101TS-2 Passive 
+)
+(
+2_1IN+ 
+C4-1 FCC0603B562K500CT-1 Passive 
+R10-2 FRC0603F2201TS-2 Passive 
+U1-3 NE5532DRG-1IN+ Passive 
+)
+(
+2_1IN- 
+C5-1 FCC0603B562K500CT-1 Passive 
+R5-1 FRC0603F1101TS-1 Passive 
+U1-2 NE5532DRG-1IN– Passive 
+U1-1 NE5532DRG-1OUT Passive 
+TP1-1 Test-Point-1 Input   
+)
+(
+$1N28 
+C5-2 FCC0603B562K500CT-2 Passive 
+C6-2 FCC0603B562K500CT-2 Passive 
+R6-1 FRC0603F3900TS-1 Passive 
+)
+(
+2_2IN+ 
+C6-1 FCC0603B562K500CT-1 Passive 
+R8-2 FRC0603F6201TS-2 Passive 
+U1-5 NE5532DRG-2IN+ Passive 
+)
+(
+2_2IN- 
+R6-2 FRC0603F3900TS-2 Passive 
+R9-1 0603WAF2000T5E-1 Input   
+U1-7 NE5532DRG-2OUT Passive 
+U1-6 NE5532DRG-2IN- Passive 
+TP2-1 Test-Point-1 Input   
+)
+(
+$1N33 
+R9-2 0603WAF2000T5E-2 Input   
+U5-2 LM311P-IN+ Passive 
+R12-1 FRC0603F1003TS-1 Passive 
+)
+(
+COL/OUT 
+U5-7 LM311P-COL/OUT Passive 
+R11-2 FRC0603F1001TS-2 Passive 
+R12-2 FRC0603F1003TS-2 Passive 
+RF1-5 KH-SMA-KE8-G1.3-5 Passive 
+)
+(
+$1N189 
+U6-2 NE5532DRG-1IN– Passive 
+R19-1 Res_0603-1 Input   
+)
+(
+$1N188 
+U6-1 NE5532DRG-1OUT Passive 
+R19-2 Res_0603-2 Input   
+)
+(
+$1N94 
+R21-2 FRC0603F1101TS-2 Passive 
+R22-2 FRC0603F1101TS-2 Passive 
+C11-1 CC0603KRX7R9BB123-1 Input   
+)
+(
+3_1IN+ 
+R22-1 FRC0603F1101TS-1 Passive 
+C12-2 CC0603KRX7R9BB123-2 Input   
+U3-3 NE5532DRG-1IN+ Passive 
+)
+(
+3_1IN- 
+C11-2 CC0603KRX7R9BB123-2 Input   
+R13-1 0603WAF1601T5E-1 Input   
+TP5-1 Test-Point-1 Input   
+U3-2 NE5532DRG-1IN– Passive 
+U3-1 NE5532DRG-1OUT Passive 
+)
+(
+$1N87 
+R13-2 0603WAF1601T5E-2 Input   
+R14-2 0603WAF1601T5E-2 Input   
+C13-1 FCC0603B103K500CT-1 Passive 
+)
+(
+3_2IN+ 
+R14-1 0603WAF1601T5E-1 Input   
+C14-2 CC0603KRX7R9BB682-2 Input   
+U3-5 NE5532DRG-2IN+ Passive 
+)
+(
+3_2IN- 
+C13-2 FCC0603B103K500CT-2 Passive 
+R15-1 FRC0603J621 TS-1 Passive 
+TP7-1 Test-Point-1 Input   
+U3-7 NE5532DRG-2OUT Passive 
+U3-6 NE5532DRG-2IN- Passive 
+)
+(
+$1N93 
+C15-1 CC0603KRX7R9BB393-1 Input   
+R15-2 FRC0603J621 TS-2 Passive 
+R16-2 FRC0603J621 TS-2 Passive 
+)
+(
+4_1IN- 
+C15-2 CC0603KRX7R9BB393-2 Input   
+R17-1 FRC0603F5600TS-1 Passive 
+TP8-1 Test-Point-1 Input   
+U2-2 NE5532DRG-1IN– Passive 
+U2-1 NE5532DRG-1OUT Passive 
+)
+(
+4_1IN+ 
+C16-2 CC0603KRX7R9BB123-2 Input   
+R16-1 FRC0603J621 TS-1 Passive 
+U2-3 NE5532DRG-1IN+ Passive 
+)
+(
+$1N98 
+R17-2 FRC0603F5600TS-2 Passive 
+R18-2 FRC0603F5600TS-2 Passive 
+C17-2 TCC0603X7R124K500CT-2 Passive 
+)
+(
+4_2IN+ 
+R18-1 FRC0603F5600TS-1 Passive 
+C18-2 0603B472K500NT-2 Input   
+U2-5 NE5532DRG-2IN+ Passive 
+)
+(
+4_2IN- 
+C17-1 TCC0603X7R124K500CT-1 Passive 
+TP6-1 Test-Point-1 Input   
+U2-7 NE5532DRG-2OUT Passive 
+U2-6 NE5532DRG-2IN- Passive 
+RF4-5 KH-SMA-KE8-G1.3-5 Passive 
+)
+(
+$1N191 
+U4-7 NE5532DRG-2OUT Passive 
+R20-2 Res_0603-2 Input   
+)
+(
+$1N190 
+U4-6 NE5532DRG-2IN- Passive 
+R20-1 Res_0603-1 Input   
+)

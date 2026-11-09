@@ -1,0 +1,4395 @@
+{
+  "version": "2.0.0",
+  "components": {
+    "gge91": {
+      "props": {
+        "Footprint": "65b790604840be7b",
+        "Designator": "C1",
+        "3D Model Title": "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0",
+        "3D Model": "6492d35f87704f6c8eef04ed8ab17b43|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "470uF ±20% 35V",
+        "Supplier Part": "C46550413",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "JVJ35V470M10x10",
+        "Supplier Footprint": "SMD,D10xL10.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/JVJ35V470M10x10/48680107.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "433.07,405.511,0,0,0,0,0,0,0",
+        "Value": "470uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "35V",
+        "Ripple Current": "320mA@120Hz",
+        "Diameter": "10mm",
+        "Height - Seated (Max)": "10.5mm",
+        "Lifetime": "2000hrs@105℃",
+        "Operating Temperature": "-55℃~+105℃",
+        "Name": "470uF",
+        "Description": "容值:470uF;精度:±20%;额定电压:35V;纹波电流:320mA@120Hz;",
+        "Device": "d00a48c81a2da562",
+        "Unique ID": "gge91",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I8",
+        "FootprintName": "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0",
+        "DeviceName": "JVJ35V470M10x10",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+24V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge95": {
+      "props": {
+        "Footprint": "0e05f84a39ebb62d",
+        "Designator": "C3",
+        "3D Model Title": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD",
+        "3D Model": "1416614ffc1f4b92814ec0fcf834cf2d|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "180uF ±20% 25V",
+        "Supplier Part": "C49233128",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "RVT25V180M6X8",
+        "Supplier Footprint": "SMD,D6.3xL7.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RVT25V180M6X8/51648266.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "291.338,259.842,0,180,0,0,-0.004,-0.007,0",
+        "Value": "180uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "25V",
+        "Ripple Current": "100mA@120Hz",
+        "Equivalent Series Resistance(ESR)": "-",
+        "Diameter": "6.3mm",
+        "Height - Seated (Max)": "7.7mm",
+        "Lifetime": "2000hrs@105℃",
+        "Operating Temperature": "-40℃~+105℃",
+        "Name": "180uF",
+        "Description": "容值:180uF;精度:±20%;额定电压:25V;纹波电流:100mA@120Hz;等效串联电阻(ESR):-;",
+        "Device": "67d7575622d15e85",
+        "Unique ID": "gge95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I16",
+        "FootprintName": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD",
+        "DeviceName": "RVT25V180M6X8",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+12V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge96": {
+      "props": {
+        "Footprint": "110890a7d21c1335",
+        "Designator": "C4",
+        "3D Model Title": "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0_H12.0",
+        "3D Model": "0846f1303a8546fbae6356ae5dd5aab2|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "680uF ±20% 35V",
+        "Supplier Part": "C48971043",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "MA35V680M10X13",
+        "Supplier Footprint": "SMD,D10xL13.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MA35V680M10X13/51296248.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "429.133,405.511,0,0,0,0,0,0,0",
+        "Value": "680uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "35V",
+        "Ripple Current": "3.9A@100kHz",
+        "Equivalent Series Resistance(ESR)": "18mΩ@100kHz",
+        "Type": "聚合物",
+        "Diameter": "10mm",
+        "Height - Seated (Max)": "13.5mm",
+        "Lifetime": "2000hrs@105℃",
+        "Operating Temperature": "-55℃~+105℃",
+        "Polarity type": "有极性",
+        "Name": "680uF",
+        "Description": "容值:680uF;精度:±20%;额定电压:35V;纹波电流:3.9A@100kHz;等效串联电阻(ESR):18mΩ@100kHz;类型:聚合物;",
+        "Device": "e716df4573791d19",
+        "Unique ID": "gge96",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I18",
+        "FootprintName": "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0_H12.0",
+        "DeviceName": "MA35V680M10X13",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+12V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge99": {
+      "props": {
+        "Footprint": "9899195500581f4e",
+        "Designator": "C5",
+        "3D Model Title": "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+        "3D Model": "ec7f1c7bda5e4386b54ec5ff3d1d94ff|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "220uF ±20% 35V",
+        "Supplier Part": "C46550411",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "JVJ35V220M6x8",
+        "Supplier Footprint": "SMD,D6.3xL7.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/JVJ35V220M6x8/48680105.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "307.086,259.842,0,180,0,0,0,0,0",
+        "Value": "220uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "35V",
+        "Ripple Current": "190mA@120Hz",
+        "Diameter": "6.3mm",
+        "Height - Seated (Max)": "7.7mm",
+        "Lifetime": "2000hrs@105℃",
+        "Operating Temperature": "-55℃~+105℃",
+        "Name": "220uF",
+        "Description": "容值:220uF;精度:±20%;额定电压:35V;纹波电流:190mA@120Hz;",
+        "Device": "5947ec6c10b0098a",
+        "Unique ID": "gge99",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I22",
+        "Standardization Check": "true",
+        "FootprintName": "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+        "DeviceName": "JVJ35V220M6x8",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "USB+5V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge18_1": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C12",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "10pF",
+        "Name": "10pF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge18_1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I12",
+        "Standardization Check": "false",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "OSCL2"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge18_2": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C13",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "10pF",
+        "Name": "10pF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge18_2",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I13",
+        "Standardization Check": "false",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "OSCL1"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge90": {
+      "props": {
+        "Footprint": "65e1a11e7a3aff5b",
+        "Designator": "CN1",
+        "3D Model Title": "CONN-TH_XT30UPB-M",
+        "3D Model": "ffe3e48218434a4693f4f4701a4fe37e|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "AMASS(艾迈斯)板载立式 航模锂电池控制器连接器插头 PCB板立式 公头XT30UPB-M.G.Y",
+        "Supplier Part": "C428721",
+        "Manufacturer": "AMASS(艾迈斯)",
+        "Manufacturer Part": "XT30UPB-M",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XT30UPB-M/423831.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "401.574,204.724,0,0,0,0,0,0,-78.74",
+        "Rated current": "15A",
+        "Rated voltage": "500VDC",
+        "colour": "黄色",
+        "Connector type": "航模插头",
+        "contact resistance": "0.65mΩ",
+        "interface form": "公头",
+        "insulating material": "PA",
+        "metal material": "镀金",
+        "Name": "XT30UPB-M",
+        "Description": "",
+        "Device": "f0b5d8720c508fbc",
+        "Unique ID": "gge90",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I5",
+        "FootprintName": "CONN-TH_XT30UPB-M",
+        "DeviceName": "XT30UPB-M",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N3"
+        }
+      }
+    },
+    "gge94": {
+      "props": {
+        "Footprint": "fb44929bde1cd632",
+        "Designator": "D1",
+        "3D Model Title": "DO-27_BD3.5-L8.6-P12.60-D1.3-RD",
+        "3D Model": "ac7174ae5660404daaf53aba56e542fa|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "电压:30V 电流:3A",
+        "Supplier Part": "C5295406",
+        "Manufacturer": "CJ(江苏长电/长晶)",
+        "Manufacturer Part": "1N5821",
+        "Supplier Footprint": "DO-27",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N5821/6039816.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "551.18,137.73354,0,0,0,0,0,0,-196.85",
+        "Diode Configuration": "1个独立式",
+        "Voltage - Forward(Vf@If)": "500mV@3A",
+        "Voltage - DC Reverse(Vr)": "30V",
+        "Current - Rectified": "3A",
+        "Reverse Leakage Current (Ir)": "1mA@30V",
+        "Operating Junction Temperature Range": "-55℃~+125℃",
+        "Non-Repetitive Peak Forward Surge Current": "80A",
+        "Name": "1N5821",
+        "Description": "二极管配置:1个独立式;正向压降(Vf):500mV@3A;直流反向耐压(Vr):30V;整流电流:3A;",
+        "Device": "2ab96ed0c3a87f28",
+        "Unique ID": "gge94",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I15",
+        "FootprintName": "DO-27_BD3.5-L8.6-P12.60-D1.3-RD",
+        "DeviceName": "1N5821",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N75"
+        }
+      }
+    },
+    "gge98": {
+      "props": {
+        "Footprint": "1814042f7bc35470",
+        "Designator": "D2",
+        "3D Model Title": "DO-27_BD5.3-L8.4-P12.40-D1.3-RD",
+        "3D Model": "34c822afc58c4389bef282cc7fc2257f|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "电压:30V 电流:5A",
+        "Supplier Part": "C7503125",
+        "Manufacturer": "FUXINSEMI(富芯森美)",
+        "Manufacturer Part": "1N5824",
+        "Supplier Footprint": "DO-201AD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N5824/8591231.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "578.739,207.771,0,0,0,0,0,0,-196.85",
+        "Diode Configuration": "独立式",
+        "Voltage - Forward(Vf@If)": "550mV@5A",
+        "Voltage - DC Reverse(Vr)": "30V",
+        "Current - Rectified": "5A",
+        "Reverse Leakage Current (Ir)": "500uA@30V",
+        "Operating Junction Temperature Range": "-55℃~+150℃",
+        "Non-Repetitive Peak Forward Surge Current": "150A",
+        "Name": "1N5824",
+        "Description": "二极管配置:独立式;正向压降(Vf):550mV@5A;直流反向耐压(Vr):30V;整流电流:5A;",
+        "Device": "8d17cdb3479f70ec",
+        "Unique ID": "gge98",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I21",
+        "FootprintName": "DO-27_BD5.3-L8.4-P12.40-D1.3-RD",
+        "DeviceName": "1N5824_C7503125",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N19"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge137": {
+      "props": {
+        "Footprint": "83d657304390488a",
+        "Designator": "DBUS1",
+        "3D Model Title": "CONN-SMD_MX1.25MM-3P-WT",
+        "3D Model": "bc80d6bd5f0c497094d44baeacab3f00|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "1x3P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25)",
+        "Supplier Part": "C53055349",
+        "Manufacturer": "LXWCONN(连兴旺电子)",
+        "Manufacturer Part": "MX1.25mm-3P-WT",
+        "Supplier Footprint": "SMD,P=1.25mm,卧贴",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MX1.25mm-3P-WT/55999549.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "344.4875,206.693,0,0,0,0,0,-37.007,0",
+        "Pins Structure": "1x3P",
+        "Pitch": "1.25mm",
+        "Mounting Type": "卧贴",
+        "Reference Series": "PicoBlade(MX 1.25)",
+        "Number of Pins": "3P",
+        "Number of Rows": "1",
+        "Number of PINs Per Row": "3",
+        "Current Rating": "1A",
+        "Contact Material": "黄铜",
+        "Contact Plating": "锡",
+        "Operating Temperature": "-25℃~+85℃",
+        "Voltage Rating": "125V",
+        "Plastic Material": "LCP",
+        "Name": "MX1.25mm-3P-WT",
+        "Description": "插针结构:1x3P;间距:1.25mm;安装方式:卧贴;参考系列:PicoBlade(MX 1.25);总PIN数:3P;排数:1;每排PIN数:3;额定电流:1A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+        "Device": "a0eb4606c7a0e0d7",
+        "Unique ID": "gge137",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I40",
+        "FootprintName": "CONN-SMD_MX1.25MM-3P-WT",
+        "DeviceName": "MX1.25mm-3P-WT",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+5V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "DBUS"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        }
+      }
+    },
+    "gge93": {
+      "props": {
+        "Footprint": "b910010f9bbe0984",
+        "Designator": "L1",
+        "3D Model Title": "IND-SMD_L6.0-W6.0_LPS6225",
+        "3D Model": "4241f64624a844abb49ed97aa109fe31|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "68uH±20% 1.3A",
+        "Supplier Part": "C55381776",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "PNR6045-680-M",
+        "Supplier Footprint": "SMD,6x6mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PNR6045-680-M/59339404.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "236.25937,236.22,0,0,0,0,0,0,0",
+        "Value": "68uH",
+        "Tolerance": "±20%",
+        "Current Rating": "1.1A",
+        "Current - Saturation(Isat)": "1.3A",
+        "DC Resistance(DCR)": "289mΩ",
+        "Type": "磁胶屏蔽电感",
+        "Name": "68uH",
+        "Description": "电感值:68uH;精度:±20%;额定电流:1.1A;饱和电流(Isat):1.3A;类型:磁胶屏蔽电感;",
+        "Device": "6678fa23caccd536",
+        "Unique ID": "gge93",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I12",
+        "FootprintName": "IND-SMD_L6.0-W6.0_LPS6225",
+        "DeviceName": "PNR6045-680-M",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+12V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N75"
+        }
+      }
+    },
+    "gge97": {
+      "props": {
+        "Name": "33uH",
+        "Designator": "L2",
+        "3D Model Title": "IND-SMD_L5.0-W5.0_PNR5040",
+        "3D Model": "aee595da5613468d832a9d0a821f864d|0819f05c4eef4c71ace90d822a990e87",
+        "Footprint": "229d8189a3f25630",
+        "LCSC Part Name": "33uH±20% 1.45A",
+        "Supplier Part": "C55381767",
+        "Manufacturer": "JIERR(捷而瑞)",
+        "Manufacturer Part": "PNR5040-330-M",
+        "Supplier Footprint": "SMD,5x5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PNR5040-330-M/59339395.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Value": "33uH",
+        "Tolerance": "±20%",
+        "Current Rating": "1.35A",
+        "Current - Saturation(Isat)": "1.45A",
+        "DC Resistance(DCR)": "188mΩ",
+        "Type": "磁胶屏蔽电感",
+        "Description": "电感值:33uH;精度:±20%;额定电流:1.35A;饱和电流(Isat):1.45A;类型:磁胶屏蔽电感;",
+        "Device": "c2e9a2db704dd49d",
+        "Unique ID": "gge97",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I20",
+        "FootprintName": "IND-SMD_L5.0-W5.0_PNR5040",
+        "DeviceName": "PNR5040-330-M",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "USB+5V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N19"
+        }
+      }
+    },
+    "gge101": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R1",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge101",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I25",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N26"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+12V"
+        }
+      }
+    },
+    "gge103": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R2",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge103",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I27",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N28"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "USB+5V"
+        }
+      }
+    },
+    "gge104": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R3",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "5.1K",
+        "Name": "5.1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge104",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I33",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "CC2"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge105": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R4",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "5.1K",
+        "Name": "5.1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge105",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I34",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "CC1"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge111": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R5",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge111",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I47",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N59"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge115": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R6",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "10K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge115",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I18",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "RST"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge125": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R7",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "4.7K",
+        "Name": "4.7K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge125",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I15",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PB11"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge134": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R8",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge134",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I37",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N60"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge136": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R9",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge136",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I39",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N62"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge132": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R10",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge132",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I35",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N57"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge127": {
+      "props": {
+        "Footprint": "bec752e2dd48226d",
+        "Designator": "SWD1",
+        "3D Model Title": "CONN-SMD_MX1.25MM-4P-WT",
+        "3D Model": "a92804599bf0400e8e5e585fff8e0718|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "1x4P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25)",
+        "Supplier Part": "C53055350",
+        "Manufacturer": "LXWCONN(连兴旺电子)",
+        "Manufacturer Part": "MX1.25mm-4P-WT",
+        "Supplier Footprint": "SMD,P=1.25mm,卧贴",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MX1.25mm-4P-WT/55999550.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "394.094,206.693,0,0,0,0,-0.005,-28.618,0",
+        "Pins Structure": "1x4P",
+        "Pitch": "1.25mm",
+        "Mounting Type": "卧贴",
+        "Reference Series": "PicoBlade(MX 1.25)",
+        "Number of Pins": "4P",
+        "Number of Rows": "1",
+        "Number of PINs Per Row": "4",
+        "Current Rating": "1A",
+        "Contact Material": "黄铜",
+        "Contact Plating": "锡",
+        "Operating Temperature": "-25℃~+85℃",
+        "Voltage Rating": "125V",
+        "Plastic Material": "LCP",
+        "Name": "MX1.25mm-4P-WT",
+        "Description": "插针结构:1x4P;间距:1.25mm;安装方式:卧贴;参考系列:PicoBlade(MX 1.25);总PIN数:4P;排数:1;每排PIN数:4;额定电流:1A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+        "Device": "bd3599558ca502b7",
+        "Unique ID": "gge127",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I21",
+        "FootprintName": "CONN-SMD_MX1.25MM-4P-WT",
+        "DeviceName": "MX1.25mm-4P-WT",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+3.3V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA13"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PA14"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND"
+        }
+      }
+    },
+    "gge112": {
+      "props": {
+        "Name": "STM32F103C8T6",
+        "Designator": "U1",
+        "Footprint": "9be629741320ef1b",
+        "LCSC Part Name": "主流增强型ARM Cortex-M3 MCU，具有64 KB Flash、72 MHz CPU、电机控制、USB和CAN",
+        "Supplier Part": "C8734",
+        "Manufacturer": "ST(意法半导体)",
+        "Manufacturer Part": "STM32F103C8T6",
+        "Supplier Footprint": "LQFP-48(7x7)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/STM32F103C8T6/9243.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "093be70396ff421eb2cdb946d5311efc|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LQFP-48_L7.0-W7.0-H1.4-LS9.0-P0.50",
+        "3D Model Transform": "354.331,354.331,0,0,0,0,0,0,0",
+        "CPU Core": "ARM Cortex-M3",
+        "CPU Maximum Speed": "72MHz",
+        "Core Size": "32 Bit",
+        "Program Storage Size": "64KB",
+        "Program Memory Type": "FLASH",
+        "RAM Size": "20KB",
+        "EEPROM": "-",
+        "Number of I/O": "37",
+        "ADC (Bit)": "12bit",
+        "Oscillator Type": "内置",
+        "Voltage - Supply": "2V~3.6V",
+        "Operating Temperature": "-40℃~+85℃",
+        "Description": "CPU内核:ARM Cortex-M3;CPU最大主频:72MHz;CPU位数:32 Bit;",
+        "Device": "b8b0e49babe7158b",
+        "Unique ID": "gge112",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I2",
+        "FootprintName": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+        "DeviceName": "STM32F103C8T6",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+3.3V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PC13"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "OSCL1"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "OSCL2"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "OSCH1"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "OSCH2"
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "RST"
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "GND"
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "VCC+3.3V"
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "PA0"
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "PA1"
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "PA2"
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "PA3"
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "PA4"
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "PA5"
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "PA6"
+        },
+        "17": {
+          "name": "",
+          "number": "17",
+          "net": "PA7"
+        },
+        "18": {
+          "name": "",
+          "number": "18",
+          "net": "PB0"
+        },
+        "19": {
+          "name": "",
+          "number": "19",
+          "net": "PB1"
+        },
+        "20": {
+          "name": "",
+          "number": "20",
+          "net": "BOOT1"
+        },
+        "21": {
+          "name": "",
+          "number": "21",
+          "net": "PB10"
+        },
+        "22": {
+          "name": "",
+          "number": "22",
+          "net": "PB11"
+        },
+        "23": {
+          "name": "",
+          "number": "23",
+          "net": "GND"
+        },
+        "24": {
+          "name": "",
+          "number": "24",
+          "net": "VCC+3.3V"
+        },
+        "25": {
+          "name": "",
+          "number": "25",
+          "net": "PB12"
+        },
+        "26": {
+          "name": "",
+          "number": "26",
+          "net": "PB13"
+        },
+        "27": {
+          "name": "",
+          "number": "27",
+          "net": "PB14"
+        },
+        "28": {
+          "name": "",
+          "number": "28",
+          "net": "PB15"
+        },
+        "29": {
+          "name": "",
+          "number": "29",
+          "net": "PA8"
+        },
+        "30": {
+          "name": "",
+          "number": "30",
+          "net": "PA9"
+        },
+        "31": {
+          "name": "",
+          "number": "31",
+          "net": "PA10"
+        },
+        "32": {
+          "name": "",
+          "number": "32",
+          "net": "PA11"
+        },
+        "33": {
+          "name": "",
+          "number": "33",
+          "net": "PA12"
+        },
+        "34": {
+          "name": "",
+          "number": "34",
+          "net": "PA13"
+        },
+        "35": {
+          "name": "",
+          "number": "35",
+          "net": "VCC+3.3V"
+        },
+        "36": {
+          "name": "",
+          "number": "36",
+          "net": "GND"
+        },
+        "37": {
+          "name": "",
+          "number": "37",
+          "net": "PA14"
+        },
+        "38": {
+          "name": "",
+          "number": "38",
+          "net": "PA15"
+        },
+        "39": {
+          "name": "",
+          "number": "39",
+          "net": "PB3"
+        },
+        "40": {
+          "name": "",
+          "number": "40",
+          "net": "PB4"
+        },
+        "41": {
+          "name": "",
+          "number": "41",
+          "net": "PB5"
+        },
+        "42": {
+          "name": "",
+          "number": "42",
+          "net": "PB6"
+        },
+        "43": {
+          "name": "",
+          "number": "43",
+          "net": "PB7"
+        },
+        "44": {
+          "name": "",
+          "number": "44",
+          "net": "BOOT0"
+        },
+        "45": {
+          "name": "",
+          "number": "45",
+          "net": "PB8"
+        },
+        "46": {
+          "name": "",
+          "number": "46",
+          "net": "PB9"
+        },
+        "47": {
+          "name": "",
+          "number": "47",
+          "net": "VCC+3.3V"
+        },
+        "48": {
+          "name": "",
+          "number": "48",
+          "net": "GND"
+        }
+      }
+    },
+    "gge87": {
+      "props": {
+        "Footprint": "061abf9af6323910",
+        "Designator": "U2",
+        "LCSC Part Name": "降压型 3A 5V~30V",
+        "Supplier Part": "C2980820",
+        "Manufacturer": "Slkor(萨科微)",
+        "Manufacturer Part": "LM2596S-5.0",
+        "Supplier Footprint": "TO-263-5",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/LM2596S-5.0/3404339.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "5538f873629a4091a60928eafa887b89|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "TO-263-5_L10.13-W8.74-P1.70-LS14.38-BR",
+        "3D Model Transform": "405.511,562.20364,0,90,0,0,-52.721,0.002,0",
+        "Function": "降压型",
+        "Voltage - Supply": "5V~30V",
+        "Output Voltage": "5V",
+        "Output Current": "3A",
+        "Frequency - Switching": "150kHz",
+        "Operating Temperature": "-40℃~+125℃@(TJ)",
+        "Synchronous Rectifier": "否",
+        "Number of Outputs": "1",
+        "Topology": "降压式",
+        "Quiescent Current": "2mA",
+        "Switch tube (built-in/external)": "内置",
+        "Output Type": "固定",
+        "Features": "过流保护",
+        "Name": "LM2596S-5.0",
+        "Description": "功能类型:降压型;工作电压:5V~30V;输出电压:5V;输出电流:3A;输出类型:固定;",
+        "Device": "88f9c8f828b4bbf3",
+        "Unique ID": "gge87",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I2",
+        "FootprintName": "TO-263-5_L10.1-W8.7-P1.70-LS14.4-BR",
+        "DeviceName": "LM2596S-5.0",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+12V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N19"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "USB+5V"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND"
+        }
+      }
+    },
+    "gge88": {
+      "props": {
+        "Footprint": "6ba4f2e9f84db1a5",
+        "Designator": "U3",
+        "LCSC Part Name": "3.3V 1A 15V",
+        "Supplier Part": "C6186",
+        "Manufacturer": "Advanced Monolithic Systems",
+        "Manufacturer Part": "AMS1117-3.3",
+        "Supplier Footprint": "SOT-223",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AMS1117-3.3/6652.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "925194bf9823436183a3e0b978a8d076|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "3D Model Transform": "279.89794,255.905,0,180,0,0,-3.9385,-0.0005,0",
+        "Output Configuration": "正极",
+        "Voltage - Supply": "15V",
+        "Output Voltage": "3.3V",
+        "Output Current": "1A",
+        "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+        "Voltage Dropout": "1.1V@(800mA)",
+        "standby current": "5mA",
+        "Noise": "0.003%Vout",
+        "Features": "短路保护；热关断；过流保护",
+        "Operating Temperature": "-40℃~+125℃",
+        "Output Type": "固定",
+        "Number of Outputs": "1",
+        "Name": "AMS1117-3.3",
+        "Description": "输出极性:正极;工作电压:15V;输出电压:3.3V;输出电流:1A;电源纹波抑制比(PSRR):72dB@(120Hz);输出类型:固定;",
+        "Device": "2b97904143d278a8",
+        "Unique ID": "gge88",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I3",
+        "FootprintName": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+        "DeviceName": "AMS1117-3.3_C6186",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "VCC+5V"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge89": {
+      "props": {
+        "Name": "XL1509-12E1",
+        "Designator": "U4",
+        "3D Model Title": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "3D Model": "a0552642c23948a584f046f4d7c959d4|0819f05c4eef4c71ace90d822a990e87",
+        "Footprint": "f117a11ce5a005e9",
+        "LCSC Part Name": "降压型 2A 4.5V~40V",
+        "Supplier Part": "C62594",
+        "Manufacturer": "XLSEMI(芯龙)",
+        "Manufacturer Part": "XL1509-12E1",
+        "Supplier Footprint": "SOIC-8",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XL1509-12E1/63654.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "192.913,236.22,0,0,0,0,0,0,0",
+        "Function": "降压型",
+        "Voltage - Supply": "4.5V~40V",
+        "Output Voltage": "12V",
+        "Output Current": "2A",
+        "Frequency - Switching": "150kHz",
+        "Operating Temperature": "-40℃~+85℃@(TA)",
+        "Synchronous Rectifier": "否",
+        "Number of Outputs": "1",
+        "Topology": "降压式",
+        "Quiescent Current": "2mA",
+        "Switch tube (built-in/external)": "内置",
+        "Output Type": "固定",
+        "Features": "过流保护",
+        "Description": "功能类型:降压型;工作电压:4.5V~40V;输出电压:12V;输出电流:2A;输出类型:固定;",
+        "Device": "094e00a8663a4ccd",
+        "Unique ID": "gge89",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I4",
+        "FootprintName": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "DeviceName": "XL1509-12E1",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+24V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N75"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "VCC+12V"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND"
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "GND"
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "GND"
+        }
+      }
+    },
+    "gge32": {
+      "props": {
+        "Footprint": "34f43b865d1de6a0",
+        "Designator": "U5",
+        "3D Model Title": "SMA_L4.2-W2.6-LS5.1-RD",
+        "3D Model": "0bbbb6fb043b4d77ba3f63ca91d261ab|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "SS54",
+        "Supplier Part": "C9900023219",
+        "Manufacturer": "",
+        "Manufacturer Part": "SS54",
+        "Supplier Footprint": "(1N5824)DO-214",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "198.8185,102.362,0,0,0,0,0,0,0",
+        "Name": "SS54",
+        "Description": "",
+        "Device": "b60439762b855640",
+        "Unique ID": "gge32",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I7",
+        "FootprintName": "SMA_L4.2-W2.6-LS5.1-RD",
+        "DeviceName": "SS54",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+24V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N3"
+        }
+      }
+    },
+    "gge46": {
+      "props": {
+        "Footprint": "0e53d2fe0bc433ed",
+        "Designator": "U6",
+        "3D Model Title": "SW-SMD_YSSP2AG00",
+        "3D Model": "fb02099b709848e0a4d0ee10293f3e98|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "9x3.6 正按6脚贴片滑动开关",
+        "Supplier Part": "C5188558",
+        "Manufacturer": "YIYUAN(怡远)",
+        "Manufacturer Part": "YSSP2AG00",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20221011/AF6FF47B5A85181594B051FD518E9363.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "354.33,275.59,0,0,0,0,0,0,0",
+        "Name": "YSSP2AG00",
+        "Description": "",
+        "Device": "82d1f7db27e88db3",
+        "Unique ID": "gge46",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I38",
+        "FootprintName": "SW-SMD_YSSP2AG00",
+        "DeviceName": "YSSP2AG00",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "$1N52"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "$1N52"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "USB+5V"
+        }
+      }
+    },
+    "gge47": {
+      "props": {
+        "Footprint": "432a448e92528ee6",
+        "Designator": "U7",
+        "LCSC Part Name": "60V 0.05A 1206自恢复",
+        "Supplier Part": "C2830235",
+        "Manufacturer": "JK(金科)",
+        "Manufacturer Part": "JK-nSMD005/60V",
+        "Supplier Footprint": "1206",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/JK-nSMD005%252F60V/2981864.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "F1206_L3.2-W1.7-H0.6",
+        "3D Model Transform": "125.984,66.929,0,0,0,0,0,0,0",
+        "Voltage - Max": "60V",
+        "Current - Max": "100A",
+        "Hold Current": "50mA",
+        "Trip Current": "150mA",
+        "Power Dissipation": "-",
+        "Resistance - Initial (Ri) (Min)": "3.6Ω",
+        "Resistance - Post Trip (R1) (Max)": "50Ω",
+        "Time to Trip(Max)": "1.5s",
+        "Operating Temperature": "-40℃~+85℃",
+        "Length": "3.5mm",
+        "Width": "1.8mm",
+        "Height": "1.1mm",
+        "Pitch": "-",
+        "Name": "JK-nSMD005/60V",
+        "Description": "耐压(Vmax):60V;最大电流(Imax):100A;保持电流(Ihold):50mA;跳闸电流(Itrip):150mA;",
+        "Device": "22677d3b436e7bb8",
+        "Unique ID": "gge47",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I40",
+        "FootprintName": "F1206",
+        "DeviceName": "JK-nSMD005/60V",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N52"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+5V"
+        }
+      }
+    },
+    "gge86": {
+      "props": {
+        "Footprint": "94e01a1cac62a87f",
+        "Designator": "USART1",
+        "3D Model Title": "CONN-SMD_XH2.54-4PSMD",
+        "3D Model": "13f3eb89fd0d473db79b9d8909e40aa3|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "CONN-SMD_XH2.54-4PSMD",
+        "Supplier Part": "C9900018341",
+        "Manufacturer": "",
+        "Manufacturer Part": "CONN-SMD_XH2.54-4PSMD",
+        "Supplier Footprint": "CONN-SMD-4P",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "590.55,410.164,0,0,0,0,0,11.811,0",
+        "Name": "CONN-SMD_XH2.54-4PSMD",
+        "Description": "",
+        "Device": "ccc129c949ee09d7",
+        "Unique ID": "gge86",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I2",
+        "FootprintName": "CONN-SMD_XH2.54-4PSMD",
+        "DeviceName": "CONN-SMD_XH2.54-4PSMD",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+3.3V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA9"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PA10"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND"
+        }
+      }
+    },
+    "gge27": {
+      "props": {
+        "Footprint": "0ed5ce8ef55b41f3",
+        "Designator": "USB1",
+        "3D Model Title": "USB-C-SMD_KH-TYPE-C-16P",
+        "3D Model": "f2c381012fbf47e0b76dea5162270f01|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "Type-C 母 卧贴",
+        "Supplier Part": "C2894898",
+        "Manufacturer": "HCTL(华灿天禄)",
+        "Manufacturer Part": "HC-TYPE-C-16P-01B",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/HC-TYPE-C-16P-01B/3132574.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "351.9678,307.48,0,0,0,0,0,-45.276,-43.307",
+        "Connector Type": "Type-C",
+        "Protocol Standard": "-",
+        "Gender": "母",
+        "Mounting Type": "卧贴",
+        "Number of Contacts": "16P",
+        "Number of Ports": "1",
+        "Current Rating-Power": "3A",
+        "Connect-Disconnect Life": "1万次",
+        "Length": "7.35mm",
+        "Detection color": "黑色",
+        "Operating Temperature": "-25℃~+85℃",
+        "Name": "HC-TYPE-C-16P-01B",
+        "Description": "连接器类型:Type-C;协议标准:-;公母:母;安装方式:卧贴;触点数量:16P;端口数量:1;额定电流 - 电源:3A;工作温度:-25℃~+85℃;",
+        "Device": "8a48b7e1f3ebadaf",
+        "Unique ID": "gge27",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I29",
+        "FootprintName": "USB-C-SMD_KH-TYPE-C-16P",
+        "DeviceName": "HC-TYPE-C-16P-01B",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        },
+        "A1": {
+          "name": "",
+          "number": "A1",
+          "net": "GND"
+        },
+        "B12": {
+          "name": "",
+          "number": "B12",
+          "net": "GND"
+        },
+        "A4": {
+          "name": "",
+          "number": "A4",
+          "net": "USB+5V"
+        },
+        "B9": {
+          "name": "",
+          "number": "B9",
+          "net": "USB+5V"
+        },
+        "B8": {
+          "name": "",
+          "number": "B8",
+          "net": ""
+        },
+        "A5": {
+          "name": "",
+          "number": "A5",
+          "net": "CC1"
+        },
+        "B7": {
+          "name": "",
+          "number": "B7",
+          "net": "DN"
+        },
+        "A6": {
+          "name": "",
+          "number": "A6",
+          "net": "DP"
+        },
+        "A7": {
+          "name": "",
+          "number": "A7",
+          "net": "DN"
+        },
+        "B6": {
+          "name": "",
+          "number": "B6",
+          "net": "DP"
+        },
+        "B5": {
+          "name": "",
+          "number": "B5",
+          "net": "CC2"
+        },
+        "B1": {
+          "name": "",
+          "number": "B1",
+          "net": "GND"
+        },
+        "A12": {
+          "name": "",
+          "number": "A12",
+          "net": "GND"
+        },
+        "A8": {
+          "name": "",
+          "number": "A8",
+          "net": ""
+        },
+        "B4": {
+          "name": "",
+          "number": "B4",
+          "net": "USB+5V"
+        },
+        "A9": {
+          "name": "",
+          "number": "A9",
+          "net": "USB+5V"
+        }
+      }
+    },
+    "gge113": {
+      "props": {
+        "Footprint": "5e71414e72e1514e",
+        "Designator": "X1",
+        "3D Model Title": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+        "3D Model": "ff2dfd5650294453a14147960efe1838|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "YSX321SL 16MHZ 4P 3225 9PF ±10PPM -40~85℃ (±20PPM)",
+        "Supplier Part": "C13738",
+        "Manufacturer": "YXC(扬兴晶振)",
+        "Manufacturer Part": "X322516MLB4SI",
+        "Supplier Footprint": "SMD3225-4P",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/X322516MLB4SI/14393.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "125.984,98.425,0,0,0,0,0,0,0",
+        "Type": "贴片晶振",
+        "Value": "16MHz",
+        "Normal temperature Frequency Tolerance": "±10ppm",
+        "Load Capacitance": "9pF",
+        "Frequency Stability": "±20ppm",
+        "Equivalent Series Resistance(ESR)": "50Ω",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "16MHz",
+        "Description": "晶振类型:贴片晶振;频率:16MHz;常温频差:±10ppm;负载电容:9pF;频率稳定度:±20ppm;",
+        "Device": "a5ddcee8b2a4bc7c",
+        "Unique ID": "gge113",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I7",
+        "FootprintName": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+        "DeviceName": "X322516MLB4SI",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "OSCH2"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "OSCH1"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        }
+      }
+    },
+    "gge16": {
+      "props": {
+        "Footprint": "3ad88963167c129e",
+        "Designator": "X2",
+        "3D Model Title": "CRYSTAL-SMD_L3.2-W1.5-1",
+        "3D Model": "762d7afc596f4558a373612390f4386d|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "CM7V-T1A LOW ESR 32.768K 12.5PF 20 TA QC",
+        "Supplier Part": "C27152053",
+        "Manufacturer": "Micro Crystal(瑞士微晶)",
+        "Manufacturer Part": "CM7V-T1A-LOW-ESR-32.768K-12.5PF-20-TA-QC",
+        "Supplier Footprint": "SMD3215",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A_Low-ESR.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "125.984,59.055,0,0,0,0,0,0,0",
+        "Value": "32.768kHz",
+        "Normal temperature Frequency Tolerance": "±20ppm",
+        "Load Capacitance": "12.5pF",
+        "Frequency Stability": "-",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "32.768kHz",
+        "Description": "频率:32.768kHz;常温频差:±20ppm;负载电容:12.5pF;频率稳定度:-;",
+        "Device": "cdec0646f905a75d",
+        "Unique ID": "gge16",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I6",
+        "FootprintName": "CRYSTAL-SMD_L3.2-W1.5-1",
+        "DeviceName": "CM7V-T1A-LOW-ESR-32.768K-12.5PF-20-TA-QC",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "OSCL2"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "OSCL1"
+        }
+      }
+    },
+    "gge145": {
+      "props": {
+        "Footprint": "40bb028898e4f90e",
+        "Designator": "D5",
+        "LCSC Part Name": "1kV 1A",
+        "Supplier Part": "C18199088",
+        "Manufacturer": "R+O(宏嘉诚)",
+        "Manufacturer Part": "1N4007W",
+        "Supplier Footprint": "SOD-123FL",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/1N4007W/19354320.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+        "3D Model Transform": "141.732,70.866,0,180,0,0,0,0,0",
+        "Diode Configuration": "独立式",
+        "Voltage - Forward(Vf@If)": "1V@1A",
+        "Voltage - DC Reverse(Vr)": "1kV",
+        "Current - Rectified": "1A",
+        "Reverse Leakage Current (Ir)": "2uA@1000V",
+        "Non-Repetitive Peak Forward Surge Current": "30A",
+        "Operating Junction Temperature Range": "-55℃~+150℃",
+        "Name": "1N4007W",
+        "Description": "二极管配置:独立式;正向压降(Vf):1V@1A;直流反向耐压(Vr):1kV;整流电流:1A;",
+        "Device": "7877cbe69c73772c",
+        "Unique ID": "gge145",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I52",
+        "FootprintName": "SOD-123FL_L2.7-W1.8-LS3.8-RD",
+        "DeviceName": "1N4007W_C18199088",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "RST"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N88"
+        }
+      }
+    },
+    "gge139": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R13",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge139",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I44",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "RTS"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N93"
+        }
+      }
+    },
+    "gge140": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R14",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "10K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge140",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I45",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N88"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge141": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R15",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "1K",
+        "Name": "1K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge141",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I46",
+        "Standardization Check": "false",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N91"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "BOOT0"
+        }
+      }
+    },
+    "gge138": {
+      "props": {
+        "Footprint": "5e583c0b9323b1ac",
+        "Designator": "U8",
+        "LCSC Part Name": "USB转串口芯片",
+        "Supplier Part": "C84681",
+        "Manufacturer": "WCH(南京沁恒)",
+        "Manufacturer Part": "CH340C",
+        "Supplier Footprint": "SOP-16",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CH340C/85852.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "3361a6792abf4a8f8fbca4f1924a67ee|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOP-16_L9.9-W3.9-H1.5-LS6.0-P1.27",
+        "3D Model Transform": "240.39054,393.7,0,90,0,0,0,0,0",
+        "Applications Function": "收发器",
+        "USB Protocol": "USB 2.0",
+        "Number of Channels": "-",
+        "Voltage - Supply": "3.3V；5V",
+        "Data Rate": "2Mbps",
+        "Operating Temperature": "-20℃~+70℃",
+        "Current - Supply": "7mA",
+        "Quiescent Supply Current": "50uA",
+        "Features": "可编程波特率；内置时钟发生器；上电复位",
+        "Name": "CH340C",
+        "Description": "应用功能:收发器;USB协议版本:USB 2.0;通道数:-;数据速率:2Mbps;",
+        "Device": "2cd9dda567ca5e97",
+        "Unique ID": "gge138",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I41",
+        "FootprintName": "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+        "DeviceName": "CH340C",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA3"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PA2"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "VCC+3.3V"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "DP"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "DN"
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "DTR"
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "RTS"
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": ""
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge148": {
+      "props": {
+        "Footprint": "5869469b12dad48c",
+        "Designator": "CN2",
+        "3D Model Title": "CONN-TH_XT30UPB-F",
+        "3D Model": "cac3422727854fd08801884acc42c969|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "AMASS(艾迈斯) XT30系列电源连接器 XT30UPB-F30.G.Y 立式PCB焊板母座",
+        "Supplier Part": "C108769",
+        "Manufacturer": "AMASS(艾迈斯)",
+        "Manufacturer Part": "XT30UPB-F30.G.Y",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XT30UPB-F30.G.Y/109989.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "401.574,204.724,0,0,0,0,-0.025,0,-78.74",
+        "Rated current": "15A",
+        "Rated voltage": "500VDC",
+        "colour": "黄色",
+        "Connector type": "航模插头",
+        "contact resistance": "0.65mΩ",
+        "interface form": "母头",
+        "insulating material": "PA",
+        "metal material": "镀金",
+        "Name": "XT30UPB-F30.G.Y",
+        "Description": "模型插头连接器",
+        "Device": "e1179ae6a9468438",
+        "Unique ID": "gge148",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I53",
+        "FootprintName": "CONN-TH_XT30UPB-F",
+        "DeviceName": "XT30UPB-F30.G.Y",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N87"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge149": {
+      "props": {
+        "Footprint": "5869469b12dad48c",
+        "Designator": "CN3",
+        "3D Model Title": "CONN-TH_XT30UPB-F",
+        "3D Model": "cac3422727854fd08801884acc42c969|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "AMASS(艾迈斯) XT30系列电源连接器 XT30UPB-F30.G.Y 立式PCB焊板母座",
+        "Supplier Part": "C108769",
+        "Manufacturer": "AMASS(艾迈斯)",
+        "Manufacturer Part": "XT30UPB-F30.G.Y",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XT30UPB-F30.G.Y/109989.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "401.574,204.724,0,0,0,0,-0.025,0,-78.74",
+        "Rated current": "15A",
+        "Rated voltage": "500VDC",
+        "colour": "黄色",
+        "Connector type": "航模插头",
+        "contact resistance": "0.65mΩ",
+        "interface form": "母头",
+        "insulating material": "PA",
+        "metal material": "镀金",
+        "Name": "XT30UPB-F30.G.Y",
+        "Description": "模型插头连接器",
+        "Device": "e1179ae6a9468438",
+        "Unique ID": "gge149",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I58",
+        "FootprintName": "CONN-TH_XT30UPB-F",
+        "DeviceName": "XT30UPB-F30.G.Y",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N98"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge151": {
+      "props": {
+        "Name": "SMBJ15A",
+        "Designator": "D3",
+        "Footprint": "824d91bb77769b89",
+        "LCSC Part Name": "单向TVS 15V截止 峰值浪涌电流：24.59A@10/1000us",
+        "Supplier Part": "C19077569",
+        "Manufacturer": "R+O(宏嘉诚)",
+        "Manufacturer Part": "SMBJ15A",
+        "Supplier Footprint": "DO-214AA(SMB)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/SMBJ15A/20275654.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "314c1f1e2ff843d9bed33f9992fd5d20|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SMB_L4.32-W3.62-LS5.3-RD",
+        "3D Model Transform": "208.661,142.5194,0,0,0,0,0,0,0",
+        "Polarity": "单向",
+        "Reverse Stand-Off Voltage (Vrwm)": "15V",
+        "Clamping Voltage": "24.4V",
+        "Peak Pulse Current (Ipp)": "24.59A@10/1000us",
+        "Peak Pulse Power Dissipation (Ppp)": "600W@10/1000us",
+        "Voltage - Breakdown": "18.5V",
+        "Reverse Leakage Current (Ir)": "5uA",
+        "Number of Channels": "单路",
+        "Operating Temperature": "-55℃~+150℃",
+        "level of protection": "IEC 61000-4-2",
+        "Type": "TVS",
+        "Junction Capacitance": "-",
+        "Description": "极性:单向;反向截止电压(Vrwm):15V;钳位电压:24.4V;峰值脉冲电流(Ipp):24.59A@10/1000us;峰值脉冲功率(Ppp):600W@10/1000us;击穿电压(VBR):18.5V;",
+        "Device": "07e88eb86b75aaf2",
+        "Unique ID": "gge151",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I80",
+        "FootprintName": "SMB_L4.3-W3.6-LS5.3-RD",
+        "DeviceName": "SMBJ15A_C19077569",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N98"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge150": {
+      "props": {
+        "Footprint": "98ef80fa0223e5fd",
+        "Designator": "D6",
+        "3D Model Title": "SMB_L4.6-W3.6-LS5.4-RD",
+        "3D Model": "4a07d3f25b7245848b9fc4bc88d0221f|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "单向TVS 30V截止 峰值浪涌电流：12.4A@10/1000us",
+        "Supplier Part": "C19077584",
+        "Manufacturer": "R+O(宏嘉诚)",
+        "Manufacturer Part": "SMBJ30A",
+        "Supplier Footprint": "DO-214AA(SMB)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/SMBJ30A/20275669.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "212.598,142.5194,0,0,0,0,0,0,0",
+        "Polarity": "单向",
+        "Reverse Stand-Off Voltage (Vrwm)": "30V",
+        "Clamping Voltage": "48.4V",
+        "Peak Pulse Current (Ipp)": "12.4A@10/1000us",
+        "Peak Pulse Power Dissipation (Ppp)": "600W@10/1000us",
+        "Voltage - Breakdown": "36.8V",
+        "Reverse Leakage Current (Ir)": "5uA",
+        "Number of Channels": "单路",
+        "Operating Temperature": "-55℃~+150℃",
+        "level of protection": "IEC 61000-4-2",
+        "Type": "TVS",
+        "Junction Capacitance": "-",
+        "Name": "SMBJ30A",
+        "Description": "极性:单向;反向截止电压(Vrwm):30V;钳位电压:48.4V;峰值脉冲电流(Ipp):12.4A@10/1000us;峰值脉冲功率(Ppp):600W@10/1000us;击穿电压(VBR):36.8V;",
+        "Device": "30a3c632c99dccd0",
+        "Unique ID": "gge150",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I79",
+        "FootprintName": "SMB_L4.6-W3.6-LS5.4-RD",
+        "DeviceName": "SMBJ30A_C19077584",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$1N87"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge32_0": {
+      "props": {
+        "Footprint": "34f43b865d1de6a0",
+        "Designator": "U9",
+        "3D Model Title": "SMA_L4.2-W2.6-LS5.1-RD",
+        "3D Model": "0bbbb6fb043b4d77ba3f63ca91d261ab|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "SS54",
+        "Supplier Part": "C9900023219",
+        "Manufacturer": "",
+        "Manufacturer Part": "SS54",
+        "Supplier Footprint": "(1N5824)DO-214",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "198.8185,102.362,0,0,0,0,0,0,0",
+        "Name": "SS54",
+        "Description": "",
+        "Device": "b60439762b855640",
+        "Unique ID": "gge32_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I75",
+        "FootprintName": "SMA_L4.2-W2.6-LS5.1-RD",
+        "DeviceName": "SS54",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+24V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N87"
+        }
+      }
+    },
+    "gge32_1": {
+      "props": {
+        "Footprint": "34f43b865d1de6a0",
+        "Designator": "U10",
+        "3D Model Title": "SMA_L4.2-W2.6-LS5.1-RD",
+        "3D Model": "0bbbb6fb043b4d77ba3f63ca91d261ab|0819f05c4eef4c71ace90d822a990e87",
+        "LCSC Part Name": "SS54",
+        "Supplier Part": "C9900023219",
+        "Manufacturer": "",
+        "Manufacturer Part": "SS54",
+        "Supplier Footprint": "(1N5824)DO-214",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model Transform": "198.8185,102.362,0,0,0,0,0,0,0",
+        "Name": "SS54",
+        "Description": "",
+        "Device": "b60439762b855640",
+        "Unique ID": "gge32_1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I81",
+        "FootprintName": "SMA_L4.2-W2.6-LS5.1-RD",
+        "DeviceName": "SS54",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+12V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N98"
+        }
+      }
+    },
+    "gge110": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED3",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge110",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I46",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N59"
+        }
+      }
+    },
+    "gge102": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED2",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge102",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I26",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N28"
+        }
+      }
+    },
+    "gge100": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED1",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge100",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I24",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$1N26"
+        }
+      }
+    },
+    "gge92": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C2",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge92",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I10",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+24V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge106": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C6",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "10uF",
+        "Name": "10uF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge106",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I42",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+5V"
+        }
+      }
+    },
+    "gge107": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C7",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge107",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I43",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+5V"
+        }
+      }
+    },
+    "gge108": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C8",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge108",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I44",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge109": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C9",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge109",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I45",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge18_0": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C10",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "20pF",
+        "Name": "20pF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge18_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I14",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "OSCH1"
+        }
+      }
+    },
+    "gge18_3": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C11",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "20pF",
+        "Name": "20pF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge18_3",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I15",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "OSCH2"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge114": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C14",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge114",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I17",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "RST"
+        }
+      }
+    },
+    "gge116": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C15",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge116",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I20",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge117": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C16",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge117",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I21",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge118": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C17",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge118",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I22",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge119": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C18",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge119",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I23",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge128": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C19",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge128",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I26",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PB6"
+        }
+      }
+    },
+    "gge129": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C20",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge129",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I27",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA15"
+        }
+      }
+    },
+    "gge130": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C21",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge130",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I28",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA8"
+        }
+      }
+    },
+    "gge144": {
+      "props": {
+        "Footprint": "38e39d371e25a47b",
+        "Designator": "C23",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "100nF",
+        "Description": "",
+        "Device": "d9c0c40586d22300",
+        "Unique ID": "gge144",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I51",
+        "FootprintName": "C0603",
+        "DeviceName": "CAP_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+3.3V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "gge146": {
+      "props": {
+        "Footprint": "f638d0917d9afd30",
+        "Designator": "H2",
+        "Add into BOM": "yes",
+        "Supplier Part": "C124373",
+        "Supplier Footprint": "插件",
+        "3D Model": "8d5dfbb2c24048d4839430f015dcce06|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR-TH_15P-P2.54-M-LI-1X15P",
+        "3D Model Transform": "1499.99708,98.425,0,0,0,0,0,0,-118.11",
+        "Description": "间距:2.54mm;总PIN位数:15;排数:1;插针结构:1x15P;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;",
+        "Device": "e2ff484001f4a994",
+        "Name": "",
+        "Unique ID": "gge146",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I56",
+        "FootprintName": "HDR-TH_15P-P2.54-V-M",
+        "DeviceName": "HDR-M_2.54_1x15P",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PA8"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA11"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PA12"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "PA15"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "PB3"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "PB4"
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "PB5"
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "PB6"
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "PB7"
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "PB8"
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "PB9"
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "PC13"
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "GND"
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "VCC+3.3V"
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "VCC+5V"
+        }
+      }
+    },
+    "gge147": {
+      "props": {
+        "Footprint": "f638d0917d9afd30",
+        "Designator": "H3",
+        "Add into BOM": "yes",
+        "Supplier Part": "C124373",
+        "Supplier Footprint": "插件",
+        "3D Model": "8d5dfbb2c24048d4839430f015dcce06|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR-TH_15P-P2.54-M-LI-1X15P",
+        "3D Model Transform": "1499.99708,98.425,0,0,0,0,0,0,-118.11",
+        "Description": "间距:2.54mm;总PIN位数:15;排数:1;插针结构:1x15P;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;",
+        "Device": "e2ff484001f4a994",
+        "Name": "",
+        "Unique ID": "gge147",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I58",
+        "FootprintName": "HDR-TH_15P-P2.54-V-M",
+        "DeviceName": "HDR-M_2.54_1x15P",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PB15"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "PB14"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "PB13"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "PB12"
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "PB10"
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "PB1"
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "PB0"
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "PA7"
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "PA6"
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "PA5"
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "PA4"
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "PA1"
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "PA0"
+        }
+      }
+    },
+    "gge77": {
+      "props": {
+        "Footprint": "5ab579057974b2e2",
+        "Designator": "SW4",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SMD",
+        "3D Model": "fbf4ceca6c4742d48614ab6a891ef981|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS11.0",
+        "3D Model Transform": "330.708,251.968,0,0,0,0,0,-0.005,0",
+        "Name": "",
+        "Description": "",
+        "Device": "5e894b1e053696d5",
+        "Unique ID": "gge77",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I22",
+        "FootprintName": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+        "DeviceName": "Key_SMD_6x6x6.5",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PA8"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA8"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        }
+      }
+    },
+    "gge77_1": {
+      "props": {
+        "Footprint": "5ab579057974b2e2",
+        "Designator": "SW3",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SMD",
+        "3D Model": "fbf4ceca6c4742d48614ab6a891ef981|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS11.0",
+        "3D Model Transform": "330.708,251.968,0,0,0,0,0,-0.005,0",
+        "Name": "",
+        "Description": "",
+        "Device": "5e894b1e053696d5",
+        "Unique ID": "gge77_1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I24",
+        "FootprintName": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+        "DeviceName": "Key_SMD_6x6x6.5",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PA15"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PA15"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        }
+      }
+    },
+    "gge77_0": {
+      "props": {
+        "Footprint": "5ab579057974b2e2",
+        "Designator": "SW2",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SMD",
+        "3D Model": "fbf4ceca6c4742d48614ab6a891ef981|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS11.0",
+        "3D Model Transform": "330.708,251.968,0,0,0,0,0,-0.005,0",
+        "Name": "",
+        "Description": "",
+        "Device": "5e894b1e053696d5",
+        "Unique ID": "gge77_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I23",
+        "FootprintName": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+        "DeviceName": "Key_SMD_6x6x6.5",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PB6"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PB6"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND"
+        }
+      }
+    },
+    "gge133": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED4",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge133",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I36",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PB8"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N60"
+        }
+      }
+    },
+    "gge135": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED5",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge135",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I38",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PB9"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N62"
+        }
+      }
+    },
+    "gge131": {
+      "props": {
+        "Footprint": "b58ed45af45263e0",
+        "Designator": "LED6",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model": "dd8257b0d61a4cd7b68939a056e08095|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LED-0603_R",
+        "3D Model Transform": "58.72,29.4,22.03,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "4b0b0a2f4b393b4f",
+        "Unique ID": "gge131",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I31",
+        "Supplier Part": "",
+        "JLCPCB Part Class": "",
+        "FootprintName": "LED_0603",
+        "DeviceName": "LED_0603-R",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PC13"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N57"
+        }
+      }
+    },
+    "gge126": {
+      "props": {
+        "Footprint": "9ffd345067f5db57",
+        "Designator": "Q1",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SOT-23",
+        "3D Model": "c62791f0466c4ae2a892c056b845b0ca|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.6,114.12,41.29,180,0,0,0,0,-3",
+        "Name": "",
+        "Description": "",
+        "Device": "ab9df549878065a8",
+        "Unique ID": "gge126",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I16",
+        "FootprintName": "S8050_SOT-23",
+        "DeviceName": "S8050_SOT_NPN",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "DBUS"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PB11"
+        }
+      }
+    },
+    "gge142": {
+      "props": {
+        "Footprint": "9ffd345067f5db57",
+        "Designator": "Q2",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SOT-23",
+        "3D Model": "c62791f0466c4ae2a892c056b845b0ca|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.6,114.12,41.29,180,0,0,0,0,-3",
+        "Name": "",
+        "Description": "",
+        "Device": "ab9df549878065a8",
+        "Unique ID": "gge142",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I48",
+        "FootprintName": "S8050_SOT-23",
+        "DeviceName": "S8050_SOT_NPN",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "DTR"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "RTS"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "$3N88"
+        }
+      }
+    },
+    "gge143": {
+      "props": {
+        "Footprint": "3e9950679bf07902",
+        "Designator": "Q3",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SOT-23",
+        "3D Model": "9c0df02d6f3e44e889da37f3e5bf5496|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR",
+        "3D Model Transform": "98.43,114.17,37.91,0,0,0,0,0,0",
+        "Name": "",
+        "Description": "",
+        "Device": "db790465646e58cb",
+        "Unique ID": "gge143",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I49",
+        "FootprintName": "S8550P_SOT",
+        "DeviceName": "S8550_SOT_PNP",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$3N93"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$3N88"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "$3N91"
+        }
+      }
+    },
+    "gge21": {
+      "props": {
+        "Footprint": "5ab579057974b2e2",
+        "Designator": "SW1",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "SMD",
+        "3D Model": "fbf4ceca6c4742d48614ab6a891ef981|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SW-SMD_4P-L6.0-W6.0-P4.50-LS11.0",
+        "3D Model Transform": "330.708,251.968,0,0,0,0,0,-0.005,0",
+        "Name": "",
+        "Description": "",
+        "Device": "5e894b1e053696d5",
+        "Unique ID": "gge21",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I19",
+        "FootprintName": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+        "DeviceName": "Key_SMD_6x6x6.5",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "RST"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "RST"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "VCC+3.3V"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "VCC+3.3V"
+        }
+      }
+    },
+    "gge22": {
+      "props": {
+        "Footprint": "81a9b36cd03d7ed7",
+        "Designator": "H1",
+        "Add into BOM": "yes",
+        "Supplier Part": "C402781",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "3D Model": "fd1b55b786fb415ca65c4187088147b7|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR2.54-M-LI-2x3P",
+        "3D Model Transform": "299.9994,200,0,0,0,0,0,0,-118.11",
+        "Description": "",
+        "Device": "c8f7076a68129a3a",
+        "Name": "",
+        "Unique ID": "gge22",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I31",
+        "FootprintName": "HDR-TH_6P-P2.54-V-R2-C3-S2.54_A2541WV-2X3P",
+        "DeviceName": "HDR-M_2.54_2x3",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VCC+3.3V"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "VCC+3.3V"
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "$2N93"
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "$2N84"
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND"
+        }
+      }
+    },
+    "gge120": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R11",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "10K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge120",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I34",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "BOOT0"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "$2N93"
+        }
+      }
+    },
+    "gge121": {
+      "props": {
+        "Footprint": "81e43d46bf0a1bd2",
+        "Designator": "R12",
+        "3D Model Title": "R0603",
+        "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+        "Add into BOM": "yes",
+        "Supplier Footprint": "0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "10K",
+        "Description": "",
+        "Device": "2fa12c202be29160",
+        "Unique ID": "gge121",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I35",
+        "FootprintName": "R0603",
+        "DeviceName": "Res_0603",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "$2N84"
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "BOOT1"
+        }
+      }
+    }
+  },
+  "designRule": {
+    "trackPhysics": {
+      "copperThickness1oz": {
+        "name": "copperThickness1oz",
+        "isDefault": true,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.127,
+            "max": 2.54
+          }
+        }
+      },
+      "copperThickness2oz": {
+        "name": "copperThickness2oz",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.20299934,
+            "max": 2.54
+          }
+        }
+      }
+    },
+    "netRule": {
+      "GND": {
+        "net": "GND",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "+24V": {
+        "net": "+24V",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "VCC+12V": {
+        "net": "VCC+12V",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "USB+5V": {
+        "net": "USB+5V",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "VCC+5V": {
+        "net": "VCC+5V",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "VCC+3.3V": {
+        "net": "VCC+3.3V",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "OSCH1": {
+        "net": "OSCH1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "OSCH2": {
+        "net": "OSCH2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "OSCL2": {
+        "net": "OSCL2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "OSCL1": {
+        "net": "OSCL1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "RST": {
+        "net": "RST",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N3": {
+        "net": "$1N3",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N19": {
+        "net": "$1N19",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB11": {
+        "net": "PB11",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$2N93": {
+        "net": "$2N93",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$2N84": {
+        "net": "$2N84",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N26": {
+        "net": "$1N26",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N28": {
+        "net": "$1N28",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N59": {
+        "net": "$1N59",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N60": {
+        "net": "$3N60",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N62": {
+        "net": "$3N62",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N57": {
+        "net": "$3N57",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "DBUS": {
+        "net": "DBUS",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "CC2": {
+        "net": "CC2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "CC1": {
+        "net": "CC1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "BOOT0": {
+        "net": "BOOT0",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "BOOT1": {
+        "net": "BOOT1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA14": {
+        "net": "PA14",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA13": {
+        "net": "PA13",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PC13": {
+        "net": "PC13",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA0": {
+        "net": "PA0",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA1": {
+        "net": "PA1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA2": {
+        "net": "PA2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA3": {
+        "net": "PA3",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA4": {
+        "net": "PA4",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA5": {
+        "net": "PA5",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA6": {
+        "net": "PA6",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA7": {
+        "net": "PA7",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB0": {
+        "net": "PB0",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB1": {
+        "net": "PB1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB10": {
+        "net": "PB10",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB12": {
+        "net": "PB12",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB13": {
+        "net": "PB13",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB14": {
+        "net": "PB14",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB15": {
+        "net": "PB15",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA8": {
+        "net": "PA8",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA9": {
+        "net": "PA9",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA10": {
+        "net": "PA10",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA11": {
+        "net": "PA11",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA12": {
+        "net": "PA12",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PA15": {
+        "net": "PA15",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB3": {
+        "net": "PB3",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB4": {
+        "net": "PB4",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB5": {
+        "net": "PB5",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB6": {
+        "net": "PB6",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB7": {
+        "net": "PB7",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB8": {
+        "net": "PB8",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PB9": {
+        "net": "PB9",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N52": {
+        "net": "$1N52",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "DN": {
+        "net": "DN",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "DP": {
+        "net": "DP",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N88": {
+        "net": "$3N88",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "RTS": {
+        "net": "RTS",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "DTR": {
+        "net": "DTR",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N91": {
+        "net": "$3N91",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$3N93": {
+        "net": "$3N93",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N75": {
+        "net": "$1N75",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N87": {
+        "net": "$1N87",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "$1N98": {
+        "net": "$1N98",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      }
+    }
+  },
+  "netClass": {},
+  "equalLengthNetGroup": {},
+  "differentialPair": {
+    "DP1": {
+      "name": "DP1",
+      "positiveNet": "DP",
+      "negativeNet": "DN"
+    }
+  }
+}

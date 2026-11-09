@@ -1,0 +1,800 @@
+{
+  "generated": "2026-11-08",
+  "source": {
+    "sch": "sch.net",
+    "pcb": "pcb_raw.json"
+  },
+  "note": "C-10 自动比对基线；pad 数按不同焊盘号去重。expected_package 仅对已取得 MPN/封装语义的对象填写。",
+  "components": {
+    "C1": {
+      "mpn": "JVJ35V470M10x10",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C46550413",
+      "supplier_footprint": "SMD,D10xL10.5mm",
+      "footprint_name": "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C3": {
+      "mpn": "RVT25V180M6X8",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C49233128",
+      "supplier_footprint": "SMD,D6.3xL7.7mm",
+      "footprint_name": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C4": {
+      "mpn": "MA35V680M10X13",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C48971043",
+      "supplier_footprint": "SMD,D10xL13.5mm",
+      "footprint_name": "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0_H12.0",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C5": {
+      "mpn": "JVJ35V220M6x8",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C46550411",
+      "supplier_footprint": "SMD,D6.3xL7.7mm",
+      "footprint_name": "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C6": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C7": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C8": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C9": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C10": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C11": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C12": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C13": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C14": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C15": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C16": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C17": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C18": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C19": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C20": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C21": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "C23": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "C0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "CN1": {
+      "mpn": "XT30UPB-M",
+      "manufacturer": "AMASS(艾迈斯)",
+      "lcsc": "C428721",
+      "supplier_footprint": "-",
+      "footprint_name": "CONN-TH_XT30UPB-M",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "XT30 2P TH"
+    },
+    "CN2": {
+      "mpn": "XT30UPB-F30.G.Y",
+      "manufacturer": "AMASS(艾迈斯)",
+      "lcsc": "C108769",
+      "supplier_footprint": "-",
+      "footprint_name": "CONN-TH_XT30UPB-F",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "XT30 2P TH"
+    },
+    "CN3": {
+      "mpn": "XT30UPB-F30.G.Y",
+      "manufacturer": "AMASS(艾迈斯)",
+      "lcsc": "C108769",
+      "supplier_footprint": "-",
+      "footprint_name": "CONN-TH_XT30UPB-F",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "XT30 2P TH"
+    },
+    "D1": {
+      "mpn": "1N5821",
+      "manufacturer": "CJ(江苏长电/长晶)",
+      "lcsc": "C5295406",
+      "supplier_footprint": "DO-27",
+      "footprint_name": "DO-27_BD3.5-L8.6-P12.60-D1.3-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "DO-27"
+    },
+    "D2": {
+      "mpn": "1N5824",
+      "manufacturer": "FUXINSEMI(富芯森美)",
+      "lcsc": "C7503125",
+      "supplier_footprint": "DO-201AD",
+      "footprint_name": "DO-27_BD5.3-L8.4-P12.40-D1.3-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "DO-27"
+    },
+    "D3": {
+      "mpn": "SMBJ15A",
+      "manufacturer": "R+O(宏嘉诚)",
+      "lcsc": "C19077569",
+      "supplier_footprint": "DO-214AA(SMB)",
+      "footprint_name": "SMB_L4.3-W3.6-LS5.3-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SMB"
+    },
+    "D5": {
+      "mpn": "1N4007W",
+      "manufacturer": "R+O(宏嘉诚)",
+      "lcsc": "C18199088",
+      "supplier_footprint": "SOD-123FL",
+      "footprint_name": "SOD-123FL_L2.7-W1.8-LS3.8-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SOD-123FL"
+    },
+    "D6": {
+      "mpn": "SMBJ30A",
+      "manufacturer": "R+O(宏嘉诚)",
+      "lcsc": "C19077584",
+      "supplier_footprint": "DO-214AA(SMB)",
+      "footprint_name": "SMB_L4.6-W3.6-LS5.4-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SMB"
+    },
+    "DBUS1": {
+      "mpn": "MX1.25mm-3P-WT",
+      "manufacturer": "LXWCONN(连兴旺电子)",
+      "lcsc": "C53055349",
+      "supplier_footprint": "SMD,P=1.25mm,卧贴",
+      "footprint_name": "CONN-SMD_MX1.25MM-3P-WT",
+      "sch_pins": 5,
+      "pcb_pads": 5,
+      "expected_package": "MX1.25 3P"
+    },
+    "H1": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "C402781",
+      "supplier_footprint": "插件,P=2.54mm",
+      "footprint_name": "HDR-TH_6P-P2.54-V-R2-C3-S2.54_A2541WV-2X3P",
+      "sch_pins": 6,
+      "pcb_pads": 6,
+      "expected_package": ""
+    },
+    "H2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "C124373",
+      "supplier_footprint": "插件",
+      "footprint_name": "HDR-TH_15P-P2.54-V-M",
+      "sch_pins": 15,
+      "pcb_pads": 15,
+      "expected_package": ""
+    },
+    "H3": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "C124373",
+      "supplier_footprint": "插件",
+      "footprint_name": "HDR-TH_15P-P2.54-V-M",
+      "sch_pins": 15,
+      "pcb_pads": 15,
+      "expected_package": ""
+    },
+    "L1": {
+      "mpn": "PNR6045-680-M",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C55381776",
+      "supplier_footprint": "SMD,6x6mm",
+      "footprint_name": "IND-SMD_L6.0-W6.0_LPS6225",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "6x6mm SMD"
+    },
+    "L2": {
+      "mpn": "PNR5040-330-M",
+      "manufacturer": "JIERR(捷而瑞)",
+      "lcsc": "C55381767",
+      "supplier_footprint": "SMD,5x5mm",
+      "footprint_name": "IND-SMD_L5.0-W5.0_PNR5040",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "5x5mm SMD"
+    },
+    "LED1": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "LED2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "LED3": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "LED4": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "LED5": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "LED6": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "LED_0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "Q1": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SOT-23",
+      "footprint_name": "S8050_SOT-23",
+      "sch_pins": 3,
+      "pcb_pads": 3,
+      "expected_package": "SOT-23"
+    },
+    "Q2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SOT-23",
+      "footprint_name": "S8050_SOT-23",
+      "sch_pins": 3,
+      "pcb_pads": 3,
+      "expected_package": "SOT-23"
+    },
+    "Q3": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SOT-23",
+      "footprint_name": "S8550P_SOT",
+      "sch_pins": 3,
+      "pcb_pads": 3,
+      "expected_package": "SOT-23"
+    },
+    "R1": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R3": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R4": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R5": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R6": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R7": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R8": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R9": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R10": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R11": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R12": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R13": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R14": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "R15": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "0603",
+      "footprint_name": "R0603",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": ""
+    },
+    "SW1": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SMD",
+      "footprint_name": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": ""
+    },
+    "SW2": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SMD",
+      "footprint_name": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": ""
+    },
+    "SW3": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SMD",
+      "footprint_name": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": ""
+    },
+    "SW4": {
+      "mpn": "",
+      "manufacturer": "",
+      "lcsc": "",
+      "supplier_footprint": "SMD",
+      "footprint_name": "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": ""
+    },
+    "SWD1": {
+      "mpn": "MX1.25mm-4P-WT",
+      "manufacturer": "LXWCONN(连兴旺电子)",
+      "lcsc": "C53055350",
+      "supplier_footprint": "SMD,P=1.25mm,卧贴",
+      "footprint_name": "CONN-SMD_MX1.25MM-4P-WT",
+      "sch_pins": 6,
+      "pcb_pads": 6,
+      "expected_package": "MX1.25 4P"
+    },
+    "U1": {
+      "mpn": "STM32F103C8T6",
+      "manufacturer": "ST(意法半导体)",
+      "lcsc": "C8734",
+      "supplier_footprint": "LQFP-48(7x7)",
+      "footprint_name": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+      "sch_pins": 48,
+      "pcb_pads": 48,
+      "expected_package": "LQFP-48"
+    },
+    "U2": {
+      "mpn": "LM2596S-5.0",
+      "manufacturer": "Slkor(萨科微)",
+      "lcsc": "C2980820",
+      "supplier_footprint": "TO-263-5",
+      "footprint_name": "TO-263-5_L10.1-W8.7-P1.70-LS14.4-BR",
+      "sch_pins": 6,
+      "pcb_pads": 6,
+      "expected_package": "TO-263-5"
+    },
+    "U3": {
+      "mpn": "AMS1117-3.3",
+      "manufacturer": "Advanced Monolithic Systems",
+      "lcsc": "C6186",
+      "supplier_footprint": "SOT-223",
+      "footprint_name": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": "SOT-223"
+    },
+    "U4": {
+      "mpn": "XL1509-12E1",
+      "manufacturer": "XLSEMI(芯龙)",
+      "lcsc": "C62594",
+      "supplier_footprint": "SOIC-8",
+      "footprint_name": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+      "sch_pins": 8,
+      "pcb_pads": 8,
+      "expected_package": "SOIC-8"
+    },
+    "U5": {
+      "mpn": "SS54",
+      "manufacturer": "",
+      "lcsc": "C9900023219",
+      "supplier_footprint": "(1N5824)DO-214",
+      "footprint_name": "SMA_L4.2-W2.6-LS5.1-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SMA"
+    },
+    "U6": {
+      "mpn": "YSSP2AG00",
+      "manufacturer": "YIYUAN(怡远)",
+      "lcsc": "C5188558",
+      "supplier_footprint": "SMD",
+      "footprint_name": "SW-SMD_YSSP2AG00",
+      "sch_pins": 6,
+      "pcb_pads": 6,
+      "expected_package": "SW-SMD 6P"
+    },
+    "U7": {
+      "mpn": "JK-nSMD005/60V",
+      "manufacturer": "JK(金科)",
+      "lcsc": "C2830235",
+      "supplier_footprint": "1206",
+      "footprint_name": "F1206",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "1206"
+    },
+    "U8": {
+      "mpn": "CH340C",
+      "manufacturer": "WCH(南京沁恒)",
+      "lcsc": "C84681",
+      "supplier_footprint": "SOP-16",
+      "footprint_name": "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+      "sch_pins": 16,
+      "pcb_pads": 16,
+      "expected_package": "SOP-16"
+    },
+    "U9": {
+      "mpn": "SS54",
+      "manufacturer": "",
+      "lcsc": "C9900023219",
+      "supplier_footprint": "(1N5824)DO-214",
+      "footprint_name": "SMA_L4.2-W2.6-LS5.1-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SMA"
+    },
+    "U10": {
+      "mpn": "SS54",
+      "manufacturer": "",
+      "lcsc": "C9900023219",
+      "supplier_footprint": "(1N5824)DO-214",
+      "footprint_name": "SMA_L4.2-W2.6-LS5.1-RD",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "SMA"
+    },
+    "USART1": {
+      "mpn": "CONN-SMD_XH2.54-4PSMD",
+      "manufacturer": "",
+      "lcsc": "C9900018341",
+      "supplier_footprint": "CONN-SMD-4P",
+      "footprint_name": "CONN-SMD_XH2.54-4PSMD",
+      "sch_pins": 6,
+      "pcb_pads": 6,
+      "expected_package": "XH2.54 4P"
+    },
+    "USB1": {
+      "mpn": "HC-TYPE-C-16P-01B",
+      "manufacturer": "HCTL(华灿天禄)",
+      "lcsc": "C2894898",
+      "supplier_footprint": "SMD",
+      "footprint_name": "USB-C-SMD_KH-TYPE-C-16P",
+      "sch_pins": 20,
+      "pcb_pads": 20,
+      "expected_package": "USB-C 16P SMD"
+    },
+    "X1": {
+      "mpn": "X322516MLB4SI",
+      "manufacturer": "YXC(扬兴晶振)",
+      "lcsc": "C13738",
+      "supplier_footprint": "SMD3225-4P",
+      "footprint_name": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "sch_pins": 4,
+      "pcb_pads": 4,
+      "expected_package": "3225 4P"
+    },
+    "X2": {
+      "mpn": "CM7V-T1A-LOW-ESR-32.768K-12.5PF-20-TA-QC",
+      "manufacturer": "Micro Crystal(瑞士微晶)",
+      "lcsc": "C27152053",
+      "supplier_footprint": "SMD3215",
+      "footprint_name": "CRYSTAL-SMD_L3.2-W1.5-1",
+      "sch_pins": 2,
+      "pcb_pads": 2,
+      "expected_package": "3215 2P"
+    }
+  }
+}
