@@ -11,7 +11,7 @@ python -B src/output_paths.py --init --board '控制板-V1.0-2026-11-09'
 python -B src/extract.py 'D:/design/控制板.epro2'
 ```
 
-数据分为 `outputs/`（临时产物）、`work/boards/`（板卡过程记录）、`review/`（正式报告与证据）。具体命令、C-10 自动报告和路径覆盖方式见 [运行产物目录](docs/output-directories.md)。
+数据分为 `outputs/`（临时产物）、`work/boards/`（板卡过程记录）、`review/`（完整报告、简明报告与证据）。每次完整审核交付 `report.md` 和 `simple-report.md`；具体路径见 [运行产物目录](docs/output-directories.md)，简明版格式见 [简明报告模板](docs/simple-report-template.md)。
 
 ## 一句话目标
 
@@ -48,6 +48,7 @@ python -B src/extract.py 'D:/design/控制板.epro2'
 - `docs/review-criteria-assessment.md` — 原判据核查、两个实测漏检反例、现有报告的复审范围与在线 skill 评估
 - `CLAUDE.md` — 本项目的工作规则
 - `docs/review-method.md` — 审核方式：三层证据、五个阶段、agent 分工、判定、技能、开源 skill 评估
+- `docs/simple-report-template.md` — 完整审核后生成的简明报告模板
 - `docs/open-source-skill-evaluation-2026-11-08.md` — 开源候选固定版本、本机测试、反例和本项目适配建议
 - `docs/review-checklist.md` — 可执行检查库（A~G 类，含 MVP 首批、豁免、设计意图卡）
 - `docs/footprint-review.md` — C-10 封装匹配：官方库分层核验、重点对象、历史证据复用与覆盖率

@@ -23,7 +23,7 @@
 | `review/` | 既有历史审核档案；新报告进 `<DATA_DIR>/review/` |
 | `work/boards/` | 既有记录及 `_template/` 模板；新板卡工作目录进 `<DATA_DIR>/work/boards/` |
 | `<DATA_DIR>/outputs/` | 新的提取结果、API 快照、仿真、日志等临时产物 |
-| `<DATA_DIR>/review/` | 新审核档案：`<工程>-<版本>-<日期>/report.md` + `evidence/`，长期保留 |
+| `<DATA_DIR>/review/` | 新审核档案：`<工程>-<版本>-<日期>/report.md`、`simple-report.md` + `evidence/`，长期保留 |
 | `src/` | 辅助脚本：bridge 调用、格式解析、BOM 比对 |
 | `notes/` | 过程记录与决策理由 |
 
@@ -45,7 +45,7 @@
 
 1. **审图先于改图。** 拿到图纸先出一份问题清单，确认后再动。
 2. **原始文件不改。** 在 `design/` 里保留原始导出包，改动写到新文件名里。
-3. **报告写进 `<DATA_DIR>/review/<工程>-<版本>-<日期>/report.md`**，用 `docs/review-method.md` §6 的格式，结论在前；引用的证据放同目录 `evidence/`。
+3. **完整审核成对交付。** 先按 `docs/review-method.md` §6 写完整 `report.md`，再据此生成 `simple-report.md`（模板见 `docs/simple-report-template.md`）；两份报告和引用证据放在 `<DATA_DIR>/review/<工程>-<版本>-<日期>/`，证据存入 `evidence/`。
 4. **API 操作先小范围验证。** 批量操作前先在一个元件或一页图上试通。
 
 ## 审核口径（已确认 2026-11-06）

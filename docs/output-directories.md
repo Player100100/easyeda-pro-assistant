@@ -44,7 +44,7 @@ python -B src/output_paths.py --init
 
 `--out` / `--report` 仍可指定自定义外部路径，相对路径按终端当前目录解释。脚本拒绝写入项目自身，包括解析后落入项目的符号链接路径。父目录会自动创建。环境变量影响提取、C-10、板卡初始化及 bridge 状态/日志；已有 bridge 进程使用旧位置时，应先用原配置执行 `eda.py stop` 再切换。
 
-完整审核报告由审核流程按 `docs/review-method.md` §6 撰写到 `<DATA_DIR>/review/<工程>-<版本>-<日期>/report.md`，其引用证据放同目录 `evidence/`。C-10 自动报告仅覆盖封装结构检查，不代替完整审核。API 查询、网表校验及几何检查等只打印标准输出的命令，需要将重定向目标设在 `<DATA_DIR>/outputs/`；shell 的 `>` 不受 Python 路径检查控制。
+完整审核档案由审核流程撰写到 `<DATA_DIR>/review/<工程>-<版本>-<日期>/`：先形成 `report.md`，再据此生成 `simple-report.md`；引用证据放同目录 `evidence/`。简明版不得带入完整报告和审核数据未支持的新结论。C-10 自动报告仅覆盖封装结构检查，不代替完整审核。API 查询、网表校验及几何检查等只打印标准输出的命令，需要将重定向目标设在 `<DATA_DIR>/outputs/`；shell 的 `>` 不受 Python 路径检查控制。
 
 多板连接模型由 `work/system-interconnect.template.json` 复制到外部系统工作目录；`--board` 初始化只复制单板模板，不会自动创建系统连接模型。复制命令与字段语义见 [多板系统联合审核](multi-board-review.md)。定稿时将实际使用的模型及其引用的线束/连接器证据复制到报告 `evidence/` 留档。
 
