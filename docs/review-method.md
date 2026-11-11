@@ -1,5 +1,7 @@
 # 审核方式（v1 草案，判据受 v2 校订）
 
+运行产物中的 `<DATA_DIR>` 指项目外的数据目录，查询及初始化方式见 [运行产物目录](output-directories.md)。
+
 **日期**：2026-11-06 　**状态**：审核口径已确认（§10）；方法细节随实测迭代
 
 > 执行判据以 [`review-criteria-v2.md`](review-criteria-v2.md) 为准。v1 清单中与 v2 冲突的固定距离/面积/相位裕度、NC 与空网集合相等、单脚网必报、net-tie 同网等规则均不得直接作为 PASS/FAIL。离线 PCB 连通脚本已区分同网/异网候选，但完整几何/层叠校准尚未完成，只能给候选结果。
@@ -110,9 +112,11 @@ python src/eda.py up                          # 确保 bridge 可用
 python src/eda.py status                      # 确认当前工程/打开页
 ```
 
-API 侧至少落盘：原理图网表、PCB 网表、全部焊盘（`num/net/x/y/layer`）、元件清单、**原理图 ERC 与 PCB DRC 原始结果**、**规则配置/启用规则/规则单位**、**激活文档/板名/启用层/工具版本**、NC 标记、图元定位所需 ID。过程产物放 `outputs/audit/<工程>/<版本>/`（临时，可清）；**定稿报告引用的输入快照复制到 `review/<工程>-<版本>-<日期>/evidence/` 留档**，与报告（同目录 `report.md`）一起提交。这个 evidence 目录算「审核档案」，不算临时文件；如与项目目录约定冲突，按项目负责人确认的路径执行。
+API 侧至少落盘：原理图网表、PCB 网表、全部焊盘（`num/net/x/y/layer`）、元件清单、**原理图 ERC 与 PCB DRC 原始结果**、**规则配置/启用规则/规则单位**、**激活文档/板名/启用层/工具版本**、NC 标记、图元定位所需 ID。过程产物放 `<DATA_DIR>/outputs/audit/<工程>/<版本>/`（临时，可清）；**定稿报告引用的输入快照复制到 `<DATA_DIR>/review/<工程>-<版本>-<日期>/evidence/` 留档**，与报告（同目录 `report.md`）一起提交。这个 evidence 目录算「审核档案」，不算临时文件；如与项目目录约定冲突，按项目负责人确认的路径执行。
 
 > 无 headless：一次只能取当前激活文档；PCB 与原理图要分别 `activateDocument`。切换前确认没有未保存改动。
+
+多 PCB / 多板系统另按[多板系统联合审核](multi-board-review.md)冻结板卡实例与版本、逐板取证，并以 `system-interconnect.json` 的证据映射建立系统网络。当前提取器的 comparison 仅针对元件最多的 PCB，且原理图网表全工程汇总；重复位号碰撞未解决前，禁止将其当作多板逐板对比或板间连通结论。
 
 ### 第 2 步：数据一致性（阶段 0）
 
@@ -145,7 +149,7 @@ python src/validate_netlist.py <工程目录>/netlist.json <EasyEDA导出的.net
 
 | agent | 负责 | 输入 | 输出 |
 |---|---|---|---|
-| 电源/地 agent | 电源树、稳压器外围、地策略、退耦 | 网表、BOM、datasheet | C-01/C-02、B-03、E-01/E-02 |
+| 电源/地 agent | 电源树、稳压器外围、地策略、退耦、关键网络供电与电荷预算 | 网表、BOM、datasheet、逐负载工况/并发关系、PCB 路径依据 | C-01/C-02/C-11、B-03、E-01/E-02；必要时关联 G-01 |
 | 接口 agent | 连接器 pinout、电平、上下拉、差分/保护 | 网表、意图卡、对端资料 | C-03/C-05/C-06/C-08 |
 | 时钟/复位/启动 agent | 晶振、复位、BOOT/模式脚 | 网表、MCU datasheet | C-04、B-05 |
 | PCB 几何 agent | 线宽/间距/连通/过孔/铺铜/丝印 | `pcb.json`、规则、API 读数 | D 类复核 |
@@ -155,6 +159,7 @@ python src/validate_netlist.py <工程目录>/netlist.json <EasyEDA导出的.net
 | 独立 reviewer agent | 只读复核 S0/S1、查漏、查覆盖率虚报 | 快照 + 报告 | 复核意见 |
 
 **agent 做判断时的纪律**：
+- C-11 在 C-01/C-02 后按[供电与电荷预算审核](power-charge-budget.md)执行，先列关键电源轨及工况，再填写板卡 `power-charge-budget.md`。持续供电、瞬态电荷、路径压降、周期恢复分别给结果；PCB 审核提供经校准的路径依据，独立 reviewer 复核供电边界、并发假设、有效容量和覆盖缺口。当前按证据计算/按需仿真，自动预算检查器待实现。
 - C-10 按[封装匹配审核](footprint-review.md)执行，自动结构检查使用 `src/check_footprints.py`，期望基线必须来自 BOM/厂商资料核验；记录使用 `work/boards/_template/footprint-review.md`。极性、器件功能、观察面、装配适配等不能从提取数据自证的内容仍由 agent 按证据逐项核验，不能把官方库来源当作通过。
 - 可以判断，但每条判断必须给：定位串 + 证据（文件字段 / datasheet 页码 / 计算式）+ 依据类型 + 置信度。
 - 不许凭记忆给引脚号、地址、阈值；查不到就写「待验证」。
@@ -204,14 +209,14 @@ python src/validate_netlist.py <工程目录>/netlist.json <EasyEDA导出的.net
 **执行要求**：
 
 - 先读 `spice-bench-craft` 定测试台，单点用 `ltspice`/`ngspice`，批量/扫参用 `spice-experiments`。
-- deck、模型、结果放 `outputs/audit/<工程>/<版本>/sim/`；报告引用时把关键 deck 和 `.MEAS` 复制到 `review/<工程>-<版本>-<日期>/evidence/`。
+- deck、模型、结果放 `<DATA_DIR>/outputs/audit/<工程>/<版本>/sim/`；报告引用时把关键 deck 和 `.MEAS` 复制到 `<DATA_DIR>/review/<工程>-<版本>-<日期>/evidence/`。
 - 每条结果记录：模型来源与版本、测试台、激励条件、测量点、单位、corner/温度（跑了的才写）。
 - 报告写「判据 → 仿真值 → 结论（通过/不通过/无法判定）」；没跑的不写数值。
 - 仿真不通过时给定位串和波形/测量文件，不写成「建议重新设计」这类空话。
 
 ### 第 6 步：汇总报告（阶段 4）
 
-一次审核一个目录：`review/<工程>-<版本>-<日期>/`，报告为其中的 `report.md`，引用证据放 `evidence/`。结论放最前，格式见 §6。**报告只列问题、覆盖率和无法判定的项，不给放行结论。** 每条 S0/S1 必须能被第二个人按定位串复现。
+一次审核一个目录：`<DATA_DIR>/review/<工程>-<版本>-<日期>/`，报告为其中的 `report.md`，引用证据放 `evidence/`。结论放最前，格式见 §6。**报告只列问题、覆盖率和无法判定的项，不给放行结论。** 每条 S0/S1 必须能被第二个人按定位串复现。
 
 ### 第 7 步：复审（改版后；当前阶段以只读为主）
 
@@ -283,8 +288,10 @@ API 的 `navigateToCoordinates` / `highlightNet` / `selectNet` 用同一套坐�
 |---|---|---|---|---|---|---|
 | 连接性（网/引脚） | 34 网 / 134 脚 | 34 / 134 | 31 网 | 3 网（铺铜未计） | 0 | ... |
 | DRC / DFM / 通用加工建议 | ... | ... | ... | ... | ... | ... |
+| 板间连接/系统接口 | ... | ... | ... | ... | ... | 列出已确认/推断/未知映射、线束测试、未覆盖板卡实例和工况 |
 | 语义（C-01～C-09） | ... | ... | ... | ... | ... | ... |
 | 封装匹配（C-10，逐子项） | 元件实例/不同型号与封装组合分别列数 | 本次核验与引用历史证据分别列数 | ... | ... | ... | 未查尺寸/缺图纸等；不能混算为整体通过 |
+| 供电与电荷预算（C-11，逐子项） | 关键电源轨×工况；分别统计 C-11.1～C-11.4 | ... | ... | ... | ... | 列缺失负载时序/响应/有效容量/路径参数；范围未知不得填 100% |
 | 专项（EMC 等） | ... | ... | ... | ... | ... | 不适用/缺数据 |
 
 ## 发现
@@ -302,7 +309,7 @@ API 的 `navigateToCoordinates` / `highlightNet` / `selectNet` 用同一套坐�
 （命令、输入文件 hash、输出路径）
 
 ## 附件
-- 原始读数：`outputs/audit/<工程>/<版本>/`
+- 原始读数：`<DATA_DIR>/outputs/audit/<工程>/<版本>/`
 - 快照：`.epro2` / `netlist.json` / `pcb.json` / API dump
 ```
 
@@ -339,7 +346,7 @@ src/audit/
   checks/        # 每个检查一个模块，返回结构化 finding
   rules/         # 阈值与出处（JLCPCB、IPC-2221、EMC 规则）
   run.py         # 执行 + 覆盖率统计 + audit.json
-  report.py      # audit.json → review/<审核目录>/report.md
+  report.py      # audit.json → <DATA_DIR>/review/<审核目录>/report.md
   diff.py        # 两版 audit.json 的 finding 集合差异
 ```
 
@@ -426,6 +433,6 @@ src/audit/
 |---|---|---|
 | P0 | A-01~A-05（含坐标对账）+ 报告模板 | 任取一个工程，能判断数据是否可信并给出原因 |
 | P1 | MVP 检查：B-01~B-03、B-07、D-01、D-05；D-04 只出同网/异网候选；F-01 只在项目指定板厂时套该厂能力 | 一条命令出 `audit.json` + 覆盖率 |
-| P2 | agent 分工做 C 类语义审查（电源 / 接口 / 时钟复位 / BOM），独立 reviewer agent 复核 | 出第一份完整 `review/<审核目录>/report.md`，S0/S1 可复现 |
+| P2 | agent 分工做 C 类语义审查（电源 / 接口 / 时钟复位 / BOM），独立 reviewer agent 复核 | 出第一份完整 `<DATA_DIR>/review/<审核目录>/report.md`，S0/S1 可复现 |
 | P3 | 专项：EMC 确定性项、DFM/供应链、仿真（按 §4.1 触发） | 专项报告 + 明确的不适用项 + 仿真判据/模型记录 |
 | P4 | 开源 skill 评估与规则移植 | 通过 §8 准入标准，且有出处/许可证记录 |

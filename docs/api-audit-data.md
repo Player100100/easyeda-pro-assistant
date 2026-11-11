@@ -182,10 +182,10 @@ DRC 是唯一能直接回答「这块板过不过规则」的接口。`includeVe
 建议的审核流水线：
 
 1. 开工程 → bridge 取 **原理图网表** + **PCB 网表** + **PCB DRC 结果** + **规则/网络类/差分对**
-   → 落盘到 `outputs/api/<工程>/`
+   → 落盘到 `<DATA_DIR>/outputs/api/<工程>/`（外部目录，见 [运行产物目录](output-directories.md)）
 2. 离线 `extract.py` 出几何与坐标，给审核意见提供落点
 3. `validate_netlist.py` 把 1 和 2 对一次，不一致就是线索
-4. 审核结论写入 `review/`，每条带位号/网名/坐标/页码
+4. 审核结论写入 `<DATA_DIR>/review/`，每条带位号/网名/坐标/页码
 
 ---
 

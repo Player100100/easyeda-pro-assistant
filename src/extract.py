@@ -5,7 +5,7 @@
 用法：
     python extract.py <工程.epro2> [--out 目录] [--with-poured]
 
-产物（默认写到 <工作区>/outputs/extract/<工程名>/）：
+产物（默认写到 <项目同级>/<项目目录名>-data/outputs/extract/<工程名>/）：
     index.json       文档索引、层级、工程元数据
     schematic.json   原理图页：元件、引脚（绝对坐标）、导线、网络标志、文字
     pcb.json         PCB：层表、叠层、元件、焊盘（绝对坐标）、走线、过孔、铺铜、板框、规则
@@ -29,7 +29,9 @@ import sys
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.dont_write_bytecode = True
 import epru_reader as R  # noqa: E402
+from output_paths import external_path, generated_path, safe_name  # noqa: E402
 
 EPS = 0.02          # 坐标合并容差（记录单位）
 ROUND = 3
@@ -993,20 +995,6 @@ def compare(sch_pins, sch_nets, pcb_nets, net_ties=None):
 
 # ---------------------------------------------------------------- 主流程
 
-def safe_name(s: str) -> str:
-    s = re.sub(r'[\\/:*?"<>|]+', "_", s or "project")
-    return s.strip() or "project"
-
-
-def workspace_root() -> str:
-    here = os.path.dirname(os.path.abspath(__file__))
-    for _ in range(6):
-        if os.path.isdir(os.path.join(here, "projects")):
-            return here
-        here = os.path.dirname(here)
-    return os.getcwd()
-
-
 def dump_json(path, obj):
     with open(path, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(obj, fh, ensure_ascii=False, indent=1)
@@ -1016,11 +1004,18 @@ def dump_json(path, obj):
 def main(argv=None):
     ap = argparse.ArgumentParser(description="从 .epro2 提取原理图/PCB 结构化信息")
     ap.add_argument("project")
-    ap.add_argument("--out", default=None, help="输出目录")
+    ap.add_argument("--out", default=None, help="项目外的输出目录；默认使用同级数据目录")
     ap.add_argument("--with-poured", action="store_true",
                     help="导出铺铜计算结果 POURED（体积可能很大）")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args(argv)
+
+    try:
+        explicit_out = external_path(args.out) if args.out else None
+        if explicit_out is None:
+            generated_path('outputs', 'extract')
+    except ValueError as exc:
+        ap.error(str(exc))
 
     project, records = R.read_project(args.project, strict=True)
     docs = list(R.iter_documents(records))
@@ -1132,8 +1127,11 @@ def main(argv=None):
         "comparison": comparison,
     }
 
-    out_dir = args.out or os.path.join(workspace_root(), "outputs", "extract",
-                                       safe_name(project.get("title") or "project"))
+    try:
+        out_dir = explicit_out or generated_path('outputs', 'extract',
+                                                 safe_name(project.get('title') or 'project'))
+    except ValueError as exc:
+        ap.error(str(exc))
     os.makedirs(out_dir, exist_ok=True)
 
     dump_json(os.path.join(out_dir, "index.json"), index)

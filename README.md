@@ -2,6 +2,17 @@
 
 **状态**：调研
 
+## 运行产物位置
+
+后续临时文件、板卡工作记录和报告自动写入项目旁的 `../epro2-辅助绘制及审核-data/`。项目现有结构和历史资料保留。路径随实际克隆目录名生成，不依赖当前工作目录；可用 `EPRO2_DATA_DIR` 指定其他绝对路径。
+
+```powershell
+python -B src/output_paths.py --init --board '控制板-V1.0-2026-11-09'
+python -B src/extract.py 'D:/design/控制板.epro2'
+```
+
+数据分为 `outputs/`（临时产物）、`work/boards/`（板卡过程记录）、`review/`（正式报告与证据）。具体命令、C-10 自动报告和路径覆盖方式见 [运行产物目录](docs/output-directories.md)。
+
 ## 一句话目标
 
 用 Claude Code 辅助嘉立创EDA 的绘制工作，并对原理图 / PCB 做独立审核。
@@ -22,6 +33,8 @@
 - 2026-11-08 开源 skill 评估：本地跑了 3 个固定版本候选；`zsy-smu/easyeda-pcb-design` 212 项中 210 通过、2 项因 Windows 符号链接权限跳过，最适合逐项移植其只读检查器；`lceda-review` 的空网表得到 100 分 `READY`，不适合作为审核结论；没有候选直接支持本项目 `.epro2` V3。详见 `docs/open-source-skill-evaluation-2026-11-08.md`
 - 2026-11-08 新增 C-10「封装与实际器件匹配」审核规范、板卡记录模板和只读结构检查器 `src/check_footprints.py`；支持用经审核的期望清单比对型号/封装绑定、映射存在性、物理焊盘清单和尺寸，缺基线仍为 `NOT_CHECKED`。极性/观察面/器件实际适配仍需人工依据厂商资料复核，历史板卡未因新增检查自动补审。详见 `docs/footprint-review.md`
 
+- 2026-11-10 新增 C-11「关键网络供电与电荷预算」审核规范与板卡记录模板，纳入电源语义审核和逐工况覆盖统计。覆盖持续供电、瞬态电荷、供电路径压降与周期恢复；当前由 agent/人工按依据计算、必要时仿真，自动预算检查器待实现。见 `docs/power-charge-budget.md`。
+
 ## 下一步
 
 1. 实现 A-04 坐标对账（API 焊盘 `x/y/net` 已实测可读），确定底层镜像语义
@@ -38,6 +51,8 @@
 - `docs/open-source-skill-evaluation-2026-11-08.md` — 开源候选固定版本、本机测试、反例和本项目适配建议
 - `docs/review-checklist.md` — 可执行检查库（A~G 类，含 MVP 首批、豁免、设计意图卡）
 - `docs/footprint-review.md` — C-10 封装匹配：官方库分层核验、重点对象、历史证据复用与覆盖率
+- `docs/power-charge-budget.md` — C-11 关键网络供电与电荷预算：工况、计算判据、仿真触发和覆盖率；板卡记录模板为 `work/boards/_template/power-charge-budget.md`
+- `docs/multi-board-review.md` — 多块板的逐板隔离审核、板间连接证据模型与系统级检查边界；JSON Schema 为 `schemas/system-interconnect.schema.json`，填写模板为 `work/system-interconnect.template.json`
 - `docs/manufacturing-guidance.md` — 不绑定板厂的通用加工参数建议：铜厚、层数/板厚、线宽/间距、孔/环宽、阻焊/丝印和特殊工艺
 - `src/check_footprints.py` — 对 `extract.py` 输出执行只读 C-10 结构核对，期望值来自经审核的厂商/BOM 基线
 - `src/test_check_footprints.py` — C-10 检查器的缺基线、映射、焊盘清单、公差与输入保护反例
@@ -45,6 +60,6 @@
 - `docs/extraction-guide.md` — 如何从 `.epro2` 获取完整原理图与 PCB 信息（数据来源、单位/变换、连接重建规则、限制）
 - `docs/api-audit-data.md` — 审核需要的数据哪些能从 EasyEDA API 直接取（接口、返回、拿不到的、与离线解析的分工）
 - `src/epru_reader.py` — `.epro2` / `.epru` 读取器（`--list` 列文档，`--dump <uuid>` 导出记录）
-- `src/extract.py` — 结构化提取器（默认写到 `outputs/extract/<工程名>/`）
+- `src/extract.py` — 结构化提取器（默认写到 `<DATA_DIR>/outputs/extract/<工程名>/`）
 - `src/validate_netlist.py` — 用 EasyEDA 导出的 Protel 网表校验原理图重建结果
 - `src/eda.py` — bridge 自动连接 / 守护：脱离会话拉起桥进程、等客户端连上、`exec` 跑 JS、`watch` 自愈（`up` / `status` / `wait` / `exec` / `watch` / `stop`）

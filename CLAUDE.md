@@ -14,14 +14,20 @@
 
 ## 目录
 
+**新任务产物统一写到项目外。** `<DATA_DIR>` 由 `python -B src/output_paths.py` 查询，默认为项目旁的 `<项目目录名>-data/`；初始化使用 `python -B src/output_paths.py --init --board '<工程>-<版本>-<日期>'`。环境变量 `EPRO2_DATA_DIR` 可指定其他绝对路径，详见 `docs/output-directories.md`。下面项目内的审核/工作目录仅保存现有历史资料与模板，不再接收新产物。新建报告、下载的临时资料、仿真文件和 API 快照均遵守外部输出约定。
+
 | 目录 | 放什么 |
 |---|---|
 | `docs/` | 设计规范、审核清单、器件选型依据 |
 | `design/` | `.epro2` 导出包，以及解包后的源文件 |
-| `review/` | 审核档案，一次审核一个目录：`<工程>-<版本>-<日期>/report.md` + `evidence/` |
-| `work/boards/` | 按板子存放审核临时文件（意图卡、要求基线、日志、中间结果）；可清理，不放最终报告 |
+| `review/` | 既有历史审核档案；新报告进 `<DATA_DIR>/review/` |
+| `work/boards/` | 既有记录及 `_template/` 模板；新板卡工作目录进 `<DATA_DIR>/work/boards/` |
+| `<DATA_DIR>/outputs/` | 新的提取结果、API 快照、仿真、日志等临时产物 |
+| `<DATA_DIR>/review/` | 新审核档案：`<工程>-<版本>-<日期>/report.md` + `evidence/`，长期保留 |
 | `src/` | 辅助脚本：bridge 调用、格式解析、BOM 比对 |
 | `notes/` | 过程记录与决策理由 |
+
+多板系统联合审核按 `docs/multi-board-review.md` 执行。逐板快照必须保留板卡实例边界；只有 `system-interconnect.json` 中带可追溯证据的连接才可用于系统网络分析。当前 `extract.py` 的全工程原理图网表与主 PCB comparison 不构成逐板一致性结论。
 
 ## 可用技能
 
@@ -39,7 +45,7 @@
 
 1. **审图先于改图。** 拿到图纸先出一份问题清单，确认后再动。
 2. **原始文件不改。** 在 `design/` 里保留原始导出包，改动写到新文件名里。
-3. **报告写进 `review/<工程>-<版本>-<日期>/report.md`**，用 `templates/report.md` 的格式，结论在前；引用的证据放同目录 `evidence/`。
+3. **报告写进 `<DATA_DIR>/review/<工程>-<版本>-<日期>/report.md`**，用 `docs/review-method.md` §6 的格式，结论在前；引用的证据放同目录 `evidence/`。
 4. **API 操作先小范围验证。** 批量操作前先在一个元件或一页图上试通。
 
 ## 审核口径（已确认 2026-11-06）

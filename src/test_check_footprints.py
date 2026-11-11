@@ -199,7 +199,9 @@ class FootprintCheckerTests(unittest.TestCase):
     def test_cli_writes_evidence_and_report_and_protects_inputs(self):
         pcb, sch, exp = fixture()
         exp['components']['U1']['mpn'] = 'wrong-part'
-        root = Path(__file__).resolve().parents[1] / 'outputs'
+        from output_paths import generated_path
+        root = generated_path('outputs', 'tests')
+        root.mkdir(parents=True, exist_ok=True)
         prefix = f'c10-test-{uuid4().hex}'
         paths = [root / f'{prefix}-{name}.json' for name in ('pcb', 'sch', 'exp')]
         out, report = root / f'{prefix}-result.json', root / f'{prefix}-report.md'

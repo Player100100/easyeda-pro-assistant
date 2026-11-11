@@ -26,7 +26,7 @@ FPC1（引脚号与焊盘号反序，见「实测发现」）。
 python src/extract.py <工程.epro2> [--out 目录] [--with-poured]
 ```
 
-默认输出到 `<工作区>/outputs/extract/<工程名>/`：
+默认输出到项目旁的 `<项目目录名>-data/outputs/extract/<工程名>/`（记作 `<DATA_DIR>/outputs/extract/<工程名>/`），目录自动创建；可用 `EPRO2_DATA_DIR` 指定绝对路径，`--out` 也必须位于项目外。详见 [运行产物目录](output-directories.md)。产物：
 
 | 文件 | 内容 |
 |---|---|
@@ -241,9 +241,12 @@ python src/validate_netlist.py <netlist.json> <EasyEDA导出的.net>
 
 ```bash
 # 某元件每个脚落在哪个网
-python - <<'PY'
+python -B - <<'PY'
 import json
-d=json.load(open('outputs/extract/工程名/netlist.json',encoding='utf-8'))
+import sys
+sys.path.insert(0, 'src')
+from output_paths import generated_path
+d=json.load(open(generated_path('outputs', 'extract', '工程名', 'netlist.json'),encoding='utf-8'))
 for r in d['schematic']['pins']:
     if r['designator']=='U1':
         print(r['pin'], r['pin_name'], r['net'])

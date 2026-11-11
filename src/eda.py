@@ -36,14 +36,14 @@ import time
 import urllib.error
 import urllib.request
 from pathlib import Path
+sys.dont_write_bytecode = True
+from output_paths import generated_path
 
 PORT_START = int(os.environ.get("EASYEDA_PORT_START", 49620))
 PORT_END = int(os.environ.get("EASYEDA_PORT_END", 49629))
 SERVICE_ID = "easyeda-bridge"
 
-# <ws>/projects/<project>/src/eda.py → parents: 0=src 1=<project> 2=projects 3=<ws>
-WORKSPACE = Path(__file__).resolve().parents[3]
-STATE_DIR = WORKSPACE / "outputs" / "eda"
+STATE_DIR = generated_path('outputs', 'eda')
 STATE_FILE = STATE_DIR / "bridge.json"
 LOG_FILE = STATE_DIR / "bridge.log"
 

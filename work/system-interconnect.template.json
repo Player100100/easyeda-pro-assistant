@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "system": {
+    "name": "待填写系统名",
+    "revision": "待填写版本",
+    "configuration": "待填写装配/线束/BOM配置",
+    "scenarios": [
+      {
+        "id": "nominal",
+        "description": "待填写同时工作的板卡、负载和环境条件",
+        "active_board_instances": ["board-a", "board-b"],
+        "connected_interconnects": ["harness-1"],
+        "source": {
+          "status": "unknown",
+          "references": [],
+          "note": "待依据项目工况填写"
+        }
+      }
+    ]
+  },
+  "board_instances": [
+    {
+      "id": "board-a",
+      "design_name": "待填写板卡 A",
+      "revision": "待填写版本",
+      "design_source": {
+        "file": "待填写源文件路径",
+        "sha256": null,
+        "bom_revision": "待填写",
+        "assembly_variant": "待填写"
+      },
+      "connectors": [
+        {
+          "ref": "J1",
+          "part": "待填写连接器型号",
+          "view": "待填写 mating view 与 pin 1 方向",
+          "pins": [
+            {
+              "number": "1",
+              "function": "待填写信号功能",
+              "board_net": null,
+              "source": { "status": "unknown", "references": [] }
+            }
+          ],
+          "source": { "status": "unknown", "references": [] }
+        }
+      ]
+    },
+    {
+      "id": "board-b",
+      "design_name": "待填写板卡 B",
+      "revision": "待填写版本",
+      "design_source": {
+        "file": "待填写源文件路径",
+        "sha256": null,
+        "bom_revision": "待填写",
+        "assembly_variant": "待填写"
+      },
+      "connectors": [
+        {
+          "ref": "J1",
+          "part": "待填写连接器型号",
+          "view": "待填写 mating view 与 pin 1 方向",
+          "pins": [
+            {
+              "number": "1",
+              "function": "待填写信号功能",
+              "board_net": null,
+              "source": { "status": "unknown", "references": [] }
+            }
+          ],
+          "source": { "status": "unknown", "references": [] }
+        }
+      ]
+    }
+  ],
+  "interconnects": [
+    {
+      "id": "harness-1",
+      "kind": "cable",
+      "part_or_harness": "待填写线束型号/图号",
+      "revision": "待填写线束版本",
+      "topology": "point-to-point",
+      "connections": [
+        {
+          "wire_id": "待填写线号",
+          "signal": "待填写信号名",
+          "signal_class": "unknown",
+          "endpoints": [
+            { "board_instance_id": "board-a", "connector": "J1", "pin": "1" },
+            { "board_instance_id": "board-b", "connector": "J1", "pin": "1" }
+          ],
+          "source": {
+            "status": "unknown",
+            "references": [],
+            "note": "仅为待填模板映射；未确认前不得视为导通"
+          }
+        }
+      ],
+      "source": { "status": "unknown", "references": [] }
+    }
+  ]
+}

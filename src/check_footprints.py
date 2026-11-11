@@ -12,6 +12,9 @@ import math
 import sys
 from collections import Counter
 from pathlib import Path
+from datetime import datetime
+sys.dont_write_bytecode = True
+from output_paths import external_path, generated_path, safe_name
 
 
 STATUSES = ("PASS", "FAIL", "REVIEW", "NOT_CHECKED", "NOT_APPLICABLE")
@@ -333,12 +336,16 @@ def main(argv=None):
     parser.add_argument("--schematic", help="extract.py schematic.json")
     parser.add_argument("--expectations", help="reviewed C-10 expectation JSON with source citations")
     parser.add_argument("--pcb-id", help="required when the input contains multiple PCBs")
-    parser.add_argument("--report", help="write Markdown report")
-    parser.add_argument("--out", help="write result JSON; defaults to stdout")
+    parser.add_argument("--report", help="Markdown report outside the project; default: data/review/<run>/c10.md")
+    parser.add_argument("--out", help="JSON outside the project; default: data/outputs/check-footprints/<run>/c10.json (also stdout)")
+    parser.add_argument("--run-name", help="output folder name; default: input folder + timestamp")
     args = parser.parse_args(argv)
     try:
         inputs = [Path(p).resolve() for p in (args.pcb, args.schematic, args.expectations) if p]
-        outputs = [Path(p).resolve() for p in (args.out, args.report) if p]
+        run_name = safe_name(args.run_name or (Path(args.pcb).resolve().parent.name + '-' + datetime.now().strftime('%Y%m%d-%H%M%S-%f')))
+        out = external_path(args.out) if args.out else generated_path('outputs', 'check-footprints', run_name, 'c10.json')
+        report = external_path(args.report) if args.report else generated_path('review', run_name, 'c10.md')
+        outputs = [out, report]
         if any(p in inputs for p in outputs) or len(set(outputs)) != len(outputs):
             raise ValueError("outputs must be distinct and must not overwrite input evidence")
         result = check(load_json(args.pcb),
@@ -347,13 +354,13 @@ def main(argv=None):
         result['inputs'] = [{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
                             for p in inputs]
         rendered = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
-        if args.out:
-            with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
-                fh.write(rendered)
-        else:
+        for path in outputs:
+            path.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(rendered, encoding='utf-8', newline='\n')
+        report.write_text(report_markdown(result), encoding='utf-8', newline='\n')
+        if not args.out:
             sys.stdout.write(rendered)
-        if args.report:
-            Path(args.report).write_text(report_markdown(result), encoding='utf-8')
+        print(f"JSON: {out}\nReport: {report}", file=sys.stderr)
         return 1 if any(f['status'] == 'FAIL' for f in result['findings']) else 0
     except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
         print(f"C-10 error: {exc}", file=sys.stderr)

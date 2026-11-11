@@ -1,5 +1,7 @@
 # C-10 封装与实际器件匹配审核
 
+运行产物中的 `<DATA_DIR>` 指项目外的数据目录，查询及初始化方式见 [运行产物目录](output-directories.md)。
+
 2026-11-08 纳入正式审核范围。`src/check_footprints.py` 可自动核对提取数据中的封装引用、经审核基线的型号/封装绑定、引脚到焊盘映射存在性、物理焊盘清单及有公差的尺寸读数。它不从库名称推断器件正确性，也不能代替厂商图纸/极性/观察面人工审核。缺少审核基线的子项输出 `NOT_CHECKED`；新增检查器不表示历史板卡已补审。执行状态沿用 [v2 判据](review-criteria-v2.md)。
 
 ## 1. 与现有检查的关系
@@ -42,14 +44,15 @@ API/离线数据负责提供实际实例和库记录；厂商图纸负责提供�
 3. 为每个适用子项写要求来源，取得原始读数或图纸量测，核查并定位到位号、焊盘 ID 或图纸页。未执行/缺证据直接记 `NOT_CHECKED`。
 4. 库级尺寸/脚位结果可以引用历史证据；工程实例的映射、层别、旋转及实际修改情况本轮复核。型号、映射、定义、依据或相关工艺改变时重做受影响子项。
 5. 逐子项输出 `PASS / FAIL / REVIEW / NOT_CHECKED / NOT_APPLICABLE`；严重度依据实际后果，证据不足的疑点仍是 `REVIEW`。不得给整项一个掩盖缺口的总“通过”。
-6. 记录覆盖数和未核清单，交叉引用原有 finding。重点对象发现项按项目流程复核，报告引用的证据复制到 `review/<工程>-<版本>-<日期>/evidence/` 留档。
+6. 记录覆盖数和未核清单，交叉引用原有 finding。重点对象发现项按项目流程复核，报告引用的证据复制到 `<DATA_DIR>/review/<工程>-<版本>-<日期>/evidence/` 留档。
 
 ### 自动结构检查
 
-先运行 `extract.py` 生成 `pcb.json` 和 `schematic.json`，在项目目录下执行（路径换为实际路径，输出父目录须已存在）：
+先运行 `extract.py` 生成 `pcb.json` 和 `schematic.json`，在项目目录下执行（路径换为实际路径，输出父目录自动创建）：
 
 ```powershell
-python src/check_footprints.py outputs/extract/<工程>/pcb.json --schematic outputs/extract/<工程>/schematic.json --expectations work/boards/<板卡>/footprint-expectations.json --out work/boards/<板卡>/c10.json --report review/<工程>-<版本>-<日期>/c10.md
+$data = (python -B src/output_paths.py | ConvertFrom-Json).data_root
+python -B src/check_footprints.py "$data/outputs/extract/<工程>/pcb.json" --schematic "$data/outputs/extract/<工程>/schematic.json" --expectations "$data/work/boards/<板卡>/footprint-expectations.json" --run-name "<工程>-<版本>-<日期>"
 ```
 
 可复制[空白基线模板](../work/boards/_template/footprint-expectations.json)到板卡目录；空模板不会使任何子项自动通过。示例期望清单：
@@ -58,7 +61,7 @@ python src/check_footprints.py outputs/extract/<工程>/pcb.json --schematic out
 {
   "components": {
     "U1": {
-      "evidence": {"source": "review/<工程>-<版本>-<日期>/evidence/part-drawing.pdf", "document": "完整型号数据手册", "page": "封装图 42"},
+      "evidence": {"source": "<DATA_DIR>/review/<工程>-<版本>-<日期>/evidence/part-drawing.pdf", "document": "完整型号数据手册", "page": "封装图 42"},
       "mpn": "完整制造商型号及后缀",
       "footprint_uuid": "已核对的库定义 UUID",
       "footprint_title": "已核对的封装名",
